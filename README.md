@@ -4,24 +4,24 @@
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#">Home</a>
+      <a href="index.html">Home</a>
     </li>
     <li>
       <a href="#">Autore</a>
       <ul>
         <li>
-          <a href="#">Vita e Opere</a>
+          <a href="VitaeOpere.html">Vita e Opere</a>
         </li>
         <li>
-          <a href="#">Meccanismi retorici del silenzio</a>
+          <a href="classificazione.html">Meccanismi retorici del silenzio</a>
         </li>
      </ul>
     </li>
     <li>
-      <a href="#">Full Text</a>
+      <a href="fulltext.html">Full Text</a>
       <ul>
-        <li><a href="#">Andria XML</a></li>
-        <li><a href="#">Andria DC</a></li>
+        <li><a href="andria.xml">Andria XML</a></li>
+        <li><a href="andriadc.xml">Andria DC</a></li>
       </ul>
     </li>
    </ol>
