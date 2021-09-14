@@ -40,4 +40,4 @@ Distribuito sotto la licenza CC-BY-SA.
 <!-- CONTACT -->
 ### Contatti
 Martina Cofano - email: martina.cofano@studio.unibo.it / martinacof@gmail.com
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/martinacofano/sitoweb-definitivo.git](https://github.com/github_username/repo_name)
