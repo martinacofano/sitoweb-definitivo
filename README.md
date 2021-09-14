@@ -7,7 +7,7 @@
       <a href="index.html">Home</a>
     </li>
     <li>
-      <a href="#">Autore</a>
+      Autore
       <ul>
         <li>
           <a href="VitaeOpere.html">Vita e Opere</a>
