@@ -35,9 +35,7 @@ Digitalizzazione mediante catalogo di item testuali della mia ricerca di tesi di
 
 <!-- LICENSE -->
 ### Licenza
-<details open="open">
 Distribuito sotto la licenza CC-BY-SA.
-</details>
 
 <!-- CONTACT -->
 ### Contatti
