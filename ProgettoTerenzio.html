@@ -1,0 +1,113 @@
+<!--Dichiarazione e Lingua-->
+<!DOCTYPE html>
+	<html lang="ìt">
+
+<!--Elemento di primo livello gerarchico (Head)-->
+		<head>
+<!--Indicazione che appare nella finestra (Title)-->
+			<title>La retorica del silenzio</title>
+<!--Collegamento al foglio di stile esterno CSS-->
+	<link rel="stylesheet" href="stileterenzio.css">
+<!--Set di metadati espressi con il tag meta-->
+    <meta charset="UTF-8"/>
+<!--Fare in modo che la visualizzazione si adatti alle dimensioni del device-->
+    <<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--Elementi di identificazione mediante ricerca web-->
+    <meta name="description" content="Classificazione delle procedure retoriche del silenzio nella commedia terenziana"/>
+    <meta name="keywords" content="Terenzio, Commedie, Adelphoe, Andria, Eunuchus, Heautontimoroumenos, Hecyra, Phormio;"/>
+    <meta meta name= "author" content="Martina Cofano">
+<!--Installazione del collegamento CSS a Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+<!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<!--Installazione del collegamento JS a Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+  		</head>
+
+<!--Elemento di pari livello gerarchico rispetto all'head (Body)-->
+		<body style="background-image: url('ImmaginiProgetto/maschera.jpeg'); background-repeat: no-repeat; background-size: cover; opacity: 6; height:100%">
+			<!-- Struttura generale della pagina: 
+			  HEADER, NAV, SECTION (con 2 DIV differenziate da ID), ASIDE, FOOTER -->
+			<!-- Elemento semantico HEADER (testata) con immagine e titolo -->
+			<header class="header">				
+<!--Bootstrap navbar (strumento di navigazione del sito con link e lista+link)-->
+			  	<nav>
+			        <div class="container-fluid">
+			            <div class="row">
+			              	<div class="col-md-12">
+			              	    <header class="header">
+			              	<!--Bootstrap navbar (strumento di navigazione del sito con link e lista+link)-->
+			              	        <nav>
+			              	                  <div class="container-fluid">
+			              	                      <div class="row">
+			              	                          <div class="col-md-12">
+			              	                              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+			              	                                  <h2>Archivio della Latinità</h2>
+			              	                                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			              	                                          <ul class="navbar-nav mr-auto">
+			              	                                              <li class="nav-item active">
+			              	                                                  <a class="nav-link" href="ProgettoTerenzio.html"><i class="bi bi-bricks"></i> HOME<span class="sr-only">(current)</span></a>
+			              	                                              </li>                      
+			              	                                              <li class="nav-item dropdown">
+			              	                                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-person"></i>AUTORE</a>
+			              	                                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			              	                                                          <a class="dropdown-item" href="VitaeOpere.html" target="_blank">Vita e Opere</a><a href="VitaeOpere.html"></a>
+			              	                                                          <a class="dropdown-item" href="classificazione.html" target="_blank">Meccanismi retorici del silenzio</a>
+			              	                                                      <div class="dropdown-divider"></div>
+			              	                                                          <a class="dropdown-item" href="#">Statistiche</a>
+			              	                                                      </div>
+			              	                                              </li>
+			              	                                              <li class="nav-item">
+			              	                                                  <a class="nav-link" href="fulltext.html"><i class="bi bi-justify"></i> FULL TEXT</a>
+			              	                                              </li>
+			              	                                              <li class="nav-item active">
+			              	                                                  <a class="nav-link" href="#"><i class="bi bi-joystick"></i> Risultati della ricerca<span class="sr-only">(current)</span></a>
+			              	                                              </li>
+			              	                                          </ul>
+			              	                                              <form class="form-inline my-2 my-lg-0">
+			              	                                                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			              	                                                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			              	                                              </form>
+			              	                                      </div>
+			              	        </nav>
+			              	              </header>
+			                  
+			                <section>
+			                 	<div id="par1">
+			                 		<h1>Il progetto</h1>
+					                    <p id="oggetto">L'oggetto primario di questo studio è la congiunzione tra un fenomeno, <strong>l'eufemia</strong>, e una personalità artistica, <strong><span class="persone" title="persona">Terenzio</span></strong>; il suo scopo dichiarato quello di dimostrare, attraverso una classificazione dei silenzi terenziani che, in qualche modo, ciò che si tace trova una maniera per essere comunicato, talvolta anche con grande incisività. </p>
+					                    <p id="problemi">Naturale - se non ovvio - soffermarsi anche su meccanismi psicologici alla base del <strong><a href="http://www.gianfrancobertagni.it/materiali/filosofiacomparata/silenziobori.htm" id="tacere" target="_blank" title="Per uno studio preliminare sui verbi del silenzio">tacere</a></strong>, benché in alcuni casi sia difficile incasellarli in fenomeni definiti. Lo studio approfondito del tabù sin dalle sue origini ha condotto al riconoscimento di due grandi categorie preliminari: <strong>l'espresso</strong> e <strong>l'inespresso</strong>. Si è scelto di provare ad <em>incasellarle</em> nel modo più preciso, ma meno meccanico, entro le note figure retoriche di <strong>ellissi</strong> ed <strong>aposiopesi</strong>, per poi tentare un <em>ambizioso calcolo</em> del risparmio terenziano in termini di versi. 
+					                    <p>Il lavoro iniziale - o ricerca preliminare - corrisponde grossomodo all'oggetto della mia tesi triennale in Grammatica Latina. I due grandi filoni da cui si è scelto di partire hanno riguardato una premessa eziologica sull'origine del tabù e un'analisi più limpida sulla <em>chiarezza</em> sprigionata dal silenzio. Una seconda parte di ricerca ha riguardato la figura retorica dell'<em>ellissi</em>, talmente tanto impiegata nel teatro di <span class="persone" title="persona">Terenzio</span> da esigere una classificazione: si tratta di una prassi espressiva, che sfocia - come si vedrà - in etichette a cliché, solitamente non finite o manchevoli di qualche elemento. Questo tipo di reticenza, della quale si potrà avere maggiore contezza entro la sezione <a href="fulltext.html" title="Full Text" target="_blank">FullText</a></span> è più grammaticale che intenzionale e trascura alcuni aspetti centrali del nucleo di questo studio: la ricerca dei motivi che spingono al silenzio è ridotta a semplice difetto di autocontrollo. Completamente aderente all'etichetta '<em>comico di idee</em>' è l'<em><strong>aposiopesi</strong></em>, ben sintetizzata dall'espressione ciceroniana <i>&laquo;quodam modo tacita loquitur&raquo;</i>. Il riserbo, la reticenza e il decoro sono moti d'animo che spingono i personaggi - in modo intenzionale - a tacere: ne è risultata una nuova comicità che parla nel <i>recto</i>, ma tace nel <i>verso</i>.</p>
+					                    <p>Quando l'inespresso diventa una scelta del personaggio - ed in ultima analisi dell'autore - è possibile guardarvi come fonte di informazioni sulla natura del suo carattere. <span class="persone" title="persona">Marouzeau</span> disse: &laquo;le langage de ses personnages ne varie guère: hommes ou femmes, veillards ou jeunes gens,  maîtres ou esclaves, matrones ou courtisanes s’expriment dans la langue de l'auteur&raquo;. Lo sforzo di <span class="persone" title="persona">Terenzio</span> nel coprire realtà spiacevoli è grandioso e non è frutto della scelta di una cultura: è una personalissima modalità di valorizzazione delle possibilità espressive in una scena.</p>
+					                    <p><em>Questo progetto vuole essere una classificazione prima di tutto.</em></p>
+			                    </div>
+			                </section>
+							<aside>
+			                  	<h2 id="Adelphoe"><a href="https://it.wikipedia.org/wiki/Adelphoe" target="_blank"><i>Adelphoe</i></a></h2>
+			                  	<h2 id="Andria"><a href="https://it.wikipedia.org/wiki/Andria_(Terenzio)" target="_blank"><i>Andria</i></a></h2>
+			                  	<h2 id="Eunuchus"><a href="https://it.wikipedia.org/wiki/Eunuchus" target="_blank"><i>Eunuchus</i></a></h2>
+			                  	<h2 id="Heautontimoroumenos"><a href="https://it.wikipedia.org/wiki/Heautontimorumenos" target="_blank"><i>Heautontimoroumenos</i></a></h2>
+			                  	<h2 id="Hecyra"><a href="https://it.wikipedia.org/wiki/Hecyra" target="_blank"><i>Hecyra</i></a></h2>
+			                  	<h2 id="Phormio"><a href="https://it.wikipedia.org/wiki/Phormio" target="_blank"><i>Phormio</i></a></h2>
+			                  
+			        
+			                  	<div class="card">
+  									<img src="ImmaginiProgetto/carandini.jpg" class="card-img-top" alt="Andrea Carandini">
+  								<div class="card-body">
+    								<h5 class="card-title">Requisiti "strutturali" e archeologici</h5>
+    									<p class="card-text">Il professore ordinario di Archeologia e Storia dell'arte greca e romana presso La Sapienza di Roma Andrea Carandini offre un percorso tra le vie di Roma, svelando i segreti dei teatri antichi.</p>
+   										<a href="https://www.youtube.com/watch?v=Aq041gqogXc&t=1257s" class="btn btn-primary"><i class="bi bi-youtube"> Link diretto al video</i></a>
+  								</div>
+								</div>
+			                </aside>
+
+			            <footer>
+			                    <p> &copy; Martina Cofano 2021. Progetto finale per il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
+			                    <p>Facoltà di FIlologia, Letteratura e Tradizione Classica</p>
+			                    <p>Tratto dalla tesi triennale: <i>Quodam modo tacita loquitur.</i>Ellissi e aposiopesi in Terenzio. Relatore: Prof. <persona>A. Stramaglia</persona></p>
+			                      <a href="mailto:martina.cofano@studio.unibo.it">martina.cofano@studio.unibo.it</a>/
+			                      <a href="https://palinwebmagazine.it/" target="_blank" title="Per altri lavori">Palin Magazine</a><br>
+			            </footer>
+		</body>
+	</html>

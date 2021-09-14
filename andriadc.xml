@@ -1,0 +1,26 @@
+<library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="TLL">
+	<item n="129" xml:id="TLL TER. Andr.">
+		<dc:identifier type="DOI">DOI: https://doi.org/10.1515/9783111327532</dc:identifier>
+		<dc:identifier type="ISBN">ISBN: 9783111327532</dc:identifier>
+		<dc:title>Andria</dc:title>
+		<dc:description><work>Andria</work> (in italiano <work lang="it">La ragazza di Andro</work>) è una commedia dell'autore latino <person>Publio Terenzio Afro</person>. L'opera è una contaminazione di due opere di <person>Menandro</person>, l'<work>Andria</work> e la <work>Perinthia</work>. Fu rappresentata nel <date>166 a.C.</date></dc:description>
+		<dc:creator xml:id="PTA">Terenzio Afro, Publio</dc:creator>
+		<dc:date type="subject">166 a.C.</dc:date>
+		<dc:date type="creation">1898-12-31</dc:date>
+		<dc:language>It</dc:language>
+		<dc:title>Andria</dc:title>
+		<dc:coverage>Italy, Bologna</dc:coverage>
+		<dc:subject type="classification-scheme">Commedie</dc:subject>
+		<dc:subject type="classification-scheme">Retorica</dc:subject>
+		<dc:subject type="classification-scheme">Teatro Latino</dc:subject>
+		<dc:subject type="classification-scheme">Poesia</dc:subject>
+		<dc:type>Text</dc:type>
+		<dc:publisher type="person">De Grutyer, Walter</dc:publisher>
+		<dc:publisher type="institution">Teubner</dc:publisher>
+		<dc:contributor>Cofano, Martina</dc:contributor>
+		<dc:format>Edizione Digitale</dc:format>
+		<dc:format type="pages">2-47</dc:format>
+		<dc:relation>La retorica del silenzio: file:///C:/Users/Utente/Desktop/Progettodh/ProgettoTerenzio.html</dc:relation>
+		<dc:rights>Copyright 1898 Walter De Grutyer - CC-BY-SA: distribuito con la licenza Creative Commons Attribution-ShareAlike 3.0.</dc:rights>
+	</item>
+</library>

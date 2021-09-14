@@ -1,0 +1,175 @@
+<!--Dichiarazione e Lingua-->
+<!DOCTYPE html>
+    <html lang="ìt">
+
+<!--Elemento di primo livello gerarchico (Head)-->
+        <head>
+<!--Indicazione che appare nella finestra (Title)-->
+            <title>Item n.1</title>
+<!--Collegamento al foglio di stile esterno CSS-->
+<link rel="stylesheet" href="ellissicatalogo.css">
+<!--Set di metadati espressi con il tag meta-->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Elementi di identificazione mediante ricerca web-->
+    <meta name="description" content="Classificazione delle procedure retoriche del silenzio nella commedia terenziana"/>
+    <meta name="keywords" content="Terenzio, Commedie, Adelphoe, Andria, Eunuchus, Heautontimoroumenos, Hecyra, Phormio;"/>
+    <meta meta name= "author" content="Martina Cofano">
+<!--Installazione del collegamento CSS a Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+<!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<!--Installazione del collegamento JS a Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+        </head>
+        <body>
+<!-- Struttura generale della pagina: 
+HEADER, NAV, SECTION (con 2 DIV differenziate da ID), ASIDE, FOOTER -->
+<!-- Elemento semantico HEADER (testata) con immagine e titolo -->
+        <header class="header">
+<!--Bootstrap navbar (strumento di navigazione del sito con link e lista+link)-->
+            <nav>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <h2>Archivio della Latinità</h2>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav mr-auto">
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="ProgettoTerenzio.html"><i class="bi bi-bricks"></i> HOME<span class="sr-only">(current)</span></a>
+                                            </li>                      
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-person"></i>AUTORE</a>                         
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <a class="dropdown-item" href="VitaeOpere.html" target="_blank">Vita e Opere</a><a href="VitaeOpere.html"></a>
+                                                        <a class="dropdown-item" href="classificazione.html" target="_blank">Meccanismi retorici del silenzio</a>
+                                                    <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Statistiche</a>
+                                                    </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="fulltext.html"><i class="bi bi-justify"></i> FULL TEXT</a>
+                                            </li>
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="#"><i class="bi bi-joystick"></i> Risultati della ricerca<span class="sr-only">(current)</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+            </nav>
+            <div id="title">
+                <h1><strong>Ellissi</strong></h1>
+            </div>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid container-item">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2><b>Vedi anche</b></h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Terenzio</h5>
+                                <img src="ImmaginiProgetto/terenzio.jpeg" alt="Terenzio" id="ImmagineTerenzio">
+                                <p class="card-text">Attività: <b>commediografo</b></p>
+                                <p class="card-text">Periodo: <b>II secolo a.C.</b></p>
+                                <p class="card-text">Controllo d'autorità: <b><a href="https://viaf.org/viaf/66462384/#Te%CC%81rence,_0190?-0159_av._J.-C." target="_blank" title="Identificativo VIAF di Terenzio">Terenzio<sup>VIAF</sup></a></b></p>
+                                <a href="SchedaAutore.html"><button type="button" class="btn btn-secondary">Scheda Completa</button></a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-10">
+                    <p id="item">v. 468-470<br/>
+                    DA <i>Quod remedium nunc huic malo inveniam?</i><br/>
+                    SI <i><strong>Quid hoc?</strong></i></p>
+                                    <!-- metadati -->
+                                    <div class="card-body">
+                                        <p class="card-text2"><span>Classificazione retorica:</span> <b>Ellissi</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Autore:</span> <b>Terenzio</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Opera:</span> <b><a href="andriadc.xml" target="_blank" title="Metadati dc della commedia">Andria</a></b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Data:</span> <b>166 a.C.</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Parola omessa: </span><b><i>est</i> o <i>evenit</i></b> e simili</p>
+                                        <hr>
+                                        <p class="card-text2"><span>Numero parole impiegate:</span> <b>2</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Parole risparmiate:</span> <b>1</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Motivo dell'impiego:</span> <b>esigenze di transizione</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Categoria Linguistica:</span> <b>Affektsprache</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Lingua:</span> <b>Latino</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Formato:</span> <b>Testo</b></p>
+                                        <hr>
+                                        <p class="card-text2"><span>Casa editrice:</span> <b>Teubner</b></p>
+                                        <hr>
+                                        <!-- tag -->
+                                    </div>
+                                    <div>
+                                    <p id="item">v. 468-470<br/>
+                                    CH <i>Sed quid ais?</i><br/>
+                                    SI <i><strong>Quid?</strong></i></p>
+                                                    <!-- metadati -->
+                                                    <div class="card-body">
+                                                        <p class="card-text2"><span>Classificazione retorica:</span> <b>Ellissi</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Autore:</span> <b>Terenzio</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Opera:</span> <b><a href="andriadc.xml" target="_blank" title="Metadati dc della commedia">Andria</a></b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Data:</span> <b>166 a.C.</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Parola omessa: </span><b><i>est</i> o <i>ais</i> o <i>evenit</i></b> e simili</p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Numero parole impiegate:</span> <b>1</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Parole risparmiate:</span> <b>1</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Motivo dell'impiego:</span> <b>esigenze di ripresa del discorso precedente</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Categoria Linguistica:</span> transizioni da scena<b></b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Lingua:</span> <b>Latino</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Formato:</span> <b>Testo</b></p>
+                                                        <hr>
+                                                        <p class="card-text2"><span>Casa editrice:</span> <b>Teubner</b></p>
+                                                        <hr>
+                                                        <!-- tag -->
+                                                        <div>
+                                        <div>
+                                            <button type="button" class="btn btn-tag btn-sm"><i class="bi bi-tag-fill"></i>
+                                                Commedia</button>
+                                            <button type="button" class="btn btn-tag-1 btn-sm"><i
+                                                    class="bi bi-tag-fill"></i>
+                                                Teatro Latino</button>
+                                            <button type="button" class="btn btn-tag-2 btn-sm"><i class="bi bi-tag-fill"></i>
+                                                Retorica</button>
+                                            <button type="button" class="btn btn-tag-3 btn-sm"><i class="bi bi-tag-fill"></i>
+                                                Poesia</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+<footer>
+                   <p id="contatti"> &copy; Martina Cofano 2020. Progetto finale per il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
+                   <p id="contatti">Facoltà di FIlologia, Letteratura e Tradizione Classica</p>
+                   <p id="contatti">Tratto dalla tesi triennale: <i>Quodam modo tacita loquitur.</i>Ellissi e aposiopesi in Terenzio. Relatore: Prof. <persona>A. Stramaglia</persona></p>
+                     <a href="mailto:martina.cofano@studio.unibo.it">martina.cofano@studio.unibo.it</a>
+                     <a href="https://palinwebmagazine.it/" target="_blank" title="Per altri lavori">Palin Magazine</a>
+</footer>
+           </body>
+        </html>
+
+
+                                          

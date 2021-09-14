@@ -1,0 +1,90 @@
+ nav {padding: 1%;
+   margin-bottom: 1%;
+   font-family: "Times New Roman", Times, serif;
+ }
+
+ section {
+   background-color: #e0e0d1;
+ }
+
+ h1 {
+     color: black;
+     font-size: 50%;
+     font-family: Copperplate, Papyrus, fantasy;
+     font-variant: small-caps;
+     background-color: #c2c2a3;
+     text-align: center;
+     padding: 3%;
+     height: 20%;
+     background-position: initial;
+ }
+
+ h2 {
+   background-color: #9999ff;
+   padding: 2%;
+   border-radius: 9%;
+   margin-right: 5%;
+   font-family: "Times New Roman", Times, serif;;
+   text-align: center;
+ }
+
+ h5 {
+  color: black;
+ }
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#item {
+  font-size: 25px;
+  background-color: white;
+  border-style: solid;
+  padding: 2%;
+  width: 30%;
+  margin-left: 5%;
+}
+
+ #controlloautorità {
+  background-color: #9999ff;
+  padding: 3%;
+ }
+
+ .col-md-2 {
+  border-style: solid;
+  height: 50%;
+  padding: 3%;
+  background-color: #8c8c8c;
+ }
+
+.carousel-inner {
+    background-color: #4d4d33;
+ }
+
+.container-fluid {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.card.body {
+  padding: 2%;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+  background-color: #c2c2a3;
+  background-size: 100%;
+  text-align: center;
+  color: black;
+  font-size: 100%;
+  clear: both;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+}

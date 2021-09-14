@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+	<html lang="ìt">
+
+<!--Elemento di primo livello gerarchico (Head)-->
+		<head>
+<!--Indicazione che appare nella finestra (Title)-->
+			<title>Testo completo delle commedie terenziane</title>
+<!--Collegamento al foglio di stile esterno CSS-->
+<link rel="stylesheet" href="fulltext.css">
+<!--Set di metadati espressi con il tag meta-->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Elementi di identificazione mediante ricerca web-->
+    <meta name="description" content="Classificazione delle procedure retoriche del silenzio nella commedia terenziana"/>
+    <meta name="keywords" content="Terenzio, Commedie, Adelphoe, Andria, Eunuchus, Heautontimoroumenos, Hecyra, Phormio;"/>
+    <meta meta name= "author" content="Martina Cofano">
+<!--Installazione del collegamento CSS a Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+<!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<!--Installazione del collegamento JS a Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+  </head>
+  <!--Elemento di pari livello gerarchico rispetto all'head (Body)-->
+        <body style="background-image: url('maschera.jpeg'); background-repeat: no-repeat; background-size: cover; opacity: 6;">
+            <!-- Struttura generale della pagina: 
+              HEADER, NAV, SECTION (con 2 DIV differenziate da ID), ASIDE, FOOTER -->
+            <!-- Elemento semantico HEADER (testata) con immagine e titolo -->
+                <header class="header">
+  <!--Bootstrap navbar (strumento di navigazione del sito con link e lista+link)-->
+                <nav>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    <h2>Archivio della Latinità</h2>
+                                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                            <ul class="navbar-nav mr-auto">
+                                                <li class="nav-item active">
+                                                    <a class="nav-link" href="ProgettoTerenzio.html"><i class="bi bi-bricks"></i> HOME<span class="sr-only">(current)</span></a>
+                                                </li>                      
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-person"></i>AUTORE</a>
+                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <a class="dropdown-item" href="VitaeOpere.html" target="_blank">Vita e Opere</a><a href="VitaeOpere.html"></a>
+                                                            <a class="dropdown-item" href="classificazione.html" target="_blank">Meccanismi retorici del silenzio</a>
+                                                        <div class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#">Statistiche</a>
+                                                        </div>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="fulltext.html"><i class="bi bi-justify"></i> FULL TEXT</a>
+                                                </li>
+                                                <li class="nav-item active">
+                                                    <a class="nav-link" href="#"><i class="bi bi-joystick"></i> Risultati della ricerca<span class="sr-only">(current)</span></a>
+                                                </li>
+                                            </ul>
+                                                <form class="form-inline my-2 my-lg-0">
+                                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                                </form>
+                                        </div>
+                                </nav>
+                </header>
+                <section>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="ImmaginiProgetto/terenzio-1.jpg" class="card-img-top" alt="Andria">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i>Andria</i></h5>
+                                            <p class="card-text">Full text dell'<i>Andria</i> e marcatura in XML.</p>  
+                                            <p><iframe src="https://latin.packhum.org/loc/134/1/0#0" title="FullText senza marcatura"></iframe></p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p><a href="andria.xml" target="_blank">FILE XML</a></p>
+                                        <p><a href="andriadc.xml" target="_blank">Metadati DC</a></p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="ImmaginiProgetto/terenzio-2.jpg" class="card-img-top" alt="Adelphoe">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i>Adelphoe</i></h5>
+                                            <p class="card-text">Full text dell'<i>Adelphoe</i> e marcatura in XML.</p>
+                                            <p><iframe src="https://latin.packhum.org/loc/134/6/0#0" title="FullText senza marcatura"></iframe></p>
+                                        </div>
+                                    <div class="card-footer">
+                                        <p><a href="adelphoe.xml" target="_blank">FILE XML</a></p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="ImmaginiProgetto/terenzio-3.jpg" class="card-img-top" alt="Sintesi">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i>Eunuchus</i></h5>
+                                            <p class="card-text">Full text dell'<i>Eunuchus</i> e marcatura in XML.
+                                            <p><iframe src="https://latin.packhum.org/loc/134/3/0#0" title="FullText senza marcatura"></iframe></p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p><a href="eunuchus.xml" target="_blank">FILE XML</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+
+                <section>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col" id="secondafila">
+                            <div class="card h-100">
+                                <img src="ImmaginiProgetto/terenzio-4.jpg" class="card-img-top" alt="Andria">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i>Heautontimoroumenos</i></h5>
+                                            <p class="card-text">Full text dell'<i>Heautontimoroumenos</i> e marcatura in XML.</p>
+                                            <p><iframe src="https://latin.packhum.org/loc/134/2/0#0" title="FullText senza marcatura"></iframe></p>
+                                    </div>
+                                     <div class="card-footer">
+                                        <p><a href="andria.xml" target="_blank">FILE XML</a></p>
+                                    </div>
+                            </div>
+                        </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="ImmaginiProgetto/terenzio-5.jpg" class="card-img-top" alt="Hecyra">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><i>Hecyra</i></h5>
+                                                <p class="card-text">Full text dell'<i>Hecyra</i> e marcatura in XML.</p>
+                                                <p><iframe src="https://latin.packhum.org/loc/134/5/0#0" title="FullText senza marcatura"></iframe></p>
+                                        </div>
+                                <div class="card-footer">
+                                    <p><a href="andria.xml" target="_blank">FILE XML</a></p>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="ImmaginiProgetto/terenzio-6.jpg" class="card-img-top" alt="Sintesi">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><i>Phormio</i></h5>
+                                                <p class="card-text">Full text dell'<i>Phormio</i> e marcatura in XML.</p>
+                                                <p><iframe src="https://latin.packhum.org/loc/134/4/0#0" title="FullText senza marcatura"></iframe></p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p><a href="andria.xml" target="_blank">FILE XML</a></p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                                
+                    <footer>
+                      <p> &copy; Martina Cofano 2020. Progetto finale per il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
+                      <p>Facoltà di FIlologia, Letteratura e Tradizione Classica</p>
+                      <p>Tratto dalla tesi triennale: <i>Quodam modo tacita loquitur.</i>Ellissi e aposiopesi in Terenzio. Relatore: Prof. <persona>A. Stramaglia</persona></p>
+                        <a href="mailto:martina.cofano@studio.unibo.it">martina.cofano@studio.unibo.it</a>/
+                        <a href="https://palinwebmagazine.it/" target="_blank" title="Per altri lavori">Palin Magazine</a><br>
+                    </footer>
+    </body>
+</html>

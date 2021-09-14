@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ride.8.2">
+	<archivio>
+	<oggetto n="1">
+		<teiHeader xml:lang="it">
+		<fileDesc>
+			<titleStmt>
+				<!--Titolo della risorsa-->
+				<title>Adelphoe</title>
+				<author>
+					<name>Terenzio Afro, Publio</name>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<!--Informazioni sulla distribuzione della risorsa-->
+				<publisher>Brepols Publishers NV</publisher>
+				<distributor><authority>Università di Bologna</authority></distributor>
+				<availability status="restricted">
+				<p>Disponibile con accesso limitato per scopi di ricerca accademica e insegnamento.</p><licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distribuito sotto la licenza di Creative Commons Attribution-ShareAlike 3.0 Unported</licence>
+				</availability>
+			</publicationStmt>
+			<editionStmt>
+				<edition>Edizione per il proxy Unibo, <date>10-08-2021</date></edition>
+			</editionStmt>
+			<respStmt>
+				<resp>Edited and made available by</resp>
+				<name xml:id="EV">Brepols Publishers NV</name>
+			</respStmt>
+				<!--Informazioni sulla fonte primaria della risorsa-->
+			<sourceDesc>
+				<respStmt>
+					<resp>Edited and made available by</resp>
+					<name xml:id="EV">Brepols Publishers NV</name>
+				</respStmt>
+					<!--Informazioni sulla fonte primaria della risorsa-->
+				<sourceDesc>
+					<title level="m">Adelphoe. P. Terenti Afri</title>
+						<author>Terentius (Publius Terentius Afer)</author>	
+						<publisher>Walter de Gruyter</publisher>
+					<distributor>Biblioteca Teubneriana Latina</distributor>
+					<editor>Fleckeisen, Alfred</editor>
+					<pubPlace>Leipzig</pubPlace>
+					<idno type="DOI">10.1515/9783111327532.259</idno>
+					<date when="1898-12">December 31, 1898</date>
+					 <availability status="restricted">
+					 <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distribuito con la licenza Creative Commons Attribution-ShareAlike 3.0.
+					 </licence>
+					</availability>
+				</sourceDesc>
+				<seriesStmt>
+					<title level="s">Library of Latin Texts - Series A (LLT-A)(era: CLCLT)</title>
+					<respStmt>
+				  		<resp>Università di Bologna</resp>
+				  		<name>Area Biblioteche e Servizi allo Studio (ABIS)</name>
+					</respStmt>
+				</seriesStmt>
+				<note>Abbonamento sottoscritto dalla Biblioteca Umanistica ''Ezio Raimondi'', dalla Biblioteca Centrale del Campus di Ravenna e dalla Biblioteca del Dipartimento di Storia Culture Civiltà - DiSCi con il contributo dell'Area Biblioteche e Servizi allo Studio (ABIS).</note>
+				<note>Contenuti non ricercabili in AlmaStart.</note>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Full Text trasctitto, con evidenziate sezioni retoriche compatibili col tema del progetto.</p>
+			</projectDesc>
+			<samplingDecl>
+				<p>La trascrizione del testo di Terenzio è costellata di evidenziature, avvenute previo studio dei meccanismi retorici e nella tradizione classica e nel teatro terenziano. Queste evidenziature, classificate in una sezione apposita del sito web corrispondono all'applicazione e al riconoscimento di ellissi e aposiopesi nel testo drammatico.</p>
+			</samplingDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la" usage="100">Latin</language>
+			</langUsage>
+			<keywords>
+				<term>Teatro Latino</term>
+				<term>Figure retoriche</term>
+				<term>Ellissi</term>
+				<term>Aposiopesi</term>
+				<term>Silenzio</term>
+			</keywords>
+			<abstract xml:lang="it">
+				<p>Questo studio riguarda la classificazione di fenomeni retorici del silenzio riconoscibili. Commenti e contributi sono graditi al fine di rendere quello presente, un documento utile anche a chi se ne vorrà servire in un secondo momento. L'argomento è affascinante perché percorre tonalità inesplorate della rappresentazione in negativo: dire di più attraverso la reticenza, voluta o casuale.</p>
+			</abstract>
+			<abstract xml:lang="en">
+				<p>This study deals with the classification of visible phenomena of silence. Any comment or contribution is welcome to create a useful document for those who will make use of it, even in the future. The topic is fascinating, because it laps unexplored shades of speaking in the negative: say more through reticence, which can be intentional or by chance.</p>
+			</abstract>
+			<calendarDesc>
+				<calendar xml:id="cal_AD"><p>Anno Domini (Christian Era)</p></calendar>
+			</calendarDesc>
+		</profileDesc>	
+ 	</teiHeader>
+ 	<text>
+ 	<front>
+ 		<docTitle>
+ 			<titlePart level="m" type="principale">ADELPHOE</titlePart>
+ 		</docTitle>	
+ 		<docAuthor>P. TERENTI AFRI.</docAuthor>
+ 		<prologue>
+ 			<head>PROLOGVS</head>
+ 			<q type="diretto"><sp who='DG'><speaker><i>Dominus Gregis</i></speaker>
+ 			<l>Postquam poeta sensit scripturam suam</l>
+ 			<l>ab iniquis obseruari et aduorsarios</l>
+ 			<l>rapere in peiorem partem quam acturi sumus,</l>
+ 			<l>---</l>
+ 			<l>indicio de se ipse erit, uos eritis iudices,</l>
+ 			<l>laudi n' an uitio duci id factum oporteat.</l>		 
+ 			<l>Synapothnescontes Diphili comoediast:</l>
+ 			<l>eam Commorientes Plautus fecit fabulam.</l>		 
+ 			<l>in Graeca adulescens est, qui lenoni eripit</l>
+ 			<l>meretricem in prima fabula: eum Plautus locum</l>
+ 			<l>reliquit integrum.</l>
+ 			<l>eum nunc hic sumpsit sibi</l>
+ 			<l>in Adelphos, uerbum de uerbo expressum extulit.</l>
+ 			<l>eam nos acturi sumus nouam: pernoscite</l>
+ 			<l>furtum ne factum existumetis an locum</l>
+ 			<l>reprehensum, qui praeteritus neclegentiast.</l>			 
+ 			<l>nam quod isti dicunt maliuoli, homines nobilis</l>
+ 			<l>hunc adiutare adsidue que una scribere:</l>
+ 			<l>quod illi maledictum uehemens esse existumant,</l>
+ 			<l>eam laudem hic ducit maxumam, quom illis placet,</l>
+ 			<l>qui uobis uniuorsis et populo placent,</l>
+ 			<l>quorum opera in bello, in otio, in negotio</l>
+ 			<l>suo quisque tempore usust sine superbia.</l>			 
+ 			<l>dehinc ne exspectetis argumentum fabulae:</l>
+ 			<l>senes qui primi uenient, ei partem aperient,</l>
+ 			<l>in agendo partem ostendent.</l>
+ 			<l>facite aequanimitas</l>
+ 			<l>---</l>
+ 			<l>poetae ad scribendum augeat industriam</l>
+ 			</sp></q>
+  		</prologue>
+  		<castList>
+  			<head>PERSONAE</head>
+  			<castItem>MICIO SENEX DEMEA SENEX SANNIO LENO AESCHINVS ADVLESCENS BACCHIS MERETRIX PARMENO SERVOS SYRVS SERVOS CTESIPHO ADVLESCENS SOSTRATA MATRONA CANTHARA ANVS GETA SERVOS HEGIO SENEX PAMPHILA VIRGO DROMO PVER</castItem>
+  		</castList>
+  	</front>
+  </text>
+   	<body>
+   		<castItem>MICIO SENEX</castItem>
+  		<l>Storax! non rediit hac nocte a cena Aeschinus</l>
+		<l>neque seruolorum quisquam, qui aduorsum ierant.</l>
+ 		<l>profecto hoc uere dicunt: si absis uspiam</l>
+		<l>atque ibi si cesses, euenire ea satius est,</l>
+		<l>quae in te uxor dicit et quae in animo cogitat</l>
+		<l>irata, quam illa quae parentes propitii.</l>
+	 	<l>uxor, si cesses, aut te amare cogitat</l>
+		<l>aut helluari aut potare atque animo obsequi</l>
+		<l>et tibi bene esse, soli sibi quom sit male.</l>
+	 	<l>ego quia non rediit filius quae cogito!</l>
+		<l>quibus nunc sollicitor rebus! ne aut ille alserit</l>
+		<l>aut uspiam ceciderit ac praefregerit</l>
+		<l>aliquid.</l>
+	 	<l>uah, quemquam ne hominem in animum instituere</l>
+		<l>parare quod sit carius quam ipse est sibi!</l>
+		<l>atque ex me hic natus non est, sed fratre ex meo.</l>
+	 	<l>dissimili is studiost iam inde ab adulescentia.</l>
+		<l>ego hanc clementem uitam urbanam atque otium</l>
+		<l>secutus sum et, quod fortunatum isti putant,</l>
+		<l>uxorem numquam habui.</l> 
+		<l>ille contra haec omnia:</l>
+		<l>ruri agere uitam, semper parce ac duriter</l>
+		<l>se habere, uxorem duxit, nati filii</l>
+		<l>duo: inde ego hunc maiorem adoptaui mihi:</l>
+		<l>eduxi a paruolo, habui, amaui pro meo;</l>
+		<l>in eo me oblecto: solum id est carum mihi.</l>
+	 	<l>ille ut item contra me habeat facio sedulo:</l>
+		<l>do, praetermitto, non necesse habeo omnia</l>
+		<l>pro meo iure agere: postremo, alii clanculum</l>
+		<l>patres quae faciunt, quae fert adulescentia,</l>
+		<l>ea ne me celet consuefeci filium.</l>
+		<l>nam qui mentiri aut fallere insuerit patrem,</l>
+		<l>hau dubie tanto magis audebit ceteros.</l>
+		<l>pudore et liberalitate liberos</l>
+		<l>retinere satius esse credo quam metu.</l>		 
+		<l>haec fratri me cum non conueniunt neque placent.</l>	 
+		<l>uenit ad me saepe clamans 'quid agis, Micio?</l>	 
+		<l>quor perdis adulescentem nobis? quor amat?</l>
+		<l>quor potat?</l>
+		<l>quor tu his rebus sumptum suggeris,</l>
+		<l>uestitu nimio indulges?</l>	 
+		<l>nimium ineptus es'.</l>
+		<l>nimium ipsest durus praeter aequom que et bonum,</l>
+		<l>et errat longe mea quidem sententia,</l>
+		<l>qui imperium credat grauius esse aut stabilius,</l>
+		<l>ui quod fit, quam illud quod amicitia adiungitur.</l>		 
+		<l>mea sic est ratio et sic animum induco meum:</l>
+		<l>malo coactus qui suom officium facit,</l>
+		<l>dum id rescitum iri credit, tantisper cauet:</l>
+		<l>si sperat fore clam, rursum ad ingenium redit.</l>		 
+		<l>ille quem beneficio adiungas ex animo facit,</l>
+		<l>studet par referre, praesens absens que idem erit.</l>
+		<l>hoc patriumst, potius consuefacere filium</l>
+		<l>sua sponte recte facere quam alieno metu:</l>
+		<l>hoc pater ac dominus interest.</l>
+		<l>hoc qui nequit,</l>
+		<l>fateatur nescire imperare liberis.</l>	 
+		<l>sed est ne hic ipsus, de quo agebam?</l>
+		<l>et certe is est.</l>	 
+		<l>nescio quid tristem uideo: credo iam, ut solet,</l>
+		<l>iurgabit.</l>		 
+		<l>saluom te aduenire, Demea,</l>
+		<l>gaudemus.</l>
+		<castItem>DEMEA MICIO SENES DVO</castItem>
+		<l><sp who='DE'><speaker>Demea</speaker>Ehem opportune: te ipsum quaerito.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Quid tristis es?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Rogas me, ubi nobis Aeschinus</sp></l>
+		<l>sic est, quid tristis ego sim?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Dixi n' hoc fore?</sp></l>
+		<l>quid is fecit?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid ille fecerit? quem neque pudet</sp></l>
+		<l>quicquam nec metuit quemquam neque legem putat</l>
+		<l>tenere se ullam.</l>
+		<l>nam illa quae antehac facta sunt</l>
+		<l>omitto: modo quid dissignauit!</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Quidnam id est?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Fores ecfregit atque in aedis inruit</sp></l>
+		<l>alienas: ipsum dominum atque omnem familiam</l>
+		<l>mulcauit usque ad mortem: eripuit mulierem</l>
+		<l>quam amabat.</l>	 
+		<l>clamant omnes indignissume</l>
+		<l>factum esse.</l> 
+		<l>hoc aduenienti quot mihi, Micio,</l>
+		<l>dixere! in orest omni populo.</l> 
+		<l>denique,</l>
+		<l>si conferendum exemplumst, non fratrem rei</l>
+		<l>uidet operam dare, ruri esse parcum ac sobrium?</l>
+		<l>haec quom illi, Micio,</l>
+		<l>dico, tibi dico: tu illum corrumpi sinis.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Homine inperito numquam quicquam iniustiust,</sp></l>
+		<l>qui nisi quod ipse fecit nil rectum putat.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quorsum istuc?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Quia tu, Demea, haec male iudicas.</sp></l>
+		<l>non est flagitium, mihi crede, adulescentulum</l>
+		<l>scortari, neque potare: non est: neque fores</l>
+		<l>ecfringere.</l>
+		<l>haec si neque ego neque tu fecimus,</l>
+		<l>non siit egestas facere nos.</l>
+		<l>tu nunc tibi</l>
+		<l>id laudi ducis, quod tunc fecisti inopia.</l>
+		<l>iniuriumst: nam si esset unde id fieret,</l>
+		<l>faceremus.</l>
+		<l>et tu illum tuom, si esses homo,</l>
+		<l>sineres nunc facere, dum per aetatem licet,</l>
+		<l>potius quam, ubi te exspectatum eiecisset foras,</l>
+		<l>alieniore aetate post faceret tamen.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Pro Iuppiter! tu, homo, adigis me ad insaniam.</sp></l>
+		<l>non est flagitium facere haec adulescentulum?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Ah.</sp></l>
+		<l>ausculta, ne me optundas de hac re saepius.</l>
+		<l>tuom filium dedisti adoptandum mihi:</l>
+		<l>is meus est factus: siquid peccat, Demea,</l>
+		<l>mihi peccat: ego illi maxumam partem fero.</l>
+		<l>scortatur, potat, olet unguenta? de meo;</l>
+		<l>amat?</l>
+		<l>dabitur a me argentum, dum erit commodum;</l>
+		<l>ubi non erit, fortasse excludetur foras].</l>
+		<l>fores ecfregit? restituentur; discidit</l>
+		<l>uestem? resarcietur.</l>
+		<l>est dis gratia,</l>
+		<l>et est unde haec fiant, et adhuc non molesta sunt.</l>
+		<l>postremo aut desine aut cedo quemuis arbitrum:</l>
+		<l>te plura in hac re peccare ostendam.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Ei mihi!</sp></l>
+		<l>pater esse disce ab illis qui uere sciunt.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Natura tu illi pater es, consiliis ego.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Tu n' consiliis? quicquam ...</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Ah, si pergis, abiero.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Sicine agis?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>An ego totiens de eadem re audiam?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Curaest mihi.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Et mihi curaest.</sp></l>
+		<l>uerum, Demea,</l>
+		<l>curemus aequam uterque partem: tu alterum,</l>
+		<l>ego item alterum.</l>
+		<l>nam curare ambos propemodum</l>
+		<l>reposcere illum est quem dedisti.</l>		 
+		<l><sp who='DE'><speaker>Demea</speaker>Ah, Micio!</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Mihi sic uidetur.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid istic? tibi si istuc placet,</sp></l>
+		<l>profundat perdat pereat! nihil ad me attinet.</l>
+		<l>iam si uerbum unum posthac ...</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Rursum, Demea,</sp></l>
+		<l>irascere?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>An non credis? repeto n' quem dedi?</sp></l>
+		<l>aegrest; alienus non sum; si obsto ... em desino.</l>
+		<l>unum uis curem? curo.</l>
+		<l>et est dis gratia,</l>
+		<l>quom ita ut uolo esse est; tuos iste ipse sentiet</l>
+		<l>posterius ... nolo in illum grauius dicere.</l> 
+		<l>-</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Nec nil neque omnia haec sunt quae dicit; tamen</sp></l>
+		<l>non nil molesta haec sunt mihi; sed ostendere</l>
+		<l>me aegre pati illi nolui.</l>
+		<l>nam itast homo:</l>
+		<l>quom placo, aduorsor sedulo et deterreo,</l>
+		<l>amen uix humane patitur; uerum si augeam</l>
+		<l>aut etiam adiutor sim eius iracundiae,</l>
+		<l>insaniam profecto cum illo.</l> 
+		<l>etsi Aeschinus</l>
+		<l>non nullam in hac re nobis facit iniuriam.</l> 
+		<l>quam hic non amauit meretricem? aut quoi non dedit</l>
+		<l>aliquid?</l>
+		<l>postremo nuper (credo iam omnium</l>
+		<l>taedebat) dixit uelle uxorem ducere.</l>
+		<l>sperabam iam deferuisse adulescentiam:</l>
+		<l>gaudebam.</l>
+		<l>ecce autem de integro! nisi quidquid est</l>
+		<l>uolo scire atque hominem conuenire, si apud forumst.</l>
+		<castItem>SANNIO BACCHIS AESCHINVS LENO MERETRIX ADVLESCENS PARMENO SERVOS</castItem>
+		<l><sp who='SA'><speaker>Sannio</speaker>Obsecro, populares, ferte misero atque innocenti auxilium:</sp></l>
+		<l>subuenite inopi.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Otiose nunciam ilico hic consiste.</sp></l>
+		<l>quid respectas? nil periclist: numquam, dum ego adero, hic te tanget.</l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Ego istam inuitis omnibus.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Quamquamst scelestus, non committet</sp></l>
+		<l>hodie umquam iterum ut uapulet.</l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Aeschine, audi, ne te ignarum fuisse dicas meorum</sp></l>
+		<l>morum, leno ego sum.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Scio.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>At ita, ut usquam fuit</sp></l>
+		<l>fide quisquam optuma.</l>
+		<l>tu quod te posterius purges, hanc iniuriam mihi nolle</l>
+		<l>factam esse, huius non faciam.</l>
+		<l>crede hoc, ego meum ius persequar:</l>
+		<l>neque tu uerbis solues umquam, quod mihi re male feceris.</l>
+		<l>noui ego uostra haec 'nollem factum: ius iurandum iniuria hac</l>
+		<l>te esse indignum dabitur', quom ego indignis sim acceptus modis.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Abi prae strenue ac fores aperi.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Ceterum hoc nihili facis?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>I intro nunciam tu.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Enim non sinam.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Accede illuc, Parmeno:</sp></l>
+		<l>nimium istoc abisti: hic propter hunc adsiste: em sic uolo.</l>
+		<l>caue nunciam oculos a meis quoquam oculis demoueas tuos,</l>
+		<l>ne mora sit, si innuerim, quin pugnus continuo in mala haereat.</l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Istuc uolo ego me ipsum experiri.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Em serua: omitte mulierem!</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>O indignum facinus!</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Nisi caues, geminabit.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Ei misero mihi!</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Non innueram; uerum in istam partem potius peccato tamen.</sp></l>
+		<l>i nunciam.</l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Quid hoc rei est? regnum ne, Aeschine, hic tu possides?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Si possiderem, ornatus esses ex tuis uirtutibus.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Quid tibi rei me cumst?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Nil.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Quid? nosti n' qui sim?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Non desidero.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Tetigi n' tui quicquam?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Si attigisses, ferres infortunium.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Qui tibi meam magis licet habere, pro qua ego argentum dedi?</sp></l>
+	 	<l>responde.</l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Ante aedes non fecisse erit melius hic conuitium:</sp></l>
+	 	<l>nam si molestus pergis esse, iam intro abripiere atque ibi</l>
+	 	<l>usque ad necem operiere loris.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Loris liber?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Sic erit.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>O hominem inpurum! hicin libertatem aiunt esse aequam omnibus?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Si satis iam debacchatus es, leno, audi si uis nunciam.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Ego n' autem debacchatus sum an tu?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Mitte ista atque ad rem redi.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Quam rem? quo redeam?</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Iam ne me uis dicere id quod ad te attinet?</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Cupio, aequi modo aliquid.</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Vah, leno iniqua me non uolt loqui!</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Leno sum, pernicies communis, fateor, adulescentium,</sp></l>
+	 	<l>periurus, pestis: tamen tibi a me nulla ortast iniuria.</l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Nam hercle etiam hoc restat.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Illuc quaeso redi, quo coepisti, Aeschine.</sp></l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Minis uiginti tu illam emisti (quae res tibi uortat male):</sp></l>
+	 	<l>argenti tantum dabitur.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Quid? si ego tibi illam nolo uendere,</sp></l>
+	 	<l>coges me?</l>
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Minume.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Namque id metui.</sp></l> 	 
+	 	<l><sp who='AE'><speaker>Aeschinvs</speaker>Neque uendundam censeo,</sp></l>
+	 	<l>quae liberast: nam ego liberali illam adsero causa manu.</l>
+	 	<l>nunc uide, utrum uis? argentum accipere an causam meditari tuam?</l>
+	 	<l>delibera hoc, dum ego redeo, leno.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Pro supreme Iuppiter,</sp></l>
+	 	<l>minume miror qui insanire occipiunt ex iniuria.</l>
+	 	<l>domi me arripuit, uerberauit: me inuito abduxit meam.</l>
+	 	<l>[homini misero plus quingentos colaphos infregit mihi].</l>
+	 	<l>ob malefacta haec tantidem emptam postulat sibi tradier.</l>
+	 	<l>uerum enim quando bene promeruit, fiat: suom ius postulat.</l>
+	 	<l>age iam cupio, si modo argentum reddat.</l>
+	 	<l>sed ego hoc hariolor:</l>
+	 	<l>ubi me dixero dare tanti, testis faciet ilico,</l>
+	 	<l>uendidisse me, de argento somnium: 'mox: cras redi'.</l>
+	 	<l>id quoque, si modo reddat, possum ferre, quamquam iniuriumst.</l>
+	 	<l>uerum cogito id quod res est: quando eum quaestum occeperis,</l>
+	 	<l>accipiunda et mussitanda iniuria adulescentiumst.</l>
+		<l>sed nemo dabit: frustra ego me cum hanc rationem deputo.</l>
+	 	<castItem>SYRVS SANNIO SERVOS LENO.</castItem>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Tace, egomet conueniam ipsum: cupide accipiat iam faxo ac bene</sp></l>
+	 	<l>dicat se cum etiam esse actum.</l>	 	 
+	 	<l>quid istuc, Sannio, est quod te audio</l>
+	 	<l>nescio quid concertasse cum ero?</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Numquam uidi iniquius</sp></l>
+	 	<l>certationem comparatam, quam quae hodie inter nos fuit:</l>
+	 	<l>ego uapulando, ille uerberando, usque ambo defessi sumus.</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Tua culpa.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Quid facerem?</sp></l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Adulescenti morem gestum oportuit.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Qui potui melius, qui hodie usque os praebui?</sp></l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Age, scis quid loquar?</sp></l>
+	 	<l>>pecuniam in loco neclegere maxumum interdumst lucrum.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Hui!</sp></l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Metuisti, si nunc de tuo iure concessisses paululum,</sp></l>
+	 	<l>adulescenti esses morigeratus, hominum homo stultissume,</l>
+	 	<l>ne non tibi istuc faeneraret.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Ego spem pretio non emo.</sp></l>	 	 
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Numquam rem facies: abi, inescare nescis homines, Sannio.</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Credo istuc melius esse: uerum ego numquam adeo astutus fui,</sp></l>
+	 	<l>quin quidquid possem mallem auferre potius in praesentia.</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker> Noui tuom animum: quasi tanti umquam tibi sint uiginti minae,</sp></l>
+	 	<l>dum huic obsequare.</l>
+	 	<l>praeterea autem te aiunt proficisci Cyprum,</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Hem!</sp></l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>coemisse hinc quae illuc ueheres multa, nauem conductam: hoc scio,</sp></l>
+	 	<l>animus tibi pendet.</l>
+	 	<l>ubi illim ut spero redieris, tum tu hoc ages.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Nusquam pedem.</sp></l>
+	 	<l>perii hercle: hac illi spe hoc inceperunt.</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Timet:</sp></l>
+	 	<l>inieci scrupulum homini.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>O scelera: illud uide,</sp></l>
+	 	<l>ut in ipso articulo oppressit.</l>
+	 	<l>emptae mulieres</l>
+	 	<l>complures et item hinc alia quae porto Cyprum.</l>
+	 	<l>nisi eo ad mercatum uenio, damnum maxumumst.</l>
+		<l>nunc si hoc omitto ac tum agam ubi illinc rediero,</l>
+	 	<l>nihil est; refrixerit res: 'nunc demum uenis?</l>
+	 	<l>quor passu's? ubi eras?' ut sit satius perdere</l>
+	 	<l>quam hic nunc manere tam diu aut tum persequi.</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Iam ne enumerasti id quod ad te rediturum putes?</sp></l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Hocine illo dignumst? hocine incipere Aeschinum,</sp></l>
+	 	<l>per oppressionem ut hanc mi eripere postulet!</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Labascit.</sp></l>
+	 	<l>unum hoc habeo: uide si satis placet:</l>
+	 	<l>potius quam uenias in periclum, Sannio,</l>
+	 	<l>serues ne an perdas totum, diuiduom face.</l>
+	 	<l>minas decem conradet alicunde.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Ei mihi,</sp></l>
+	 	<l>etiam de sorte nunc uenio in dubium miser?</l>
+	 	<l>pudet nihil? omnis dentis labefecit mihi,</l>
+	 	<l>praeterea colaphis tuber est totum caput:</l>
+	 	<l>etiam insuper defrudet?</l>
+	 	<l>nusquam abeo.</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Vt lubet:</sp></l>
+	 	<l>numquid uis quin abeam?</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Immo hercle hoc quaeso, Syre,</sp></l>
+	 	<l>utut haec sunt facta, potius quam lites sequar,</l>
+	 	<l>meum mihi reddatur, saltem quanti emptast.</l>
+	 	<l>Syre,</l>
+	 	<l>scio te antehac non esse usum amicitia mea:</l>
+	 	<l>memorem me dices esse et gratum.</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Sedulo</sp></l>
+	 	<l>faciam.</l>
+	 	<l>sed Ctesiphonem uideo: laetus est</l>
+	 	<l>de amica.</l>
+	 	<l><sp who='SA'><speaker>Sannio</speaker>Quid quod te oro?</sp></l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Paulisper mane.</sp></l>
+	 	<castItem>CTESIPHO SANNIO SYRVS ADVLESCENS LENO SERVOS.</castItem>
+	 	<l><sp who='CT'><speaker>Ctesipho</speaker>Abs quiuis homine, quomst opus, beneficium accipere gaudeas:</sp></l>
+	 	<l>uerum enim uero id demum iuuat, si quem aequomst facere is bene facit.</l>
+	 	<l>o frater frater, quid ego nunc te laudem?</l>
+	 	<l>satis certo scio:</l>
+	 	<l>numquam ita magnifice quicquam dicam, id uirtus quin superet tua.</l>
+	 	<l>itaque unam hanc rem me habere praeter alios praecipuam arbitror,</l>
+	 	<l>fratrem homini nemini esse primarum artium magis principem.</l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>O Ctesipho.</sp></l>
+	 	<l><sp who='CT'><speaker>Ctesipho</speaker>O Syre, Aeschinus ubist?</sp></l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Ellum, te exspectat domi.</sp></l>
+	 	<l><sp who='CT'><speaker>Ctesipho</speaker>Hem.</sp></l>
+	 	<l><sp who='SY'><speaker>Syrus</speaker>Quid est?</sp></l>
+	 	<l><sp who='CT'><speaker>Ctesipho</speaker>Quid sit? opera illius, Syre, nunc uiuo: festiuom caput,</sp></l>
+	 	<l>qui quom omnis res sibi post putarit esse prae meo commodo,</l>
+	 	<l>maledicta, famam, meum laborem et peccatum in se transtulit;</l>
+	 	<l>nil pote supra.</l>
+		<l>sed quid foris crepuit?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Mane, mane: ipse exit foras.</sp></l>
+		<castItem>AESCHINVS CTESIPHO SYRVS SANNIO ADVLESCENTES DVO SERVOS LENO.</castItem>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>bi est ille sacrilegus?</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Me quaerit.</sp></l>
+		<l>numquidnam ecfert? occidi:</l>
+		<l>nil uideo.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Ehem opportune: te ipsum quaero.</sp></l>
+		<l>quid fit, Ctesipho?</l>
+		<l>in tutost omnis res: omitte uero tristitiem tuam.</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Ego illam hercle facile omitto, quiquidem te habeam fratrem: o mi Aeschine,</sp></l>
+		<l>o mi germane! ah uereor coram in os te laudare amplius,</l>
+		<l>ne id adsentandi magis quam quo habeam gratum facere existumes.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Age inepte, quasi nunc non norimus nos inter nos, Ctesipho.</sp></l>
+		<l>sed hoc mihi dolet, nos sero rescisse et rem paene in eum locum</l>
+		<l>redisse, ut si omnes cuperent tibi nil possent auxiliarier.</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Pudebat.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Ah, stultitiast istaec, non pudor: tam ob paruolam</sp></l>
+		<l>rem paene e patria! turpe dictu.</l>
+		<l>deos quaeso ut istaec prohibeant.</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Peccaui.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Quid ait tandem nobis Sannio?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Iam mitis est.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Ego ad forum ibo, ut hunc absoluam: tu i intro ad illam, Ctesipho.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Syre, insta.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Eamus: namque hic properat in Cyprum.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Non tam quidem</sp></l>
+		<l>quam uis: et iam maneo otiosus hic.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Reddetur: ne time.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>At ut omne reddat.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Omne reddet: tace modo ac sequere hac.</sp></l>
+		<l><sp who='SA'><speaker>Sannio</speaker>Sequor.</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Heus heus, Syre.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Em, quid est?</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Obsecro te hercle, hominem istum inpurissumum</sp></l>
+		<l>quam primum absoluitote, ne, si magis irritatus siet,</l>
+		<l>aliqua hoc permanet ad patrem atque ego tum perpetuo perierim.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Non fiet, bono animo es: tu cum illa te oblecta intus interim</sp></l>
+		<l>et lectulos iube sterni nobis et parari cetera.</l>
+		<l>ego iam transacta re conuortam me domum cum opsonio.</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Ita, quaeso: quando hoc bene successit, hilare hunc sumamus diem.</sp></l>
+		<castItem>SOSTRATA CANTHARA MATRONA ANVS</castItem>.
+		<l><sp who='SO'><speaker>Sostrata</speaker>Obsecro, mea nutrix, quid nunc fiet?</sp></l>
+		<l><sp who='CA'><speaker>Canthara</speaker>Quid fiat rogas?</sp></l>
+		<l>recte edepol, spero.</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Modo dolores, mea tu, occipiunt primulum.</sp></l>
+		<l><sp who='CA'><speaker>Canthara</speaker>Iam nunc times? quasi numquam adfueris, numquam tute pepereris!</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Heu me miseram! habeo neminem,</sp></l>
+		<l>solae sumus: Geta autem hic non adest, qui arcessat Aeschinum.</l>
+		<l><sp who='CA'><speaker>Canthara</speaker>Pol is quidem iam hic aderit: nam numquam unum intermittit diem,</sp></l>
+		<l>quin semper ueniat.</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Solus mearum miseriarumst remedium.</sp></l>
+		<l><sp who='CA'><speaker>Canthara</speaker>E re nata melius fieri hau potuit quam factumst, era,</sp></l>
+		<l>quando uitium oblatumst, quod ad illum attinet potissumum,</l>
+		<l>talem, tali ingenio atque animo, natum ex tanta familia.</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Ita pol res est ut dicis: saluos nobis deos quaeso ut siet.</sp></l>
+		<castItem>GETA SOSTRATA CANTHARA SERVPS MATRONA ANVS.</castItem>
+		<l><sp who='GE'><speaker>Geta</speaker>Nunc illud est, quom, si omnia omnes sua consilia conferant</sp></l>
+		<l>atque huic malo salutem quaerant, auxili nihil adferant,</l>
+		<l>quod mihi que erae que filiae que erilist.</l>
+		<l>uae misero mihi!</l>
+		<l>tot res repente circumuallant se, unde emergi non potest:</l>
+		<l>uis egestas iniustitia solitudo infamia.</l>
+		<l>hocine saeclum! o scelera, o genera sacrilega, o hominem inpium,</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Me miseram, quidnam est quod sic uideo timidum et properantem Getam?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>quem neque fides neque ius iurandum neque illum misericordia</sp></l>
+		<l>repressit neque reflexit neque quod partus instabat prope,</l>
+		<l>quoi miserae indigne per uim uitium optulerat.</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Non intellego</sp></l>
+		<l>satis quae loquitur.</l>
+		<l><sp who='CA'><speaker>Canthara</speaker>Propius obsecro accedamus, Sostrata.</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Ah</sp></l>
+		<l>me miserum! uix compos sum animi, ita ardeo iracundia.</l>
+		<l>nihil est quod malim quam illam totam familiam dari mi obuiam,</l>
+		<l>ut ego hanc iram in eos euomam omnem, dum aegritudo haec est recens.</l>
+		<l>satis mi id habeam supplici.</l>
+		<l>seni animam primum exstinguerem ipsi, qui illud produxit scelus:</l>
+		<l>tum autem Syrum inpulsorem, uah, quibus illum lacerarem modis!</l>
+		<l>sublimen medium arriperem et capite pronum in terra statuerem,</l>
+		<l>ut cerebro dispergat uiam.</l>
+		<l>adulescenti ipsi eriperem oculos, posthac praecipitem darem.</l>
+		<l>ceteros ruerem agerem raperem tunderem et prosternerem.</l>
+		<l>sed cesso eram hoc malo inpertire propere?</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Reuocemus.</sp></l>
+		<l>Geta!</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Hem,</sp></l>
+		<l>quisquis es, sine me.</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Ego sum Sostrata.</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Vbi east? te ipsam quaerito,</sp></l>
+		<l>te expeto: oppido opportune te optulisti mi obuiam.</l>
+		<l>era...</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Quid est? quid trepidas?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Ei mihi.</sp></l>
+		<l><sp who='CA'><speaker>Canthara</speaker>Quid festinas, mi Geta?</sp></l>
+		<l>animam recipe.</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Prorsus</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Quid istuc 'prorsus' ergost?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>periimus.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Eloquere ergo, te obscero, quid actumst?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Iam</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Quid 'iam', Geta?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Aeschinus</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Quid is ergo?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>alienus est ab nostra familia.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Hem,</sp></l>
+		<l>perii.</l>
+		<l>qua re?</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Amare occepit aliam.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Vae miserae mihi!</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Neque id occulte fert, a lenone ipsus eripuit palam.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Satin hoc certumst?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Certum: hisce oculis egomet uidi, Sostrata.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Ah</sp></l>
+		<l>me miseram! quid iam credas?</l>
+		<l>aut quoi credas? nostrum ne Aeschinum!</l>
+		<l>nostram omnium uitam, in quo nostrae spes opes que omnes sitae!</l>
+		<l>qui se sine hac iurabat unum numquam uicturum diem!</l>
+		<l>qui se in sui gremio positurum puerum dicebat patris!</l>
+		<l>ita obsecraturum, ut liceret hanc sibi uxorem ducere!</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Era, lacrumas mitte ac potius quod ad hanc rem opus est porro prospice:</sp></l>
+		<l>patiamur ne an narremus quoipiam?</l>
+		<l><sp who='CA'><speaker>Canthara</speaker>Au au, mi homo, sanun es?</sp></l>
+		<l>an hoc proferendum tibi uidetur usquam?</l>		 
+		<l><sp who='GE'><speaker>Geta</speaker>Miquidem non placet.</sp></l>
+		<l>iam primum illum alieno animo a nobis esse res ipsa indicat.</l>
+		<l>nunc si hoc palam proferimus, ille infitias ibit, sat scio:</l>
+		<l>tua fama et gnatae uita in dubium ueniet.</l>
+		<l>tum si maxume</l>
+		<l>fateatur, quom amet aliam, non est utile hanc illi dari.</l>
+		<l>quapropter quoquo pacto tacitost opus.</l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Ah minume gentium:</sp></l>
+		<l>non faciam.</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Quid ages?</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Proferam.</sp></l>
+		<l><sp who='CA'><speaker>Canthara</speaker>Hem, mea Sostrata, uide quam rem agas.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Peiore res loco non potis est esse quam in quo nunc sitast.</sp></l>
+		<l>primum indotatast: tum praeterea, quae secunda ei dos erat,</l>
+		<l>periit: nuptum pro uirgine dari non potest.</l>
+		<l>hoc relicuomst:</l>
+		<l>si infitias ibit, testis me cum est anulus quem amiserat.</l>
+		<l>postremo quando ego conscia mihi sum, a me culpam esse hanc procul,</l>
+		<l>neque pretium neque rem ullam intercessisse illa aut me indignam, Geta,</l>
+		<l>experiar.</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Quid istic? cedo, ut melius dicis.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Tu quantum potis</sp></l>
+		<l>abi atque Hegioni cognato huius rem enarrato omnem ordine:</l>
+		<l>nam is nostro Simulo fuit summus et nos coluit maxume.</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Nam hercle alius nemo respicit nos.</sp></l>
+		<l><sp who='SO'><speaker>Sostrata</speaker>Propera tu, mea Canthara,</sp></l>
+		<l>curre, obstetricem arcesse, ut quom opus sit ne in mora nobis siet.</l>
+		<castItem>DEMEA SYRVS SENEX SERVOS.</castItem>
+		<l><sp who='DE'><speaker>Demea</speaker>Disperii: Ctesiphonem audiui filium</sp></l>
+		<l>una adfuisse in raptione cum Aeschino.</l>
+		<l>id misero restat mihi mali, si illum potest,</l>
+		<l>qui aliquoi reist etiam, eum ad nequitiem adducere.</l>		 
+		<l>ubi ego illum quaeram? credo abductum in ganeum</l>
+		<l>aliquo: persuasit ille inpurus, sat scio.</l>
+		<l>sed eccum Syrum ire uideo: iam hinc scibo ubi siet.</l>
+		<l>atqui hercle hic de grege illost: si me senserit</l>
+		<l>eum quaeritare, numquam?</l>
+		<l>dicet carnufex.</l>
+		<l>non ostendam id me uelle.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Omnem rem modo seni</sp></l>
+		<l>quo pacto haberet ordine enarrauimus.</l>
+		<l>nil quicquam uidi laetius.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Pro Iuppiter,</sp></l>
+		<l>hominis stultitiam!</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Conlaudauit filium;</sp></l>
+		<l>mihi, qui id dedissem consilium, egit gratias.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Disrumpor.</sp></l>	 
+		<l><sp who='SY'><speaker>Syrus</speaker>Argentum adnumerauit ilico;</sp></l>
+		<l>dedit praeterea in sumptum dimidium minae:</l>
+		<l>id distributum sanest ex sententia.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Em</sp></l>
+		<l>huic mandes, siquid recte curatum uelis!</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Ehem Demea, haud aspexeram te; quid agitur?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid agatur? uostram nequeo mirari satis</sp></l>
+		<l>rationem.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Est hercle inepta, ne dicam dolo,</sp></l>
+		<l>absurda.</l>
+		<l>piscis ceteros purga, Dromo;</l>
+		<l>gongrum istum maxumum in aqua sinito ludere</l>
+		<l>tantisper; ubi ego rediero, exossabitur;</l>
+		<l>prius nolo.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Haecin flagitia!</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Miquidem non placent,</sp></l>
+		<l>et clamo saepe.</l>
+		<l>salsamenta haec, Stephanio,</l>
+		<l>fac macerentur pulcre.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Di uostram fidem!</sp></l>
+		<l>utrum studio ne id sibi habet an laudi putat</l>
+		<l>fore, si perdiderit gnatum?</l>
+		<l>uae misero mihi!</l>
+		<l>uidere uideor iam diem illum, quom hinc egens</l>
+		<l>profugiet aliquo militatum.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>O Demea,</sp></l>
+		<l>istuc est sapere, non quod ante pedes modost</l>
+		<l>uidere, sed etiam illa quae futura sunt</l>
+		<l>prospicere.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid? istaec iam penes uos psaltriast?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Ellam intus.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Eho, an domist habiturus?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Credo, ut est</sp></l>
+		<l>dementia.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Haecin fieri!</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Inepta lenitas</sp></l>
+		<l>patris et facilitas praua.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Fratris me quidem</sp></l>
+		<l>pudet piget que.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Nimium inter uos, Demea,</sp></l>
+		<l>(non quia ades praesens dico hoc) pernimium interest.</l>
+		<l>tu quantusquantu's nil nisi sapientia es,</l>
+		<l>ille somnium.</l>
+		<l>sineres uero illum tu tuom</l>
+		<l>facere haec?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Sinerem illum? an non sex totis mensibus</sp></l>
+		<l>prius olfecissem, quam ille quicquam coeperet?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Vigilantiam tuam tu mihi</sp></l>
+		<l>narras?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Sic siet</sp></l>
+		<l>modo ut nunc est, quaeso.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Vt suom quisque esse uolt, itast.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid eum? uidisti n' hodie?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Tuom ne filium?</sp></l>
+		<l>abigam hunc rus.</l>
+		<l>iam dudum aliquid ruri agere arbitror.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Satin scis ibi esse?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Oh, quem egomet produxi.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Optumest:</sp></l>
+		<l>metui ne haereret hic.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Atque iratum admodum.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid autem?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Adortus iurgiost fratrem apud forum</sp></l>
+		<l>de psaltria ista.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Ain uero?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Vah, nil reticuit.</sp></l>	 
+		<l>nam ut numerabatur forte argentum, interuenit</l>
+		<l>homo de inprouiso: coepit clamare 'Aeschine,</l>
+		<l>haecin flagitia facere te! haec te admittere</l>
+		<l>indigna genere nostro!'</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Oh, lacrumo gaudio.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>'Non tu hoc argentum perdis, sed uitam tuam'.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Saluos sit spero: est similis maiorum suom.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Hui!</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Syre, praeceptorum plenust istorum ille.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Phy!</sp></l>
+		<l>domi habuit unde disceret.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Fit sedulo:</sp></l>
+		<l>nil praetermitto: consuefacio: denique</l>
+		<l>inspicere tamquam in speculum in uitas omnium</l>
+		<l>iubeo atque ex aliis sumere exemplum sibi.</l>
+		<l>'hoc facito'.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Recte sane.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>'Hoc fugito'.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Callide.</sp></l>	 
+		<l><sp who='DE'><speaker>Demea</speaker>'Hoc laudist'.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Istaec res est.</sp></l>	 
+		<l><sp who='DE'><speaker>Demea</speaker>'Hoc uitio datur'.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Probissume.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Porro autem ...</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Non hercle otiumst</sp></l>
+		<l>nunc mi auscultandi.</l>
+		<l>piscis ex sententia</l>
+		<l>nanctus sum: ei mihi ne corrumpantur cautiost:</l>
+		<l>nam id nobis tam flagitiumst quam illa, Demea,</l>
+		<l>non facere uobis, quae modo dixti: et quod queo</l>
+		<l>conseruis ad eundem istunc praecipio modum:</l>
+		<l>'hoc salsumst, hoc adustumst, hoc lautumst parum:</l>
+		<l>illud recte: iterum sic memento'.</l>
+		<l>sedulo</l>
+		<l>moneo, quae possum pro mea sapientia:</l>
+		<l>postremo tamquam in speculum in patinas, Demea,</l>
+		<l>inspicere iubeo et moneo quid facto usus sit.</l>
+		<l>inepta haec esse, nos quae facimus, sentio;</l>
+		<l>uerum quid facias?</l>
+		<l>ut homost, ita morem geras.</l>
+		<l>numquid uis?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Mentem uobis meliorem dari.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Tu rus hinc ibis?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Recta.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Nam quid tu hic agas?</sp></l>
+		<l>ubi siquid bene praecipias, nemo optemperet.</l>
+		<l>-</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Ego uero hinc abeo, quando is, quam ob rem huc ueneram,</sp></l>
+		<l>rus abiit: illum curo unum, ille ad me attinet.</l>
+		<l>quando ita uolt frater, de istoc ipse uiderit.</l>
+		<l>sed quis illic est, quem uideo procul?</l>
+		<l>est ne Hegio</l>
+		<l>tribulis noster? si satis cerno, is est hercle: uah,</l>
+		<l>homo amicus nobis iam inde a puero (o di boni,</l>
+		<l>ne illius modi iam magna nobis ciuium</l>
+		<l>penuriast) homo antiqua uirtute ac fide.</l>
+		<l>haud cito mali quid ortum ex hoc sit publice.</l>
+		<l>quam gaudeo, ubi etiam huius generis reliquias</l>
+		<l>restare uideo! ah, uiuere etiam nunc lubet.</l>
+		<l>opperiar hominem hic, ut salutem et conloquar.</l>
+		<castItem>HEGIO DEMEA GETA PAMPHILA. SENES DVO SERVOS VIRGO.</castItem>
+		<l><sp who='HE'><speaker>Hegio</speaker>Pro di inmortales, facinus indignum, Geta,</sp></l>
+		<l>quod narras!</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Sic est factum.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Ex illa n' familia</sp></l>
+		<l>tam inliberale esse ortum facinus! o Aeschine,</l>
+		<l>pol haud paternum istuc dedisti.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Videlicet</sp></l>
+		<l>de psaltria hac audiuit: id illi nunc dolet</l>
+		<l>alieno.</l>
+		<l>pater? is nihili pendit: ei mihi,</l>
+		<l>utinam hic prope adesset alicubi atque audiret haec!</l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Nisi facient quae illos aequomst, haud sic auferent.</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>In te spes omnis, Hegio, nobis sitast:</sp></l>
+		<l>te solum habemus, tu es patronus, tu pater:</l>
+		<l>tibi moriens ille nos commendauit senex:</l>
+		<l>si deseris tu, periimus.</l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Caue dixeris:</sp></l>
+		<l>neque faciam neque me satis pie posse arbitror.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Adibo.</sp></l>
+		<l>saluere Hegionem plurumum</l>
+		<l>iubeo.</l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Oh, te quaerebam ipsum: salue, Demea.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid autem?</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Maior filius tuos Aeschinus,</sp></l>
+		<l>quem adoptandum dedisti fratri, neque boni</l>
+		<l>neque liberalis functus officiumst uiri.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid istuc est?</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Nostrum amicum noras Simulum</sp></l>
+		<l>aequalem?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid ni?</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Filiam eius uirginem</sp></l>
+		<l>uitiauit.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Hem!</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Mane: nondum audisti, Demea,</sp></l>
+		<l>quod est grauissumum.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>An quicquam etiam est amplius?</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Vero amplius: nam hoc quidem ferundum aliquo modost:</sp></l>
+		<l>amor persuasit, nox uinum adulescentia:</l>
+		<l>humanumst.</l>
+		<l>ubi scit factum, ad matrem uirginis</l>
+		<l>uenit ipsus ultro lacrumans orans obsecrans</l>
+		<l>fidem dans, iurans se illam ducturum domum.</l>
+		<l>ignotumst, tacitumst, creditumst.</l>
+		<l>uirgo ex eo</l>
+		<l>compressu grauidast facta (hic mensis decumus est).</l>
+		<l>ille bonus uir nobis psaltriam, si dis placet,</l>
+		<l>parauit qui cum uiuat, illam deserit.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Pro certo n' tu istaec dicis?</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Mater uirginis</sp></l>
+		<l>in mediost, ipsa uirgo, res ipsa, hic Geta</l>
+		<l>praeterea, ut captust seruolorum, non malus</l>
+		<l>neque iners: alit illas, solus omnem familiam</l>
+		<l>sustentat: hunc abduce, uinci, quaere rem.</l>
+		<l><sp who='GE'><speaker>Geta</speaker>Immo hercle extorque, nisi ita factumst, Demea;</sp></l>
+		<l>postremo non negabit: coram ipsum cedo.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Pudet: nec quid agam nec quid huic respondeam</sp></l>
+		<l>scio.</l>
+		<l><sp who='PA'><speaker>Pamphilia</speaker>(intus) Me miseram, differor doloribus.</sp></l>
+		<l>Iuno Lucina, fer opem: serua me obsecro.</l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Hem,</sp></l>
+		<l>numnam illa quaeso parturit? GE. Certe, Hegio.</l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Em illaec fidem nunc uostram inplorat, Demea:</sp></l>
+		<l>quod ius uos cogit, id uoluntate inpetret.</l>
+		<l>haec primum ut fiant deos quaeso ut uobis decet.</l>
+		<l>sin aliter animus uoster est, ego, Demea,</l>
+		<l>summa ui defendam hanc atque illum mortuom.</l>
+		<l>cognatus mihi erat: una a pueris paruolis</l>
+		<l>sumus educti: una semper militiae et domi</l>
+		<l>fuimus: paupertatem una pertulimus grauem.</l>
+		<l>quapropter nitar faciam experiar, denique</l>
+		<l>animam relinquam potius quam illas deseram.</l>
+		<l>quid mihi respondes?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Fratrem conueniam, Hegio.</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Sed, Demea, hoc tu facito cum animo cogites:</sp></l>
+		<l>quam uos facillume agitis, quam estis maxume</l>
+		<l>potentes dites fortunati nobiles,</l>
+		<l>tam maxume uos aequa aequo animo noscere</l>
+		<l>oportet, si uos uoltis perhiberi probos.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Redito.</sp></l>		 
+		<l>fient quae fieri aequomst omnia.</l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Decet te facere.</sp></l>
+		<l>Geta, duc me intro ad Sostratam.</l>
+		<l>-</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Non me indicente haec fiunt: utinam hic sit modo</sp></l>
+		<l>defunctum! uerum nimia illaec licentia</l>
+		<l>profecto euadet in aliquod magnum malum.</l>
+		<l>ibo ac requiram fratrem, ut in eum haec euomam.</l>
+		<castItem>HEGIO SENEX</castItem>
+		<l>Bono animo fac sis, Sostrata, et istam quod potis</l>
+		<l>fac consolere.</l>		 
+		<l>ego Micionem, si apud forumst,</l>
+		<l>conueniam atque ut res gestast narrabo ordine:</l>
+		<l>si est, is facturus ut sit officium suom,</l>
+		<l>faciat: sin aliter de hac re est eius sententia,</l>
+		<l>respondeat mi, ut quid agam quam primum sciam.</l>
+		<castItem>CTESIPHO SYRVS ADVLESCENS SERVOS.</castItem>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Ain patrem hinc abisse rus?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Iam dudum.</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Dic sodes.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Apud uillamst:</sp></l>
+		<l>nunc quom maxume operis aliquid facere credo.</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Vtinam quidem!</sp></l>
+		<l>quod cum salute eius fiat, ita se defetigarit uelim,</l>
+		<l>ut triduo hoc perpetuo prorsum e lecto nequeat surgere.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Ita fiat, et istoc siqui potis est rectius.</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Ita: nam hunc diem</sp></l>
+		<l>misere nimis cupio, ut coepi, perpetuom in laetitia degere.</l>
+		<l>et illud rus nulla alia causa tam male odi, nisi quia</l>
+		<l>propest: quod si abesset longius,</l>
+		<l>prius nox oppressisset illi, quam huc reuorti posset iterum.</l>
+		<l>nunc ubi me illi non uidebit, iam huc recurret, sat scio:</l>
+		<l>rogitabit me, ubi fuerim: 'ego hoc te toto non uidi die:'</l>
+		<l>quid dicam?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Nil ne in mentemst?</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Numquam quicquam.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Tanto nequior.</sp></l>
+		<l>cluens amicus hospes nemost uobis?</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Sunt: quid postea?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Hisce opera ut data sit.</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Quae non data sit? non potest fieri.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Potest.</sp></l>		
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Interdius: sed si hic pernocto, causae quid dicam, Syre?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Vah, quam uellem etiam noctu amicis operam mos esset dari!</sp></l>
+		<l>quin tu otiosus esto: ego illius sensum pulcre calleo.</l>
+		<l>quom feruit maxume, tam placidum quam ouem reddo.</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Quo modo?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Laudari per te audit lubenter: facio te apud illum deum:</sp></l>
+		<l>uirtutes narro.</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Meas?</sp></l> SY. Tuas: homini ilico lacrumae cadunt
+		<l>quasi puero gaudio.</l>
+		<l>em tibi autem!</l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Quidnam est?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Lupus in fabula.</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Pater est?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Is est ipsus.</sp></l>
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Syre, quid agimus?</sp></l> SY. Fuge modo intro, ego uidero.
+		<l><sp who='CT'><speaker>Ctesipho</speaker>Siquid rogabit, nusquam tu me: audisti n'?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Potin ut desinas?</sp></l>
+		<castItem>DEMEA CTESIPHO SYRVS SENEX ADVLESCENS SERVOS.</castItem>
+		<l><sp who='DE'><speaker>Demea</speaker>Ne ego homo sum infelix: fratrem nusquam inuenio gentium:</sp></l>
+		<l>praeterea autem, dum illum quaero, a uilla mercennarium</l>
+		<l>uidi: is filium negat esse ruri: nec quid agam scio.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Syre!</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Quid est?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Me n' quaerit?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Verum.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Perii.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Quin tu animo bono es.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid hoc malum infelicitatis! nequeo satis decernere:</sp></l>
+		<l>nisi me credo huic esse natum rei, ferundis miseriis.</l>
+		<l>primus sentio mala nostra: primus rescisco omnia:</l>
+		<l>primus porro obnuntio: aegre solus, siquid fit, fero.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Rideo hunc: primum ait se scire: is solus nescit omnia.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>nunc redeo: si forte frater redierit uiso.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Syre,</sp></l>
+		<l>obsecro, uide ne ille huc prorsus se inruat.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Etiam taces?</sp></l>
+		<l>ego cauebo.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Numquam hercle hodie ego istuc committam tibi:</sp></l>
+		<l>nam me iam in cellam aliquam cum illa concludam: id tutissummumst.</l>
+		<l>-</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Age, tamen ego hunc amouebo.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Sed eccum sceleratum Syrum.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Non hercle hic qui uolt durare quisquam, si sic fit, potest.</sp></l>
+		<l>scire equidem uolo, quot mihi sint domini: quae haec est miseria!</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid ille gannit?</sp></l>		 
+		<l>quid uolt? quid ais, bone uir? est frater domi?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Quid malum 'bone uir' mihi narras?</sp></l>
+		<l>equidem perii.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid tibi est?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Rogitas? Ctesipho me pugnis miserum et istam psaltriam</sp></l>
+		<l>usque occidit.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Hem, quid narras? SY. Em uide ut discidit labrum.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quam ob rem?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Me inpulsore hanc emptam esse ait.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Non tu eum rus hinc modo</sp></l>
+		<l>produxe aibas?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Factum: uerum uenit post insaniens:</sp></l>
+		<l>nil pepercit.</l>
+		<l>non puduisse uerberare hominem senem!</l>
+		<l>quem ego modo puerum tantillum in manibus gestaui meis.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Laudo: Ctesipho, patrissas: abi, uirum te iudico.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Laudas? ne ille continebit posthac, si sapiet, manus.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Fortiter.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Perquam, quia miseram mulierem et me seruolum,</sp></l>
+		<l>qui referire non audebam, uicit: hui, perfortiter.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Non potuit melius.</sp></l>
+		<l>idem quod ego sensit, te esse huic rei caput.</l>		 
+		<l>sed est ne frater intus?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Non est.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Vbi illum inueniam cogito.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Scio ubi sit, uerum hodie numquam monstrabo.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Hem, quid ais?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Ita.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Dimminuetur tibi quidem iam cerebrum.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>At nomen nescio</sp></l>
+		<l>illius hominis, sed locum noui ubi sit.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Dic ergo locum.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Nosti n' porticum apud macellum hac deorsum?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid ni nouerim?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Praeterito recta platea sursum hanc: ubi eo ueneris,</sp></l>
+		<l>cliuos deorsum uorsum est: istac praecipitato; postea</l>
+		<l>est ad hanc manum sacellum: ibi angiportum propter est,</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quanam?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Illi ubi etiam caprificus magna est.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Noui.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Hac pergito.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Id quidem angiportum non est peruium.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Verum hercle: uah,</sp></l>
+		<l>censen hominem me esse?</l>		 
+		<l>erraui: in porticum rursum redi:</l>
+		<l>sane hac multo propius ibis et minor est erratio.</l>
+		<l>scin Cratini huius ditis aedes? DE. Scio.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Vbi eas praeterieris,</sp></l>
+		<l>ad sinistram hac recta platea; ubi ad Dianae ueneris,</l>
+		<l>ito ad dextram: prius quam ad portam uenias, apud ipsum lacum</l>
+		<l>est pistrilla, ei exaduorsum fabrica: ibist.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>Quid ibi facit?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>Lectulos illi salignis pedibus faciundos dedit.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Vbi potetis uos? bene sane.</sp></l>
+		<l>sed cesso ad eum pergere.</l>
+		<l>-</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>I sane: ego te exercebo hodie, ut dignus es, silicernium.</sp></l>
+		<l>Aeschinus otiose cessat; prandium corrumpitur;</l>
+		<l>Ctesipho autem in amorest totus.</l>		 
+		<l>ego iam prospiciam mihi:</l>
+		<l>nam iam abibo atque unum quidquid, quod quidem erit bellissumum,</l>
+		<l>carpam et cyathos sorbilans paulatim hunc producam diem.</l>
+		<castItem>MICIO HEGIO SENES DVO</castItem> 
+		<l><sp who='MI'><speaker>Micio</speaker>Ego in hac re nil reperio, quam ob rem lauder tanto opere, Hegio.</sp></l>
+		<l>Meum officium facio: quod peccatum a nobis ortumst corrigo.</l>
+		<l>nisi si me in illo credidisti esse hominum numero, qui ita putant,</l>
+		<l>sibi fieri iniuriam ultro, si quam fecere ipsi expostules,</l>
+		<l>et ultro accusant.</l>
+		<l>id quia a me non est factum, agis gratias?</l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Ah, minume: numquam te aliter atque es esse animum induxi meum.</sp></l>
+		<l>sed quaeso, Micio, ut me cum una eas ad matrem uirginis</l>
+		<l>atque istaec eadem mihi quae dixti tute dicas mulieri:</l>
+		<l>suspitionem hanc propter fratrem esse: eius esse illam psaltriam.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Si ita aequom censes aut si ita opus est facto, eamus.</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Bene facis.</sp></l>
+		<l>nam et illi iam releuabis animum, quae dolore ac miseria</l>
+		<l>tabescit, et tuom officium fueris functus.</l>
+		<l>sed si aliter putas,</l>
+		<l>egomet narrabo quae mihi dixti.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Immo ego ibo.</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Bene facis:</sp></l>
+		<l>omnes, quibus res sunt minus secundae, magis sunt nescio quo modo</l>
+		<l>suspitiosi: ad contumeliam omnia accipiunt magis:</l>
+		<l>propter suam inpotentiam se semper credunt ludier.</l>		 
+		<l>quapropter te ipsum purgare ipsi coram placabilius est.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>Et recte et uerum dicis.</sp></l>
+		<l><sp who='HE'><speaker>Hegio</speaker>Sequere me ergo hac intro.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Maxume.</sp></l>
+		<castItem>AESCHINVS. ADVLESCENS</castItem>
+		<l>Discrucior animi: hocin mihi mali de inprouiso obici</l>
+		<l>tantum, ut neque quid ego de me faciam nec quid agam certum siet!</l>
+		<l>membra mihi metu debilia sunt: animus timore obstipuit:</l>
+		<l>pectori consistere</l>
+		<l>nil consili quit.</l>
+		<l>quo modo hac me expediam turba? tanta nunc</l>
+		<l>suspitio de me incidit: uah, neque ea inmerito: Sostrata</l>
+		<l>credit mihi me psaltriam emisse hanc: id anus mi indicium fecit.</l>
+		<l>nam ut hinc forte ea ad obstetricem erat missa, ubi eam uidi, ilico</l>
+		<l>accedo: rogito, Pamphila quid agat, iam partus adsiet,</l>
+		<l>eo ne obstetricem arcessat.</l>
+		<l>illa exclamat 'abi, abi iam, Aeschine:</l>
+		<l>satis diu dedisti uerba, sat adhuc tua nos frustratast fides'.</l>
+		<l>"hem, quid istuc obsecro" inquam "est?" 'ualeas, habeas illam quae placet'.</l>
+		<l>sensi ilico id illas suspicari: sed me reprehendi tamen,</l>
+		<l>nequid de fratre garrulae illi dicerem ac fieret palam.</l>
+		<l>nunc quid faciam? dicam fratris esse hanc?</l>
+		<l>quod minumest opus</l>
+		<l>usquam ecferri.</l>
+		<l>age mitto: fieri potis est ut nequa exeat.</l>		 
+		<l>ipsum id metuo ut credant: tot concurrunt ueri similia:</l>
+		<l>egomet rapui ipse, egomet solui argentum, ad me abductast domum.</l>
+		<l>haec adeo mea culpa fieri fateor.</l>
+		<l>non me hanc rem patri,</l>
+		<l>utut erat gesta, indicasse! exorassem ut eam ducerem.</l>
+		<l>cessatum usque adhuc est: nunc porro, Aeschine, expergiscere!</l>
+		<l>nunc hoc primumst: ad illas ibo, ut purgem me.</l>
+		<l>accedam ad fores.</l>
+		<l>perii: horresco semper, ubi pultare hasce occipio miser.</l>
+		<l>heus heus! Aeschinus sum ego.</l>
+		<l>aperite aliquis actutum ostium.</l>
+		<l>prodit nescioquis: concedam huc.</l>
+		<castItem>MICIO AESCHINVS</castItem>
+		<l><sp who='MI'><speaker>Micio</speaker>Ita uti dixi, Sostrata,</sp></l>
+		<l>facite; ego Aeschinum conveniam, ut quomodo acta haec sunt sciat.</l>	
+		<l>sed quis ostium hic pultavit?</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>pater hercle est: perii.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Aeschine,</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>quid huĭc hic negotist?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>tune has pepulisti fores?</sp></l>	
+		<l>(tacet. quor non ludo hunc aliquantisper? melius est,</l>	
+		<l>quandoquidem hoc numquam mihi ĭpse voluit credere.)</l>
+		<l>nil mihi respondes? ae. non equidem istas, quod sciam.</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>ita? nam mirabar quid hĭc negoti esset tibi.</sp></l>
+		<l>(erubuit: salva res est.)</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>dic sodes, pater,</sp></l>
+		<l>tibi vero quid ĭstic est rei?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>nil mihi quidem.</sp></l>
+		<l>amicu' quidam me a foro abduxit modo</l>
+		<l>huc—advocatum sibi.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>quid?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>ego dicam tibi:</sp></l>
+		<l>habitant hic quaedam mulieres pauperculae;</l>
+		<l>ut opinor, eas non nosse te, et certo scio,</l>	
+		<l>neque enĭm diu huc migrarunt.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>quid tum postea?</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>virgo est cum matre.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>perge</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>haec virgo orbast patre;</sp></l>
+		<l>hic meus amicus illi genere est proxumus:</l>	
+		<l>huic leges cogunt nubere hanc.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>perii!</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>quid est?</sp></l>	
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>nil: recte: perge.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>is venit ut secum avehat,</sp></l>	
+		<l>nam habitat Mileti.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>hem virginem ut secum avehat?</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>sic est.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Miletum usque obsecro?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>ita.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>animo malest.</sp></l>
+		<l>quid ĭpsae? quid aiunt?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>quid ĭllas censes? nil enim.</sp></l>	
+		<l>commenta mater est esse ex alio viro</l>	
+		<l>nescioquo puerum natum, neque eum nominat;</l>	
+		<l>priorem esse illum, non oportere huic dari.</l>	
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>eho nonne haec iusta tibi videntur postea?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>non.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>obsecro non? an ĭllam hinc abducet, pater?</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>quid illam ni abducat?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>factum a vobis duriter</sp></l>
+		<l>inmisericorditerque atque etiam, si est, pater,</l>	
+		<l>dicendum magis aperte, inliberaliter.</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>quăm ob rem?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>rogas me? quid ĭlli tandem creditis</sp></l>
+		<l>fore animi misero quĭ ĭllam consuevit prior,</l>
+		<l>qui infelix haud scio an ĭllam misere nunc amet,</l>
+		<l>quom hanc sibi videbit praesens praesenti eripi,</l>
+		<l>abduci ab oculis? facinus indignum, pater!</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>qua ratione istuc? quis despondit? quis dedit?</sp></l>
+		<l>quoi quando nupsit? auctor his rebus quis est?</l>
+		<l>quor duxit alienam? ae. an sedere oportuit</l>
+		<l>domĭ virginem tam grandem dum cognatus huc</l>	
+		<l>illim veniret exspectantem? haec, mi pater,</l>
+		<l>te dicere aequom fuit et id defendere.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>ridiculum! advorsumne illum causam dicerem</sp></l>
+		<l>quoi veneram advocatu'? sed quid ĭsta, Aeschine,</l>	
+		<l>nostra? aut quid nobis cum illis? abeamus. quid est?</l>	
+		<l>quid lacrumas?</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>pater, obsecro, ausculta.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Aeschine, audivi omnia</sp></l>
+		<l>et scio; nam te amo, quo mage quae agi' curae sunt mihi.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>ita velim me promerentem ames dum vivas, mi pater,</sp></l>	
+		<l>ut me hoc delictum admisisse in me, id mihi vehementer dolet</l>
+		<l>et me tui pudet.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>credo hercle, nam ingenium novi tuom</sp></l>	
+		<l>liberale; sed vereor ne indiligens nimium sies.</l>
+		<l>in qua civitate tandem te arbitrare vivere?</l>
+		<l>virginem vitiasti quam te non ius fuerat tangere.</l>	
+		<l>iam ĭd peccatum primum sane magnum, at humanum tamen:</l>	
+		<l>fecere alii saepe item boni. at postquam id evenit, cedo</l>	
+		<l>numquid circumspexti? aut numquid tute prospexti tibi</l>	
+		<l>quid fieret, qua fieret? si te mi ipsum puduit proloqui,</l>
+		<l>qua resciscerem? haec dum dubitas, menses abierunt decem.</l>	
+		<l>prodidisti te et ĭllam miseram et gnatum, quod quidem ĭn te fuit.</l>	
+		<l>quid? credebas dormienti haec tibi confecturos deos?</l>
+		<l>et ĭllam sine tua opera in cubiculum iri deductum domum?</l>
+		<l>nolim ceterarum rerum te socordem eodem modo.</l>
+		<l>bono animo es, duces uxorem.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>hem.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>bono animo es inquam.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>pater,</sp></l>
+		<l>obsecro, nunc ludi' tu mē?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>ego te? quăm ŏb rem?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>nescio:</sp></l>
+		<l>quia tam misere hoc esse cupio verum, eo vereor magis.</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>abĭ domum ac deos conprecare ut uxorem accersas: abi.</sp></l>	
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>quid? iam uxorem?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>iam.</sp></l> ae. iam?
+		<l><sp who='MI'><speaker>Micio</speaker>iam quantum potest.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>di me, pater,</sp></l>
+		<l>omnes oderint ni mage te quam oculos nunc ego amo meos.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>quid? quam illam?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>aeque.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>perbenigne.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>quid? ĭlle ubist Milesius?</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>periit abiit navem escendit. sed quor cessas?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>abi, pater,</sp></l>
+		<l>tu potius deos conprecare; nam tibi eos certo scio,</l>
+		<l>quo vir melior multo es quăm ego, obtemperaturos magis.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>ego eo intro ut quae opu' sunt parentur: tu fac ut dixi, si sapis.—</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>quid hoc est negoti? hoc est patrem esse aut hoc est filium esse?</sp></l>	
+		<l>si frater aut sodalis esset, qui mage morem gereret?</l>
+		<l>hic non amandus, hicine non gestandus in sinust? hem.</l>	
+		<l>itaque adeo magnam mi iniicit sua commoditate curam.</l>
+		<l>neĭnprudens forte faciam quod nolit: sciens cavebo.</l>	
+		<l>sed cesso ire intro, ne morae meis nuptiis egomet siem?</l>	
+		<castItem>DEMEA</castItem>
+		<l><sp who='de'><speaker>DEMEA</speaker>Defessu' sum ambulando: ut, Syre, te cum tua</sp></l>	
+		<l>monstratione magnu' perdat Iuppiter!</l>
+		<l>perreptavi usque omne oppidum: ad portam, ad lacum,</l>
+		<l>quo non? neque ĭlli fabrica ulla erat nec fratrem homo</l>	
+		<l>vidisse se aibat quisquam. nunc vero domi</l>	
+		<l>certum obsidere est usque donec redierit.</l>
+		<castItem>MICIO DEMEA</castItem>	
+		<l><sp who='MI'><speaker>Micio</speaker>Ibo, illis dicam nullam esse in nobis moram.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>sed ĕccum ipsum. te iamdudum quaero, Micio.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>quidnam?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>fero alia flagitia ad te ingentia</sp></l>	
+		<l>boni illi(u)s adulescentis.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>ecce autem!</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>nova,</sp></l>	
+		<l>capitalia.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>ohe iam.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>ah nescis qui vir sit.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>scio.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>ah stulte, tu de psaltria me somnias</sp></l>
+		<l>agere: hoc peccatum in virginemst civem.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>scio.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>oho scis et patere?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>quidni patiar?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>dic mihi,</sp></l>	
+		<l>non clamas? non insanis?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>non: malim quidem.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>puĕr natust.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>di bene vortant!</sp>/</l>
+		<l><sp who='DE'><speaker>Demea</speaker>virgo nil habet.</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>audivi.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>et ducenda indotatast.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>scilicet.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>quid nunc futurumst?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>id enĭm quod res ipsa fert:</sp></l>
+		<l>illinc huc transferetur virgo.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>o Iuppiter,</sp></l>	
+		<l>istocin pacto oportet? mi. quid faciam amplius?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>quid facias? si non ipsa re tibi ĭstuc dolet.</sp></l>
+		<l>simulare certe est homini'.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>quin iam virginem</sp></l>
+		<l>despondi; res compositast; fiunt nuptiae;</l>
+		<l>dempsi metum omnem: haec mage sunt homini'.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>ceterum</sp></l>
+		<l>placet tibi factum, Micio?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>non, si queam</sp></l>
+		<l>mutare. nunc quom non queo, animo aequo fero.</l>	
+		<l>ita vitast hominum quasi quom ludas tesseris:</l>	
+		<l>si illud quod maxume opus est iactu non cadit,</l>
+		<l>illud quod cecidit forte, id arte ut corrigas.</l>	
+		<l><sp who='DE'><speaker>Demea</speaker>corrector! nemp' tua arte viginti minae</sp></l>
+		<l>pro psaltria periere: quae quantum potest</l>
+		<l>aliquo abiciundast, si non pretio at gratiis.</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>neque est neque illam sane studeo vendere.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>quid igitur facies?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>domi erit.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>pro divom fidem!</sp></l>	
+		<l>meretrix et materfamilias una in domo?</l>
+		<l><sp who='MI'><speaker>Micio</speaker>quor non?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>sanum te credis esse?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>equidem arbitror.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>ita me dĭ ament, ut video tuam ego ineptiam,</sp></l>
+		<l>facturum credo ut habeas quicum cantites.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>quor non?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>et nova nupta eadem haec discet?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>scilicet.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>tŭ ĭnter eas restim ductans saltabis?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>probe.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>probe?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>et tu nobiscum una, si opu' sit.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>ei mihi!</sp></l>	
+		<l>non te haec pudent? mi. iam vero omitte, Demea,</l>
+		<l>tuam istanc iracundiam atque ita uti decet</l>
+		<l>hilarum ac lubentem fac te gnati in nuptiis.</l>	
+		<l>ego hos convenio, post huc redeo.— de. o Iuppiter,</l>
+		<l>hancin vitam! hoscin mores! hanc dementiam!</l>
+		<l>uxor sine dote veniet; intu' psaltriast;</l>
+		<l>domu' sumptuosa; adulescens luxu perditus;</l>
+		<l>senex delirans. ipsa si cupiat Salus,</l>
+		<l>servare prorsu' non potest hanc familiam.</l>
+		<castItem>SYRVS DEMEA</castItem>
+		<l><sp who='SY'><speaker>Syrus</speaker>Edepol, Syrisce, te curasti molliter</sp></l>
+		<l>lauteque munus administrasti tuom:</l>	
+		<l>abĭ. sed postquam intu' sum omnium rerum satur,</l>
+		<l>prodeambulare huc lubitum est.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>illud sis vide:</sp></l>	
+		<l>exemplum disciplinae!</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>ecce autem hic adest</sp></l>
+		<l>senĕx noster. quid fit? quid tu es tristis?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>oh scelus!</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>ohe iam! tu verba fundis hic, Sapientia?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>tun si meus esses,</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>dis quidem esses, Demea,</sp></l>
+		<l>ac tuam rem constabilisses.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>exempla omnibus</sp></l>	
+		<l>curarem ut esses.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>quam ob rem? quid feci?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>rogas?</sp></l>	
+		<l>in ipsa turba atque in peccato maxumo,</l>
+		<l>quod vix sedatum satis est, potatis, scelus,</l>	
+		<l>quasi re bene gesta.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>sane nollem huc exitum.</sp></l>
+		<castItem>DROMO SYRVS DEMEA</castItem>
+		<l><sp who='DR'><speaker>Dromo</speaker>Heus Syre, rogat te Ctesipho ut redeas.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>abi.—</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>quid Ctesiphonem hic narrat?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>nil.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>eho carnufex,</sp></l>
+		<l>est Ctesipho intu'?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>non est.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>quor hic nominat?</sp></l>	
+		<l><sp who='SY'><speaker>Syrus</speaker>est aliu' quidam, parasitaster paullulus:</sp></l>
+		<l>nostin?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>iam scibo.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>quid agi'? quŏ abis?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>mitte me.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>noli inquam.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Non manum abstines, mastigia?</sp></l>	
+		<l>an tibi iam mavis cerebrum dispergam hic?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>abît.—</sp></l>	
+		<l>edepol comissatorem haud sane commodum,</l>	
+		<l>praesertim Ctesiphoni! quid ego nunc agam?</l>
+		<l>nisi, dum haec silescunt turbae, interea in angulum</l>
+		<l>aliquo abeam atque edormiscam hoc villi: sic agam.</l>	
+		<castItem>MICIO DEMEA</castItem>	
+		<l><sp who='MI'><speaker>Micio</speaker>Parata a nobis sunt, ita ŭt dixi, Sostrata:</sp></l>
+		<l>ubi vis . . quisnam a me pepulit tam graviter fores?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>ei mihi! quid faciam? quid agam? quid clamem aut querar?</sp></l>
+		<l>"o caelum, o terra, o maria Neptuni!"</l>
+		<l><sp who='MI'><speaker>Micio</speaker>em tibi!</sp></l>
+		<l>rescivit omnem rem: id nunc clamat: ilicet;</l>	
+		<l>paratae lites: succurrendumst.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>eccum adest</sp></l>
+		<l>communi' corruptela nostrum liberum.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>qtandem reprime iracundiam atque ad te redi.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>repressi redii, mitto maledicta omnia:</sp></l>
+		<l>rĕm ĭpsam putemu'. dictum hoc inter nos fuit</l>
+		<l>(ex tĕ adeo ortumst) ne tu curares meum</l>
+		<l>neve ego tuom? responde.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>qfactumst, non nego.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>quor nunc apud te potat? quor recipis meum?</sp></l>
+		<l>quor emis amicam, Micio? numqui minus</l>
+		<l>mihi idem ius aequomst esse? quid mecumst tibi?</l>
+		<l>quando ego tuom non curo, ne cura meum.</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>non aequom dici'.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>non?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>nam vetu' verbum hoc quidemst,</sp></l>	
+		<l>communia esse amicorum inter se omnia.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>facete! nunc demum istaec nata oratiost?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>ausculta paucis nisi molestumst, Demea.</sp></l>
+		<l>principio, si id te mordet, sumptum filii</l>	
+		<l>quem faciunt, quaeso hoc facito tecum cogites:</l>
+		<l>tu ĭllos duo olim pro re tolerabas tua,</l>	
+		<l>quod sati' putabas tua bona ambobus fore,</l>
+		<l>et me tum uxorem credidisti scilicet</l>	
+		<l>ducturum. eandem illam rationem antiquam optine:</l>
+		<l>conserva quaere parce, fac quam plurumum</l>
+		<l>illis relinquas, gloriam tŭ ĭstam optine.</l>	
+		<l>mea, quae praeter spem evenere, utantur sine.</l>
+		<l>de summa nil decedet: quod hĭnc accesserit</l>
+		<l>id de lucro putato esse omne. haec si voles</l>
+		<l>in animo vere cogitare, Demea,</l>	
+		<l>et mihi et tibi et illis dempseris molestiam.</l>	
+		<l><sp who='DE'><speaker>Demea</speaker>mitto rem: consuetudinem amborum . .</sp></l> 
+		<l><sp who='MI'><speaker>Micio</speaker>mane:</sp></l>
+		<l>scio; istuc ibam. multa in homine, Demea,</l>	
+		<l>signa insunt ex quibu' coniectura facile fit,</l>	
+		<l>duo quom idem faciunt saepe, ut possis dicere</l>	
+		<l>"hoc licet inpune facere huic, illi non licet",</l>	
+		<l>non quo dissimili' res sit sed quŏ ĭs qui facit.</l>
+		<l>quaĕ ego inesse illis video, ut confidam fore</l>
+		<l>ita ŭt volumu'. video eos sapere intellegere, in loco</l>	
+		<l>vereri, inter se amare: scire est liberum</l>
+		<l>ingenium atque animum: quovis illos tu die</l>	
+		<l>redducas. at enĭm metuas nĕ ăb re sint tamen</l>
+		<l>omissiores paullo. o noster Demea,</l>	
+		<l>ad omnia alia aetate sapimus rectius;</l>
+		<l>solum unum hoc vitium adfert senectus hominibus:</l>	
+		<l>adtentiores sumus ad rem omnes quam sat est:</l>
+		<l>quod ĭllos sat aetas acuet. de. ne nimium modo</l>
+		<l>bonae tuae istae nos rationes, Micio,</l>
+		<l>et tuos iste animus aequo' subvortat. mi. tace:</l>	
+		<l>non fiet. mitte iăm ĭstaec; da te hodie mihi:</l>	
+		<l>exporge frontem. de. scilicet ita tempu' fert:</l>
+		<l>faciundumst. ceterum ego rus cras cum filio</l>
+		<l>cum primo luci ibo hinc. mi. de nocte censeo:</l>
+		<l>hodie modo hilarum te face. de. et ĭstam psaltriam</l>
+		<l>una illuc mecum hinc abstraham. mi. pugnaveris:</l>	
+		<l>eŏ pacto prorsum illi adligaris filium.</l>	
+		<l>modo facito ut illam serves. de. ego ĭstuc videro,</l>
+		<l>atque ibi favillae plena, fumi ac pollinis</l>											
+		<l>coquendo sit faxo et molendo; praeter haec</l>
+		<l>meridie ipso faciam ut stipulam colligat:</l>	
+		<l>tam excoctam reddam atque atram quam carbost.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>placet:</sp></l>
+		<l>nunc mihi videre sapere. atque equidem filium</l>
+		<l>tum, etiam si nolit, cogam ut cŭm ĭlla una cubet.</l>	
+		<l><sp who='DE'><speaker>Demea</speaker>derides? fortunatu's qui isto animo sies.</sp></l>	
+		<l>ego sentio . .</l>
+		<l><sp who='MI'><speaker>Micio</speaker>ah pergisne?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>iam iam desino.</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>i ergo intro, et quoi rei est ei rei [hilarum] hunc sumamus diem.</sp></l>	
+		<castItem>DEMEA</castItem>
+		<l>Numquam ita quisquam bene subducta ratione ad vitam fuit</l>
+		<l>quin res aetas usu' semper aliquid adportet novi,</l>
+		<l>aliquid moneat: ut ĭlla quae te scisse credas nescias,</l>
+		<l>et quae tibi putaris prima, in experiundo ut repudies.</l>
+		<l>quod nunc mi evenit; nam ego vitam duram quam vixi usque adhuc</l>
+		<l>iam decurso spatio omitto. id quăm ŏb rem? re ipsa repperi</l>
+		<l>facilitate nil esse homini meliu' neque clementia.</l>
+		<l>id ĕsse verum ex mĕ ătque ex fratre quoivis facilest noscere.</l>	
+		<l>ill' suam semper egit vitam in otio, in conviviis,</l>
+		<l>clemens placidu', nulli laedere os, adridere omnibus;</l>
+		<l>sibi vixit, sibi sumptum fecit: omnes bene dicunt, amant.</l>
+		<l>ego ille agresti' saevo' tristi' parcu' truculentus tenax</l>	
+		<l>duxi uxorem: quam ibi miseriam vidi! nati filii,</l>
+		<l>alia cura. heia autem, dum studeo illis ut quam plurumum</l>
+		<l>facerem, contrivi in quaerundo vitam atque aetatem meam:</l>
+		<l>nunc exacta aetate hoc fructi pro labore ab eis fero,</l>
+		<l>odium; ille alter sine labore patria potitur commoda.</l>	
+		<l>illum amant, me fugitant; illi credunt consilia omnia,</l>	
+		<l>illum diligunt, apud illum sunt ambo, ego desertu' sum;</l>	
+		<l>illum ut vivat optant, meam autem mortem exspectant scilicet.</l>
+		<l>ita eos meŏ labore eductos maxumo hic fecit suos</l>
+		<l>paullo sumptu: miseriam omnem ego capio, hic potitur gaudia.</l>	
+		<l>age age, nunciam experiamur contra ecquid ego possiem</l>
+		<l>blande dicere aut benigne facere, quando hoc provocat.</l>
+		<l> quoque a meis me amari et magni pendi postulo:</l>
+		<l>si id fit dando atque obsequendo, non posteriores feram.</l>
+		<l>deerit: id meă minime refert qui sum natu maxumus.</l>
+		<castItem>SYRVS DEMEA</castItem>
+		<l><sp who='SY'><speaker>Syrus</speaker>Heus Demea, orat frater ne abeas longius.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>quis homo? o Syre noster, salve: quid fit? quid agitur?</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>recte.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>optumest. (iam nunc haec tria primum addidi</sp></l>
+		<l>praeter naturam: "o noster, quid fit? quid agitur?")</l>
+		<l>servom haud inliberalem praebes te et tibi</l>
+		<l>lubens bene faxim.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>gratiam habeo.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>atqui, Syre,</sp></l>	
+		<l>hoc verumst et ĭpsa re experiere propediem.</l>
+		<castItem>GETA DEMEA</castItem>
+		<l><sp who='GE'><speaker>Geta</speaker>Era, ego huc ad hos proviso quam mox virginem</sp></l>	
+		<l>accersant. sed ĕccum Demeam. salvos sies.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>o qui vocare?</sp></l>
+		<l><sp who='GE'><speaker>Geta</speaker>Geta.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Geta, hominem maxumi</sp></l>
+		<l>preti te esse hodie iudicavi animo meo.</l>	
+		<l>năm ĭs mihi profectost servo' spectatus satis</l>	
+		<l>quoi dominu' curaest, ita uti tibi sensi, Geta,</l>	
+		<l>et tibi ob eam rem, siquid usus venerit,</l>
+		<l>lubens bene faxim. (meditor esse adfabilis,</l>	
+		<l>et bene procedit.)</l>
+		<l><sp who='GE'><speaker>Geta</speaker>bonus es quŏm haĕc existumas.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>paullatim plebem primulum facio meam.</sp></l>	
+		<castItem>AESCHINVS DEMEA SYRVS GETA</castItem>	
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>Occidunt mequidem dum nimi' sanctas nuptias</sp></l>
+		<l>studĕnt facere: in adparando consumunt diem.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>quid agitur, Aeschine?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>ehĕm, pater mi, tŭ hĭc eras?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>tuos hercle vero et animo et natura pater,</sp></l>	
+		<l>qui tĕ amat plus quam hosce oculos. sed quor non domum</l>	
+		<l>uxorem accersi'?</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>cupio; verum hoc mihi moraest,</sp></l>
+		<l>tibicina et hymenaeum qui cantent.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>eho</sp></l>
+		<l>vin tu huic seni auscultare?</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>quid?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>missa haec face,</sp></l>
+		<l>hymenaeum turbas lampadas tibicinas,</l>
+		<l>atque hanc in horto maceriam iubĕ dirui</l>
+		<l>quantum potest: hac transfer: unam fac domum;</l>	
+		<l>transduce et matrem et familiam omnem ad nos.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>placet,</sp></l>
+		<l>pater lepidissime.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>(euge! iam lepidus vocor.</sp></l>
+		<l>fratri aedes fient perviae, turbam domum</l>
+		<l>adducet, [et] sumptu amittet multa: quid mea?</l>	
+		<l>ego lepidus ineo gratiam. iubĕ nunciam</l>
+		<l>dinumeret illi Babylo viginti minas.)</l>
+		<l>Syre, cessas ire ac facere?</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>quid ago?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>dirue.</sp></l>
+		<l>tu ĭllas abi et transduce.</l>
+		<l><sp who='GE'><speaker>Geta</speaker>di tibi, Demea,</sp></l>
+		<l>bene faciant, quom te video nostrae familiae</l>
+		<l>tăm ĕx animo factum velle.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>dignos arbitror.—</sp></l>	
+		<l>quid tŭ ais?</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>sic opinor.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>multo rectiust</sp></l>
+		<l>quăm ĭllam puerperam hac nunc duci per viam</l>
+		<l>aegrotam.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>nil enĭm meliu' vidi, mi pater.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>sic soleo. sed ĕccum Micio egreditur foras.</sp></l>
+		<castItem>MICIO DEMEA AECHINVS</castItem>	
+		<l><sp who='MI'><speaker>Micio</speaker>Iubĕt frater? ubi is est? tu[n] iubes hoc, Demea?</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>ego vero iubeo et hac re et aliis omnibus</sp></l>
+		<l>quam maxume unam facere nos hanc familiam,</l>
+		<l>colere adiuvare adiungere.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>ita quaeso, pater.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>haud aliter censeo.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>immo hercle ita nobis decet.</sp></l>
+		<l>primum hui(u)s uxorist mater.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>est. quid postea?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>proba et modesta. mi. ita aiunt. de. natu grandior.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>scio.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>parere iamdiu haec per annos non potest;</sp></l>
+		<l>nec qui eam respiciat quisquam est: solast.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>quam hic rem agit?</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>hanc te aequomst ducere, et te operam ut fiat dare.</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>me ducere autem?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>te.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>me?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>te inquam.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>ineptis.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>si tu sis homo,</sp></l>	
+		<l>hic faciat.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>mi pater!</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>quid tu autem huic, asine, auscultas?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>nil agis:</sp></l>
+		<l>fieri aliter non potest.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>deliras.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>sine te exorem. mi pater.</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>insanis: aufer.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>age, da veniam filio.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>satĭn sanus es?</sp></l>
+		<l>ego novo' maritus anno demum quinto et sexagensumo</l>	
+		<l>fiam atque anum decrepitam ducam? idne estis auctores mihi?</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>face: promisi ego ĭllis.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>promisti autem? de te largitor, puer.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>age, quid siquid te maius oret?</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>quasi non hoc sit maxumum.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>da veniam.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>ne gravare.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>fac, promitte.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>non omittitis?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>non, nisi te exorem.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>vis est haec quidem.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>age prolixe, Micio.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>etsi hoc mihi pravom ineptum absurdum atque alienum a vita mea</sp></l>	
+		<l>videtur, si vos tanto opere istuc volti', fiat.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>bene facis.</sp></l>
+		<l>merito te amo.</l> 
+		<l><sp who='DE'><speaker>Demea</speaker>verum . . (quid ego dicam, hoc quom confit quod volo?)</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>quid nunc quod restat?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>Hegio—est his cognatu' proxumus</sp></l>	
+		<l>adfini' nobis, pauper: bene nos aliquid facere illi decet.</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>quid facere?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>agellist hic sub urbe paullum quod locitas foras:</sp></l>	
+		<l>huic demu' qui fruatur.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>paullum id autemst?</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>si multumst, tamen</sp></l>
+		<l>faciundumst: pro patre huic est, bonus est, noster est; recte datur.</l>	
+		<l>postremo non meum illud verbum facio quod tu, Micio,</l>
+		<l>bene et sapienter dixti dudum: "vitium commune omniumst</l>
+		<l>quod nimium ad rĕm ĭn senecta adtenti sumus"? hanc maculam nos decet</l>
+		<l>effugere. et dictumst vere et re ipsa fieri oportet.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>gaudeo.</sp></l>
+		<l>quid ĭstic? dabitur quando quidem hic volt.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>mi pater!</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>nunc tu germanu's pariter animo et corpore.</sp></l>
+		<l>(suo sibi gladio hunc iugulo.)</l>	
+		<castItem>SYRVS DEMEA MICIO AESCHINVS</castItem>	
+		<l><sp who='SY'><speaker>Syrus</speaker>Factumst quod iussisti, Demea.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>frugi homo's. ergo edepol hodie meă quidem sententia</sp></l>
+		<l>iudico Syrŭm fieri esse aequom liberum.</l>
+		 mi. istunc liberum?	960
+		<l>quodnam ob factum?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>multa.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>o noster Demea, edepol vir bonu's.</sp></l>	
+		<l>ego ĭstos vobis usque a pueris curavi ambo sedulo:</l>	
+		<l>docui monui bene praecepi semper quae potui omnia.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>res apparet. et quidĕm porro haec, opsonare cum fide,</sp></l>
+		<l>scortum adducere, adparare de die convivium:</l>
+		<l>non mediocris hominis haec sunt officia.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>o lepidum caput!</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>postremo hodie in psaltria hac emunda hic adiutor fuit,</sp></l>
+		<l>hic curavit: prodesse aequomst: alii meliores erunt.</l>	
+		<l>denique hic volt fieri.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>vin tu hoc fieri?</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>cupio.</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>si quidem hoc</sp></l>	
+		<l>volti': Syre, eho ăccede huc ad me: liber esto.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>bene facis.</sp></l>
+		<l>omnibu' gratiam habeo et seorsum tibi praeterea, Demea.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>gaudeo.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>et ego.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>credo. utinam hoc perpetuom fiat gaudium,</sp></l>
+		<l>Phrygiam ut uxorem meam una mecum videam liberam!</l>	
+		<l><sp who='DE'><speaker>Demea</speaker>optumam quidĕm mulierem.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>et quidĕm tUO nepoti hui(u)s filio</sp></l>
+		<l>hodie prima mammam dedit haec.</l>
+		<l><sp who='DE'><speaker>Demea</speaker>hercle vero serio,</sp></l>
+		<l>siquidem prima dedit, haud dubiumst quin emitti aequom siet.</l>	
+		<l><sp who='MI'><speaker>Micio</speaker>ob eam rem?</sp></l> 
+		<l><sp who='DE'><speaker>Demea</speaker>ob eam. postremo a me argentum quantist sumito.</sp></l>	
+		<l><sp who='SY'><speaker>Syrus</speaker>di tibi, Demea, omnes semper omnia optata offerant!</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>Syre, processisti hodie pulchre.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>siquidem porro, Micio,</sp></l>	
+		<l>tu tuom officium facies atque huic aliquid paullum prae manu</l>
+		<l>dederis, unde utatur, reddet tibi cito.</l>
+		<l><sp who='SY'><speaker>Syrus</speaker>istoc vilius.</sp></l>
+		<l><sp who='DE'><speaker>Demea</speaker>frugi homost.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>reddam hercle; da modo.</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>age, pater!</sp></l>
+		<l><sp who='MI'><speaker>Micio</speaker>post consulam.</sp></l>	
+		<l><sp who='DE'><speaker>Demea</speaker>faciet.</sp></l>
+		<l><sp who='SY'><speaker>Syrus</speaker>o vir optume!</sp></l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>o pater mi festivissime!</sp></l>	
+		<l><sp who='MI'><speaker>Micio</speaker>quid ĭstuc? quae res tam repente mores mutavit tuos?</sp></l>
+		<l>"quod prolubium? quaĕ ĭstaec subitast largitas?"</l>
+		<l><sp who='DE'><speaker>Demea</speaker>dicam tibi:</sp></l>
+		<l>ut id ŏstenderem, quod tĕ ĭsti facilem et festivom putant,</l>
+		<l>id non fieri ex vera vita neque adeo ex aequo et bono,</l>
+		<l>sed ĕx adsentando indulgendo et largiendo, Micio.</l>	
+		<l>nunc adeo si ob eam rem vobis mea vita invisa, Aeschine, est,</l>	
+		<l>quia non iusta iniusta, prorsus omnia omnino obsequor,</l>
+		<l>missa facio: effundite emite, facite quod vobis lubet.</l>	
+		<l>sed si [id] volti' potiu', quae vos propter adulescentiam</l>	
+		<l>minu' videti', magis inpense cupiti', consulitis parum,</l>	
+		<l>haec reprehendere et corrigere me et [ob]secundare in loco,</l>
+		<l>ecce me qui id faciam vobis.</l>
+		<l><sp who='AE'><speaker>Aeschinvs</speaker>tibi, pater, permittimus:</sp></l>
+		<l>plus scis quid opu' factost. sed de fratre quid fiet?</l>
+		<l><sp who='DE'><speaker>Demea</speaker>sino:</sp></l>
+		<l>habeat: in ĭstac finem faciat.</l>
+		<l><sp who='MI'><speaker>Micio</speaker>istuc recte.
+		<l><sp who="CANTOR"><speaker>Cantor</speaker>plaudite!</sp></l> 
+	</body>
+		<back>
+			<div type="colophon">
+				<p>Typeset in Haselfoot 37 and Henry 8. Printed and bound by Whistleshout, South Africa.</p>
+			</div>
+		</back>
+	</oggetto>
+</archivio>
+ </TEI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:ext="http://www.example.com/skos-core-extensions#">>
+ <skos:ConceptScheme rdf:about="http://www.example.com/concepts#ellissi">
+    <dc:title>Figura retorica dell'ellissi</dc:title>
+    <dc:description>Esempi di figura retorica estratti dal testo dell'Andria</dc:description>
+    <dc:creator>Martina Cofano</dc:creator>
+    <dc:date type="subject">169 a.C.</dc:date>
+    <dc:date tyoe="creation">09-07-2021</dc:date>
+    <dc:language>Italian</dc:language>
+    <dc:subject type="classification-scheme">Literature and rhetoric Literatures of Latin languages Latin poetry</dc:subject>
+    <dc:source xml:id="LLT">Library of Latin Texts</dc:source>
+    <dc:provwnance>Teubner Digitial Editions</dc:provwnance>
+ <skos:prefLabel xml:lang="it">ellissi</skos:prefLabel>
+ 
+ <skos:altLabel xml:lang="it">omissione</skos:altLabel>
+ <skos:altLabel xml:lang="en">ellipsis</skos:altLabel>
+ <skos:hiddenLabel xml:lang="it">ellisse</skos:hiddenLabel>
+ <skos:definition xml:lang="it">La figura retorica dell’ellissi è stata principalmente riscontrata nella forma di “prassi espressiva”, consolidata e ripetuta.</skos:definition>
+ <skos:scopeNote xml:lang="it">Questo tipo di 'reticenza’, più grammaticale che intenzionale, trascura alcuni aspetti centrali come i motivi che spingono al silenzio, riducendoli ad un mero difetto di autocontrollo.</skos:scopeNote>
+ <skos:example xml:lang="lat">
+     <q>Quid hoc?</q>
+     <q>Quid?</q>
+            <ext:hasomitted
+            rdf:resource="http://www.example.com/ellissiy#est"/>
+ </skos:example>
+ <skos:historyNote>Non si deve pensare che sia stato Terenzio ad impiegare per la prima volta tale figura retorica in ambito comico, dal momento che già il suo modello Menandro ne faceva un uso assai importante. Tra le note storiche a proposito del concetto, si registrano le definizioni date da Quintiliano, Aquila e Isidoro di SIviglia.</skos:historyNote>
+ <skos:editorialNote>Consultare De Martino-Sommerstein per una definizione più completa del concetto.</skos:editorialNote>
+    <dc:rights>Copyright 2021 Martina Cofano - CC-BY-SA, Creative Commons Attribuzione 3.0 Internazionale, Share Alike</dc:rights>
+</skos:ConceptScheme>
+
+</rdf:RDF>

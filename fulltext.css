@@ -1,0 +1,64 @@
+.col {
+  width: 33%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  background-color: #9999ff;
+  padding: 2%;
+  border-radius: 9%;
+  margin-right: 5%;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+nav {padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+  }
+
+.card-img-top {
+  padding: 60px;
+  height: 550px;
+  width: 400px;
+}
+
+.card-body {
+  padding: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h5 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+iframe {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-right: -4px;
+}
+
+footer {
+    background-color: #c2c2a3;
+    padding-bottom: 2,5%;
+    padding-top: 2,5%;
+    text-align: center;
+    color: black;
+    height:10%;
+    font-size: 100%;
+    clear: both;
+    margin-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+

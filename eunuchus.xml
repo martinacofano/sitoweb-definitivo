@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ride.8.2">
+	<archivio>
+	<oggetto n="1">
+		<teiHeader xml:lang="it">
+		<fileDesc>
+			<titleStmt>
+				<!--Titolo della risorsa-->
+				<title>Eunuchus</title>
+				<author>
+					<name>Terenzio Afro, Publio</name>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<!--Informazioni sulla distribuzione della risorsa-->
+				<publisher>Brepols Publishers NV</publisher>
+				<distributor><authority>Università di Bologna</authority></distributor>
+				<availability status="restricted">
+				<p>Disponibile con accesso limitato per scopi di ricerca accademica e insegnamento.</p><licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distribuito sotto la licenza di Creative Commons Attribution-ShareAlike 3.0 Unported</licence>
+				</availability>
+			</publicationStmt>
+			<editionStmt>
+				<edition>Edizione per il proxy Unibo, <date>10-08-2021</date></edition>
+			</editionStmt>
+			<respStmt>
+				<resp>Edited and made available by</resp>
+				<name xml:id="EV">Brepols Publishers NV</name>
+			</respStmt>
+				<!--Informazioni sulla fonte primaria della risorsa-->
+			<sourceDesc>
+				<respStmt>
+					<resp>Edited and made available by</resp>
+					<name xml:id="EV">Brepols Publishers NV</name>
+				</respStmt>
+					<!--Informazioni sulla fonte primaria della risorsa-->
+				<sourceDesc>
+					<title level="m">Eunuchus. P. Terenti Afri</title>
+						<author>Terentius (Publius Terentius Afer)</author>	
+						<publisher>Walter de Gruyter</publisher>
+					<distributor>Biblioteca Teubneriana Latina</distributor>
+					<editor>Fleckeisen, Alfred</editor>
+					<pubPlace>Leipzig</pubPlace>
+					<idno type="DOI">/10.1515/9783111327532.105</idno>
+					<date when="1898-12">December 31, 1898</date>
+					 <availability status="restricted">
+					 <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distribuito con la licenza Creative Commons Attribution-ShareAlike 3.0.
+					 </licence>
+					</availability>
+				</sourceDesc>
+				<seriesStmt>
+					<title level="s">Library of Latin Texts - Series A (LLT-A)(era: CLCLT)</title>
+					<respStmt>
+				  		<resp>Università di Bologna</resp>
+				  		<name>Area Biblioteche e Servizi allo Studio (ABIS)</name>
+					</respStmt>
+				</seriesStmt>
+				<note>Abbonamento sottoscritto dalla Biblioteca Umanistica ''Ezio Raimondi'', dalla Biblioteca Centrale del Campus di Ravenna e dalla Biblioteca del Dipartimento di Storia Culture Civiltà - DiSCi con il contributo dell'Area Biblioteche e Servizi allo Studio (ABIS).</note>
+				<note>Contenuti non ricercabili in AlmaStart.</note>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Full Text trasctitto, con evidenziate sezioni retoriche compatibili col tema del progetto.</p>
+			</projectDesc>
+			<samplingDecl>
+				<p>La trascrizione del testo di Terenzio è costellata di evidenziature, avvenute previo studio dei meccanismi retorici e nella tradizione classica e nel teatro terenziano. Queste evidenziature, classificate in una sezione apposita del sito web corrispondono all'applicazione e al riconoscimento di ellissi e aposiopesi nel testo drammatico.</p>
+			</samplingDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la" usage="100">Latin</language>
+			</langUsage>
+			<keywords>
+				<term>Teatro Latino</term>
+				<term>Figure retoriche</term>
+				<term>Ellissi</term>
+				<term>Aposiopesi</term>
+				<term>Silenzio</term>
+			</keywords>
+			<abstract xml:lang="it">
+				<p>Questo studio riguarda la classificazione di fenomeni retorici del silenzio riconoscibili. Commenti e contributi sono graditi al fine di rendere quello presente, un documento utile anche a chi se ne vorrà servire in un secondo momento. L'argomento è affascinante perché percorre tonalità inesplorate della rappresentazione in negativo: dire di più attraverso la reticenza, voluta o casuale.</p>
+			</abstract>
+			<abstract xml:lang="en">
+				<p>This study deals with the classification of visible phenomena of silence. Any comment or contribution is welcome to create a useful document for those who will make use of it, even in the future. The topic is fascinating, because it laps unexplored shades of speaking in the negative: say more through reticence, which can be intentional or by chance.</p>
+			</abstract>
+			<calendarDesc>
+				<calendar xml:id="cal_AD"><p>Anno Domini (Christian Era)</p></calendar>
+			</calendarDesc>
+		</profileDesc>	
+ 	</teiHeader>
+ 	<text>
+ 	<front>
+ 		<docTitle>
+ 			<titlePart level="m" type="principale">EUNUCHUS</titlePart>
+ 		</docTitle>	
+ 		<docAuthor>P. TERENTI AFRI.</docAuthor>
+ 		<prologue>
+ 			<head>PROLOGVS</head>
+ 				<l>Si quisquamst qui placere se studeat bonis</l>
+ 				<l>quam plurumis et minume multos laedere,</l>
+ 				<l>in eis poeta hic nomen profitetur suom.</l>
+	 			<l>tum siquis est, qui dictum in se inclementius</l>
+	 			<l>existumabit esse, is sic existumet,</l>
+	 			<l>responsum, non dictum esse, quia laesit prior,</l>
+	 			<l>qui bene uortendo et easdem scribendo male</l>
+	 			<l>ex Graecis bonis Latinas fecit non bonas.</l>
+	 			<l>idem Menandri Phasma nuper perdidit</l>
+	 			<l>atque in Thensauro scripsit, causam dicere</l>
+	 			<l>prius unde petitur, aurum qua re sit suom,</l>
+	 			<l>quam illum qui petit, unde is sit thensaurus sibi</l>
+	 			<l>aut unde in patrium monumentum peruenerit.</l>
+	 			<l>dehinc ne frustretur ipse se aut sic cogitet</l>
+	 			<l>'defunctus iam sum, mihi est quod dicat mihi':</l>
+	 			<l>is ne erret moneo et desinat lacessere.</l>
+	 			<l>habeo alia multa, quae nunc condonabitur,</l>
+	 			<l>quae proferentur, post si perget laedere,</l>
+	 			<l>ita ut facere instituit.</l>
+ 				<l>quam nunc acturi sumus</l>
+	 			<l>Menandri Eunuchum, postquam aediles emerunt,</l>
+	 			<l>perfecit sibi ut inspiciundi esset copia,</l>
+	 			<l>magistratus quom ibi adessent.</l>
+	 			<l>occeptast agi.</l>
+	 			<l>exclamat furem, non poetam fabulam</l>
+	 			<l>dedisse et nil dedisse uerborum tamen:</l>
+	 			<l>Colacem esse Naeui et Plauti, ueterem fabulam,</l>
+	 			<l>parasiti personam inde ablatam et militis.</l>
+ 			 	<l>si id est peccatum, peccatum inprudentiast</l>
+	 			<l>poetae, non qui furtum facere studuerit.</l>
+	 			<l>id ita esse uos iam iudicare poteritis.</l>
+	 			<l>Colax Menandrist: in east parasitus colax</l>
+	 			<l>et miles gloriosus: eas se hic non negat</l>
+	 			<l>personas transtulisse in Eunuchum suam</l>
+	 			<l>ex Graeca; sed ea ex fabula factas prius</l>
+	 			<l>Latinas scisse sese, id uero pernegat.</l>
+	 			<l>quod si personis isdem huic uti non licet,</l>
+	 			<l>qui magis licet currentem seruom scribere,</l>
+	 			<l>bonas matronas facere, meretrices malas,</l>
+	 			<l>parasitum edacem, gloriosum militem</l>
+	 			<l>puerum supponi, falli per seruom senem,</l>
+	 			<l>amare, odisse, suspicari?</l>	 			 
+	 			<l>denique</l>
+	 			<l>nullumst iam dictum, quod non sit dictum prius.</l>
+	 			<l>qua re aequomst uos cognoscere atque ignoscere,</l>
+	 			<l>quae ueteres factitarunt si faciunt noui.</l>
+	 			<l>date operam, cum silentio animum attendite,</l>
+	 			<l>ut pernoscatis, quid sibi Eunuchus uelit.</l>
+	 	</prologue>
+	 		<castList>
+	 			<head>PERSONAE</head>
+	 			<castItem>PHAEDRIA ADVLESCENS PARMENO SERVOS THAIS MERETRIX GNATHO PARASITVS CHAEREA ADVLESCENS THRASO MILES PYTHIAS ANCILLA CHREMES ADVLESCENS ANTIPHO ADVLESCENS DORIAS ANCILLA DORVS EVNVCHVS SANGA SERVOS SOPHRONA NVTRIX [LACHES] SENEX.</castItem>
+	 		</castList> 
+		</front>
+	</text>
+	<body>
+	 			<castItem>PHAEDRIA PARMENO ADVLESCENS SERVOS.</castItem>
+	 			<sp who='PH'><speaker>Phedria</speaker><l>Quid igitur faciam? non eam ne nunc quidem,</l></sp>
+	 			<l>quom arcessor ultro?</l>
+	 			<l>an potius ita me comparem,</l>
+	 			<l>non perpeti meretricum contumelias?</l>
+	 			<l>exclusit; reuocat: redeam? non, si me obsecret.</l>
+	 			<sp who='PA'><speaker>Parmeno</speaker><l>Siquidem hercle possis, nil prius neque fortius</l></sp>
+	 			<l>uerum si incipies neque pertendes gnauiter</l>
+	 			<l>atque, ubi pati non poteris, quom nemo expetet,</l>
+	 			<l>infecta pace ultro ad eam uenies, indicans</l>
+	 			<l>te amare et ferre non posse: actumst, ilicet,</l>
+	 			<l>peristi: eludet, ubi te uictum senserit.</l>
+	 			<l>proin tu, dum est tempus, etiam atque etiam cogita,</l>
+	 			<l>ere: quae res in se neque consilium neque modum</l>
+	 			<l>habet ullum, eam consilio regere non potes.</l>
+	 			<l>in amore haec omnia insunt uitia: iniuriae,</l>
+	 			<l>suspitiones, inimicitiae, indutiae,</l>
+	 			<l>bellum, pax rursum: incerta haec si tu postules</l>
+	 			<l>ratione certa facere, nihilo plus agas</l>
+	 			<l>quam si des operam ut cum ratione insanias.</l>
+	 			<l>et quod nunc tute te cum iratus cogitas</l>
+	 			<l>'ego ne illam, quae illum, quae me, quae non ...?</l>	 
+	 			<l>sine modo,</l>
+	 			<l>mori me malim: sentiet qui uir siem':</l>
+	 			<l>haec uerba illa una me hercle falsa lacrimula,</l>
+	 			<l>quam oculos terendo misere uix ui expresserit,</l>
+	 			<l>restinguet, et te ultro accusabit, et dabis</l>
+	 			<l>ultro supplicium.</l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Indignum facinus! nunc ego</sp></l>
+	 			<l>et illam scelestam esse et me miserum sentio:</l>
+	 			<l>et taedet et amore ardeo, et prudens sciens,</l>
+	 			<l>uiuos uidens que pereo, nec quid agam scio.</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Quid agas? nisi ut te redimas captum quam queas</sp></l>
+	 			<l>minumo; si nequeas paululo, at quanti queas;</l>
+	 			<l>et ne te adflictes.</l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Ita ne suades?</sp></l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Si sapis.</sp></l>
+	 			<l>neque praeterquam quas ipse amor molestias.</l>
+				<l>habet addas, et illas quas habet recte feras.</l>
+	 			<l>sed eccam ipsa egreditur, nostri fundi calamitas:</l>
+	 			<l>nam quod nos capere oportet, haec intercipit.</l>
+	 			<castItem>THAIS PHAEDRIA PARMENO MERETRIX ADVLESCENS SERVOS.</castItem>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Miseram me! uereor ne illud grauius Phaedria</sp></l>
+	 			<l>tulerit neue aliorsum atque ego feci acceperit,</l>
+	 			<l>quod heri intro missus non est.</l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Totus, Parmeno,</sp></l>
+	 			<l>tremo horreo que, postquam aspexi hanc.</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Bono animo es:</sp></l>
+	 			<l>accede ad ignem hunc, iam calesces plus satis.</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Quis hic loquitur? ehem, tu n' hic eras, mi Phaedria?</sp></l>
+	 			<l>quid hic stabas? quor non recta intro ibas?</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Ceterum</sp></l>
+	 			<l>de exclusione uerbum nullum?</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Quid taces?</sp></l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Sane quia uero hae mihi patent semper fores</sp></l>
+	 			<l>aut quia sum apud te primus.</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Missa istaec face.</sp></l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Quid 'missa? o Thias, Thais, utinam esset mihi</sp></l>
+	 			<l>pars aequa amoris te cum ac pariter fieret,</l>
+	 			<l>ut aut hoc tibi doleret itidem ut mihi dolet,</l>
+	 			<l>aut ego istuc abs te factum nihili penderem!</l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Ne crucia te obsecro, anime mi mi Phaedria.</sp></l>
+	 			<l>non pol, quo quemquam plus amem aut plus diligam,</l>
+	 			<l>eo feci: sed res ita erat, faciundum fuit.</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Credo, ut fit, misera prae amore exclusti hunc foras.</sp></l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Sicine agis, Parmeno? age; sed huc qua gratia</sp></l>
+	 			<l>te arcessi iussi, ausculta.</l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Fiat.</sp></l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Dic mihi</sp></l>
+	 			<l>hoc primum, potin est hic tacere?</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Ego ne? optume.</sp></l>
+	 			<l>uerum heus tu, hac lege tibi meam astringo fidem:</l>
+	 			<l>quae uera audiui, taceo et contineo optume;</l>
+	 			<l>sin falsum aut uanum aut finctumst, continuo palamst:</l>
+	 			<l>plenus rimarum sum, hac atque illac perfluo.</l>
+	 			<l>proin tu, taceri si uis, uera dicito.</l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Mater mihi Samia fuit, ea habitabat Rhodi.</sp></l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Potest taceri hoc.</sp></l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Ibi tum matri paruolam</sp></l>
+	 			<l>puellam dono quidam mercator dedit</l>
+	 			<l>ex Attica hinc abreptam.</l>
+	 			<l><sp who='PH'><speaker>Phedria</speaker>Ciuem ne? TH. Arbitror, certum</sp></l>
+	 			<l>non scimus.</l>
+	 			<l>matris nomen et patris</l>
+	 			<l>dicebat ipsa; patriam et signa cetera</l>
+	 			<l>neque scibat neque per aetatem etiam potis erat.</l>
+	 			<l>mercator hoc addebat: e praedonibus,</l>
+	 			<l>unde emerat, se audisse abreptam e Sunio.</l>
+	 			<l>mater ubi accepit, coepit studiose omnia</l>
+	 			<l>docere, educere, ita uti si esset filia.</l>
+	 			<l>sororem plerique esse credebant meam.</l>
+	 			<l>ego cum illo, quo cum tum uno rem habebam hospite,</l>
+	 			<l> huc: qui mihi reliquit haec quae habeo omnia.</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Vtrumque hoc falsumst: ecfluet.</sp></l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Qui istuc?</sp></l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Quia</sp></l>
+	 			<l>neque tu uno eras contenta neque solus dedit:</l>
+	 			<l>nam hic quoque bonam magnam que partem ad te attulit.</l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Itast; sed sine me peruenire quo uolo.</sp></l>
+	 			<l>interea miles, qui me amare occeperat,</l>
+	 			<l>in Cariamst profectus: te interea loci</l>
+	 			<l>cognoui.</l>
+	 			<l>tute scis postilla quam intumum</l>
+	 			<l>habeam te et mea consilia ut tibi credam omnia.</l>
+	 			<l><sp who='PA'><speaker>Parmeno</speaker>Ne hoc quidem tacebit Parmeno.</sp></l>
+	 			<l><sp who='TH'><speaker>Thais</speaker>Oh, dubium ne id est?</sp></l>
+	 			<l>hoc agite, amabo.</l>
+	 			<l>mater mea illic mortuast</l>
+	 			<l>nuper: quoius frater aliquantum ad remst auidior.</l>
+	 			<l>is ubi esse hanc forma uidet honesta uirginem</l>
+	 			<l>et fidibus scire, pretium sperans ilico</l>
+	 			<l>producit, uendit.</l>
+	 			<l>forte fortuna adfuit</l>
+	 			<l>hic meus amicus: emit eam dono mihi,</l>
+	 			<l>inprudens harum rerum ignarus que omnium.</l>
+	 			<l>is uenit: postquam sensit me te cum quoque</l>
+	 			<l>rem habere, fingit causas ne det sedulo:</l>
+	 			<l>ait, si fidem habeat se iri praepositum tibi</l>
+	 			<l>apud me, ac non id metuat, ne, ubi acceperim,</l>
+	 			<l>sese relinquam, uelle se illam mihi dare;</l>
+	 			<l>uerum id uereri.</l> 
+	 			<l>sed ego quantum suspicor,</l>
+	 			<l>ad uirginem animum adiecit.</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Etiam ne amplius?</sp></l>
+ 				<l><sp who='TH'><speaker>Thais</speaker>Nil: nam quaesiui.</sp></l>
+ 				<l>nunc ego eam, mi Phaedria,</l>
+ 				<l>multae sunt causae quam ob rem cupio abducere:</l>
+ 				<l>primum quod soror est dicta, praeterea ut suis</l>
+ 				<l>restituam ac reddam.</l>
+ 				<l>sola sum: habeo hic neminem</l>
+ 				<l>neque amicum neque cognatum.</l>
+ 				<l>quam ob rem, Phaedria,</l>
+ 				<l>cupio aliquos parere amicos benficio meo.</l>
+				<l>id amabo adiuta me, quo id fiat facilius.</l>
+ 				<l>sine illum priores partis hosce aliquot dies</l>
+ 				<l>apud me habere.</l>
+ 				<l>nil respondes?</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Pessuma,</sp></l>
+ 				<l>ego n' quicquam cum istis factis tibi respondeam?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Eu noster, laudo: tandem perdoluit: uir es.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>At ego nescibam, quorsum tu ires: 'paruola</sp></l>
+ 				<l>hinc est abrepta; eduxit mater pro sua;</l>
+ 				<l>soror dictast; cupio abducere, ut reddam suis:'</l>
+ 				<l>nempe omnia haec nunc uerba huc redeunt denique:</l>
+ 				<l>ego excludor, ille recipitur.</l>
+ 				<l>qua gratia?</l>
+ 				<l>nisi si illum plus quam me amas et istam nunc times,</l>
+ 				<l>quae aduectast, ne illum talem praeripiat tibi.</l>
+ 				<l><sp who='TH'><speaker>Thais</speaker>Ego id timeo? PH. Quid te ergo aliud sollicitat? cedo.</sp></l>
+ 				<l>num solus ille dona dat? numcubi meam</l>
+ 				<l>benignitatem sensisti in te claudier?</l>
+ 				<l>nonne ubi mi dixti cupere te ex Aethiopia</l>
+ 				<l>ancillulam, relictis rebus omnibus</l>
+ 				<l>quaesiui?</l>
+ 				<l>porro eunuchum dixti uelle te,</l>
+ 				<l>quia solae utuntur eis reginae: repperi,</l>
+ 				<l>heri minas uiginti pro ambobus dedi.</l>
+ 				<l>contemptus abs te tamen haec habui in memoria:</l>
+ 				<l>ob haec facta abs te spernor! TH. Quid istic, Phaedria?</l>
+ 				<l>quamquam illam cupio abducere atque hac re arbitror</l>
+ 				<l>id fieri posse maxume: uerum tamen</l>
+ 				<l>potius quam te inimicum habeam, faciam ut iusseris.</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Vtinam istuc uerbum ex animo ac uere diceres</sp></l>
+ 				<l>'potius quam te inimicum habeam'! si istuc crederem</l>
+ 				<l>sincere dici, quiduis possem perpeti.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Labascit ictus uno uerbo quam cito!</sp></l>
+ 				<l><sp who='TH'><speaker>Thais</speaker>Ego non ex animo misera dico?</sp></l> 
+ 				<l>quam ioco</l>
+ 				<l>rem uoluisti a me tandem, quin perfeceris?</l>
+ 				<l>ego inpetrare nequeo hoc abs te, biduom</l>
+ 				<l>saltem ut concedas solum.</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Siquidem biduom:</sp></l>
+ 				<l>uerum ne fiant isti uiginti dies.</l>
+ 				<l><sp who='TH'><speaker>Thais</speaker>Profecto non plus biduom aut ...</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>'Aut' nil moror.</sp></l> 
+ 				<l><sp who='TH'><speaker>Thais</speaker>Non fiet: hoc modo sine te exorem.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Scilicet</sp></l>
+ 				<l>faciundumst quod uis.</l>
+ 				<l><sp who='TH'><speaker>Thais</speaker>Merito te amo, bene facis.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Rus ibo: ibi hoc me macerabo biduom.</sp></l>
+ 				<l>ita facere certumst: mos gerundust Thaidi.</l> 				 
+ 				<l>tu, Parmeno, huc fac illi adducantur.</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Maxume.</sp></l>
+ 				<l>-</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>In hoc biduom, mea Thais, uale.</sp></l>
+ 				<l><sp who='TH'><speaker>Thais</speaker>Mi Phaedria</sp></l>
+ 				<l>et tu: numquid uis aliud?</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Ego ne quid uelim?</sp></l>
+ 				<l>cum milite isto praesens absens ut sies;</l>
+ 				<l>dies noctis que me ames, me desideres,</l>
+ 				<l>me somnies, me exspectes, de me cogites,</l>
+ 				<l>me speres, me te oblectes, me cum tota sis:</l>
+ 				<l>meus fac sis postremo animus, quando ego sum tuos.</l>
+ 				<l>-</l>
+ 				<l><sp who='TH'><speaker>Thais</speaker>Me miseram! fors fuat an mi hic paruam habeat fidem</sp></l>
+ 				<l>atque ex aliarum ingeniis nunc me iudicet.</l>
+ 				<l>ego pol, quae mihi sum conscia, hoc certo scio,</l>
+ 				<l>neque me finxisse falsi quicquam neque meo</l>
+ 				<l>cordi esse quemquam cariorem hoc Phaedria.</l> 				 
+ 				<l>et huius quidquid feci, causa uirginis</l>
+ 				<l>feci: nam me eius spero fratrem propemodum</l>
+ 				<l>iam repperisse, adulescentem adeo nobilem;</l>
+ 				<l>et is hodie uenturum ad me constituit domum.</l> 				 
+ 				<l>concedam hinc intro atque exspectabo, dum uenit.</l> 				 
+ 				<castItem>PHAEDRIA PARMENO ADVLESCENS SERVOS</castItem>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Fac, ita ut iussi, deducantur isti.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Faciam.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>At diligenter!</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Fiet.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Satin hoc mandatumst tibi?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Ah</sp></l>
+ 				<l>rogitare, quasi difficile sit.</l>
+ 				<l>utinam tam aliquid inuenire facile possis, Phaedria, quam</l>
+ 				<l>hoc peribit!</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Ego quoque una pereo, quod mihist carius:</sp></l>
+ 				<l>ne istuc tam iniquo patiare animo.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Minume: qui effectum dabo.</sp></l>
+ 				<l>sed numquid aliud imperas?</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Munus nostrum ornato uerbis, quod poteris, et istum aemulum,</sp></l>
+ 				<l>quod poteris, ab ea pellito.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Memini, tam etsi nullus moneas.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Ego rus ibo atque ibi manebo.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Censeo.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Sed heus tu!</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid uis?</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Censen posse me offirmare</sp></l>
+ 				<l>perpeti, ne redeam interea?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Te ne? non hercle arbitror:</sp></l>
+ 				<l>nam aut iam reuortere, aut mox noctu te adiget horsum insomnia.</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Opus faciam, ut defetiger usque, ingratiis ut dormiam.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Vigilabis lassus: hoc plus facies.</sp></l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Abi, nil dicis, Parmeno.</sp></l>
+ 				<l>eiciunda hercle haec est mollities animi: nimis me indulgeo.</l>
+ 				<l>tandem non ego illam caream, si sit opus, uel totum triduom?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Hui,</sp></l>
+ 				<l>uniuorsum triduom? uide quid agas.</l>
+ 				<l><sp who='PH'><speaker>Phedria</speaker>Stat sententia.</sp></l>
+ 				<l>-</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Di boni, quid hoc morbist?</sp></l>
+ 				<l>adeo n' homines inmutarier</l>
+ 				<l>ex amore, ut non cognoscas eundem esse! hoc nemo fuit</l>
+ 				<l>minus ineptus, magis seuerus quisquam nec magis continens.</l>
+ 				<l>sed quis hic est, qui huc pergit?</l>
+ 				<l>attat, hiquidemst parasitus Gnatho</l>
+ 				<l>militis: ducit se cum una uirginem dono huic: papae!</l>
+ 				<l>facie honesta.</l>
+ 				<l>mirum ni ego turpiter me hodie hic dabo</l>
+ 				<l>cum meo decrepito hoc eunucho.</l>
+ 				<l>haec superat ipsam Thaidem.</l>
+ 				<castItem>GNATHO PARMENO PARASITVS SERVOS.</castItem>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Di inmortales, homini homo quid praestat! stulto intellegens</sp></l>
+ 				<l>quid interest! hoc adeo ex hac re uenit in mentem mihi:</l>
+ 				<l>conueni hodie adueniens quendam mei loci hinc atque ordinis</l>
+ 				<l>hominem haud inpurum, itidem patria qui abligurrierat bona:</l>
+ 				<l>uideo sentum squalidum aegrum, pannis annis que obsitum.</l> 				 
+ 				<l>'quid istuc' inquam 'ornatist?' "quoniam miser quod habui perdidi, em</l>
+ 				<l>quo redactus sum.</l>
+ 				<l>omnes me noti atque amici deserunt".</l>
+ 				<l>hic ego illum contempsi prae me; 'quid homo' inquam 'ignauissume?</l>
+ 				<l>ita n' parasti te, ut spes nulla relicua in te sit tibi?</l>
+ 				<l>simul cum re consilium amisti? uiden me ex eodem ortum loco?</l>
+ 				<l>qui color nitor uestitus, quae habitudost corporis!</l>
+ 				<l>omnia habeo, neque quicquam habeo: nil quom est, nil defit tamen'.</l>
+ 				<l>"at ego infelix neque ridiculus esse neque plagas pati</l>
+ 				<l>possum".</l>
+ 				<l>'quid? tu his rebus credis fieri? tota erras uia.</l>
+ 				<l>olim isti fuit generi quondam quaestus apud saeclum prius;</l>
+ 				<l>hoc nouomst aucupium; ego adeo hanc primus inueni uiam.</l>
+ 				<l>est genus hominum, qui esse primos se omnium rerum uolunt,</l>
+ 				<l>nec sunt: hos consector; hisce ego non paro me ut rideant,</l>
+ 				<l>sed eis ultro adrideo et eorum ingenia admiror simul.</l>
+ 				<l>quidquid dicunt, laudo; id rursum si negant, laudo id quoque;</l>
+ 				<l>negat quis?</l> 				 
+ 				<l>nego; ait? aio; postremo imperaui egomet mihi</l>
+ 				<l>omnia adsentari.</l>
+ 				<l>is quaestus nunc est multo uberrumus'.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Scitum hercle hominem! hic homines prorsum ex stultis insanos facit.</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>dum haec loquimur, interea loci ad macellum ubi aduenimus,</sp></l>
+ 				<l>concurrunt laeti mi obuiam cuppedinarii omnes:</l>
+ 				<l>cetarii lanii coqui fartores piscatores,</l>
+ 				<l>quibus et re salua et perdita profueram et prosum saepe:</l>
+ 				<l>salutant, ad cenam uocant, aduentum gratulantur.</l>
+ 				<l>ille ubi miser famelicus uidet me esse tanto honore,</l>
+ 				<l>tam facile uictum quaerere: ibi homo coepit me obsecrare,</l>
+ 				<l>ut sibi liceret discere id de me: sectari iussi,</l>
+ 				<l>si potis est, tamquam philosophorum habent disciplinae ex ipsis</l>
+ 				<l>uocabula, ut parasiti item Gnathonici uocentur.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Viden otium et cibus quid facit alienus?</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>sed ego cesso</sp></l>
+ 				<l>ad Thaidem hanc deducere et rogare ad cenam ut ueniat.</l>
+ 				<l>sed Parmenonem ante ostium huius stare tristem uideo,</l>
+ 				<l>riualis seruom: salua res est.</l>
+ 				<l>nimirum homines frigent.</l>
+ 				<l>nebulonem hunc certumst ludere.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Hisce hoc munere arbitrantur</sp></l>
+ 				<l>suam Thaidem esse.</l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Pluruma salute Parmenonem</sp></l>
+ 				<l>summum suom inpertit Gnatho.</l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>quid agitur?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Statur.</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Video.</sp></l>
+ 				<l>numquidnam hic quod nolis uides?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Te.</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Credo: at numquid aliud?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quidum?</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Quia tristi's?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Nil quidem.</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Ne sis: sed quid uidetur</sp></l>
+ 				<l>hoc tibi mancupium?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Non malum hercle.</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Vro hominem.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Vt falsus animist!</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Quam hoc munus gratum Thaidi arbitrare esse?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Hoc nunc dicis</sp></l>
+ 				<l>eiectos hinc nos; omnium rerum, heus, uicissitudo est.</l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Sex ego te totos, Parmeno, hos menses quietum reddam,</sp></l>
+ 				<l>ne sursum deorsum cursites neue usque ad lucem uigiles:</l>
+ 				<l>ecquid beo te?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Me n'? papae!</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Sic soleo amicos.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Laudo.</sp></l>
+ 				<l>Nusquam.</l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Tum tu igitur paululum da mi operae: fac ut admittar</sp></l>
+ 				<l>ad illam.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Age modo, i: nunc tibi patent fores hae, quia istam ducis.</sp></l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Numquem euocari hinc uis foras?</sp></l>
+ 				<l>-</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Sine biduom hoc praetereat:</sp></l>
+ 				<l>qui mihi nunc uno digitulo fores aperis fortunatus,</l>
+ 				<l>ne tu istas faxo calcibus saepe insultabis frustra.</l>
+ 				<l>-</l>
+ 				<l><sp who='GN'><speaker>Gnatho</speaker>Etiam ne tu hic stas, Parmeno?</sp></l>
+ 				<l>eho, numnam hic relictu's custos,</l>
+ 				<l>nequis forte internuntius clam a milite ad istam curset?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Facete dictum: mira uero militi quae placeant!</sp></l>
+ 				<l>sed uideo erilem filium minorem huc aduenire.</l> 				 
+ 				<l>miror, quid ex Piraeo abierit: nam ibi custos publicest nunc.</l>
+ 				<l>non temerest: et properans uenit, nescio quid circumspectat.</l>
+ 				<castItem>CHAEREA PARMENO ADVLESCENS SERVOS.</castItem>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Occidi!</sp></l>
+ 				<l>neque uirgost usquam neque ego, qui illam e conspectu amisi meo.</l>
+ 				<l>ubi quaeram, ubi inuestigem, quem perconter, quam insistam uiam,</l>
+ 				<l>incertus sum.</l>
+ 				<l>una haec spes est: ubi ubi est, diu celari non potest.</l>
+ 				<l>o faciem pulcram! deleo omnis dehinc ex animo mulieres:</l>
+ 				<l>taedet cottidianarum harum formarum.</l> 				 
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Ecce autem alterum,</sp></l>
+ 				<l>qui nescio quid de amore loquitur: o infortunatum senem!</l>
+ 				<l>hic uerost, qui si occeperit, ludum iocum que, sat scio,</l>
+ 				<l>dicet fuisse illum alterum, praeut huius rabies quae dabit.</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Vt illum di deae que senium perdant, qui hodie me remoratus est,</sp></l>
+ 				<l>me que adeo qui restiterim, tum autem qui illum flocci fecerim!</l>
+ 				<l>sed eccum Parmenonem. salue.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid tu es tristis? quid ue es alacris?</sp></l>
+ 				<l>unde is?</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Ego ne? nescio hercle, neque unde eam neque quorsum eam:</sp></l>
+ 				<l>ita prorsum oblitus sum mei.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Qui quaeso?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Amo.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Hem!</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Nunc, Parmeno, tu ostendes te qui uir sies.</sp></l>
+ 				<l>scis te mihi saepe pollicitum esse 'Chaerea, aliquid inueni</l>
+ 				<l>modo quod ames: in ea re utilitatem ego faciam ut cognoscas meam',</l>
+ 				<l>quom in cellulam ad te patris penum omnem congerebam clanculum.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Age, inepte.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Hoc hercle factumst.</sp></l>
+ 				<l>fac sis nunc promissa adpareant:</l>
+ 				<l>sic adeo digna res est, ubi tu neruos intendas tuos.</l>
+ 				<l>haud similis uirgost uirginum nostrarum, quas matres student</l>
+ 				<l>demissis umeris esse, uincto pectore, ut gracilae sient.</l>
+ 				<l>siquast habitior paulo, pugilem esse aiunt, deducunt cibum:</l>
+ 				<l>tam etsi bonast natura, reddunt curatura iunceas:</l>
+ 				<l>itaque ergo amantur.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid tua istaec?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Noua figura oris.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Papae!</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Color uerus, corpus solidum et suci plenum.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Anni?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Anni? sedecim.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Flos ipsus.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Ipsam hanc mihi tu uel ui uel clam uel precario</sp></l>
+ 				<l>fac tradas: mea nil re fert, dum potiar modo.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid? uirgo quoiast?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Nescio hercle.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Vndest?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Tantundem.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Vbi habitat?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Ne id quidem.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Vbi uidisti?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>In uia.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Qua ratione amisisti?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Id equidem adueniens me cum stomachabar modo:</sp></l>
+ 				<l>neque quemquam ego hominem esse arbitror, quoi magis bonae</l>
+ 				<l>felicitates omnes auorsae sient.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid hoc est sceleris!</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Perii.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid factumst?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Rogas?</sp></l>
+ 				<l>patris cognatum atque aequalem Archidemidem</l>
+ 				<l>nouisti n'?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid ni?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Is, dum hanc sequor, fit mi obuiam.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Incommode hercle.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Immo enim uero infeliciter:</sp></l>
+ 				<l>nam incommoda alia sunt dicenda, Parmeno.</l>
+ 				<l>illum liquet mihi deierare his mensibus</l>
+ 				<l>sex septem prorsum non uidisse proxumis</l>
+ 				<l>nisi nunc, quom minume uellem minume que opus fuit.</l>
+ 				<l>eho, nonne hoc monstri similest? quid ais?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Maxume.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Continuo adcurrit ad me, quam longe quidem,</sp></l>
+ 				<l>incuruos, tremulus, labiis demissis, gemens:</l>
+ 				<l>'heus heus, tibi dico, Chaerea' inquit. restiti.</l>
+ 				<l>'scin quid ego te uolebam?' "dic".</l>
+ 				<l>'cras est mihi</l>
+ 				<l>iudicium'.</l>
+ 				<l>"quid tum?" 'ut diligenter nunties</l>
+ 				<l>patri, aduocatus mane mi esse ut meminerit'.</l>
+ 				<l>dum haec dicit, abiit hora.</l>
+ 				<l>rogo numquid uelit.</l>
+ 				<l>'recte' inquit. abeo.</l>
+ 				<l>quom huc respicio ad uirginem,</l>
+ 				<l>illa sese interea commodum huc aduorterat</l>
+ 				<l>in hanc nostram plateam.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Mirum ni hanc dicit, modo</sp></l>
+ 				<l>huic quae datast dono.</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>huc quom aduenio, nulla erat.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Comites secuti scilicet sunt uirginem?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Verum: parasitus cum ancilla.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Ipsast: ilicet.</sp></l> 				 
+ 				<l>desine, iam conclamatumst.</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Alias res agis.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Istuc ago equidem.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Nosti n' quae sit? dic mihi,</sp></l>
+ 				<l>uidisti n'?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Vidi, noui: scio quo abducta sit.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Eho, Parmeno mi, nosti n' et scis ubi siet?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Huc deductast ad meretricem Thaidem: ei dono datast.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Quis is est tam potens cum tanto munere hoc?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Miles Thraso,</sp></l>
+ 				<l>Phaedriae riualis.</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Duras fratris partis praedicas.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Immo enim si scias quod donum huic dono contra comparet,</sp></l>
+ 				<l>magis id dicas.</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Quodnam quaeso hercle?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Eunuchum.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Illum ne obsecro</sp></l>
+ 				<l>inhonestum hominem, quem mercatus est heri, senem mulierem?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Istum ipsum.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Nimirum homo quatietur cum dono foras.</sp></l>
+ 				<l>sed istam Thaidem non sciui nobis uicinam.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Hau diust.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Perii, numquam ne etiam me illam uidisse! ehodum dic mihi:</sp></l>
+ 				<l>est ne, ut fertur, forma?</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Sane.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>At nihil ad nostram hanc?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Alia res.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Obsecro hercle, Parmeno, fac ut potiar.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Faciam sedulo:</sp></l>
+ 				<l>dabo operam, adiuuabo.</l>
+ 				<l>numquid me aliud?</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Quo nunc is?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Domum,</sp></l>
+ 				<l>ut mancupia haec, ita uti iussit frater, ducam ad Thaidem.</l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>O fortunatum istum eunuchum, qui quidem in hanc detur domum!</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid ita?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Rogitas? summa forma semper conseruam domi</sp></l>
+ 				<l>uidebit, conloquetur, aderit una in unis aedibus;</l>
+ 				<l>cibum non numquam capiet cum ea, interdum propter dormiet.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid si nunc tute fortunatus fias?</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Qua re, Parmeno?</sp></l>
+ 				<l>responde.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Capias uestem illius.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Vestem? quid tum postea?</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Pro illo te deducam.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Audio.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Te esse illum dicam.</sp></l>
+ 				<l><sp who='CH'><speaker>Chaerea</speaker>Intellego.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Tu illis fruare commodis, quibus tu illum dicebas modo:</sp></l>
+ 				<l>cibum una capias, adsis, tangas, ludas, propter dormias,</l>
+ 				<l>quandoquidem illarum neque te quisquam nouit neque scit qui sies.</l>
+ 				<l>praeterea forma et aetas ipsast, facile ut pro eunucho probes.</l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Hui, dixti pulcre: numquam uidi melius consilium dari.</sp></l>
+ 				<l>age eamus intro nunciam: orna me, abduc, duc, quantum potis.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid agis? iocabar equidem.</sp></l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Garris.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Perii, quid ego egi miser!</sp></l>
+				<l>quo trudis?</l>
+				<l>perculeris iam tu me.</l>
+				<l>tibi equidem dico, mane.</l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Eamus.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Pergin?</sp></l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Certumst.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Vide modo hoc ne nimis sit callidum.</sp></l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Non est profecto: sine.</sp></l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>At enim istaec in me cudetur faba.</sp></l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Ah!</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Flagitium facimus.</sp></l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>An id flagitiumst, si in domum meretriciam</sp></l>
+				<l>deducar et illis crucibus, quae nos nostram que adulescentiam</l>
+				<l>habent despicatam et quae nos semper omnibus cruciant modis,</l>
+				<l>nunc referam gratiam atque eas itidem fallam, ut ab illis fallimur?</l>
+ 				<l>an potius haec pati aequomst, pater ut a me ludatur dolis?</l>
+ 				<l>quod qui rescierint, culpent; illud merito factum omnes putent.</l>
+ 				<l><sp who='PA'><speaker>Parmeno</speaker>Quid istic? si certumst facere, faciam: uerum ne post conferas</sp></l>
+				<l>culpam in me.</l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Non faciam.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Iubes ne?</sp></l>
+				<l><sp who='CH'><speaker>Chaerea</speaker>Iubeam? cogo atque impero;</sp></l>
+				<l>numquam defugiam auctoritatem. sequere.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Di uortant bene!</sp></l>
+				<castItem>THRASO GNATHO PARMENO MILES PARASITVS SERVOS</castItem>
+				<l><sp who='THR'><speaker>Thraso</speaker>Magnas uero agere gratias Thais mihi?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Ingentis.</sp></l>		 
+				<l><sp who='THR'><speaker>Thraso</speaker>Ain tu, laetast?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Non tam ipso quidem</sp></l>
+				<l>dono quam abs te datum esse: id uero serio</l>
+				<l>triumphat.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Hoc prouiso ut, ubi tempus siet,</sp></l>
+				<l>deducam.</l>
+				<l>sed eccum militem.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Est istuc datum</sp></l>
+				<l>profecto, ut grata mihi sint quae facio omnia.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Aduorti hercle animum.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Vel rex semper maxumas</sp></l>
+				<l>mihi agebat quidquid feceram, aliis non item.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Labore alieno magno partam gloriam</sp></l>
+				<l>uerbis saepe in se transmouet, qui habet salem;</l>
+				<l>quod in test.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Habes.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Rex te ergo in oculis</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Scilicet.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>gestare?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Verum: credere omnem exercitum,</sp></l>
+				<l>consilia.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Mirum.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Tum sicubi eum satietas</sp></l>
+				<l>hominum aut negoti siquando odium ceperat,</l>
+				<l>requiescere ubi uolebat, quasi ... nosti n'?</l>				 
+				<l><sp who='GN'><speaker>Gnatho</speaker>Scio:</sp></l>
+				<l>quasi ubi illam exspueret miseriam ex animo,</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Tenes.</sp></l>
+				<l>tum me conuiuam solum abducebat sibi.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Hui,</sp></l>
+				<l>regem elegantem narras.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Immo sic homost:</sp></l>
+				<l>perpaucorum hominumst.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Immo nullorum, arbitror,</sp></l>
+				<l>si te cum uiuit.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Inuidere omnes mihi,</sp></l>
+				<l>mordere clanculum; ego non flocci pendere.</l>
+				<l>illi inuidere misere, uerum unus tamen</l>
+				<l>inpense, elephantis quem Indicis praefecerat.</l>
+				<l>is ubi molestus magis est, 'quaeso' inquam 'Strato,</l>
+				<l>eo ne es ferox, quia habes imperium in beluas?'</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Pulcre mehercle istuc dictum et sapienter.</sp></l>
+				<l>papae,</l>
+				<l>iugularas hominem.</l>				 
+				<l>quid ille?</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Mutus ilico.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quid ni esset?</sp></l>
+				<l><sp who="PA"><speaker>Parmeno</speaker>Di uostram fidem! hominem perditum</sp></l>
+				<l>miserum que et illum sacrilegum!</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>uid illud, Gnatho,</sp></l>
+				<l>quo pacto Rhodium tetigerim in conuiuio,</l>
+				<l>numquam tibi dixi?</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Numquam, sed narra obsecro.</sp></l>
+				<l>plus miliens audiui.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Vna in conuiuio</sp></l>
+				<l>erat hic, quem dico, Rhodius adulescentulus.</l>
+				<l>forte habui scortum: coepit ad id adludere</l>
+				<l>et me inridere.</l>
+				<l>'quid ais' inquam homini 'inpudens?</l>
+				<l>lepus tute es, pulpamentum quaeris?'</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Hahahahae.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quid est?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Facete, lepide, laute, nil supra!</sp></l>
+				<l>tuom ne, obsecro te, hoc dictum erat?</l>
+				<l>uetus credidi.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Audieras?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Saepe, et fertur in primis.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Meumst.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Dolet dictum inprudenti adulescenti et libero.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>At te di perdant!</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quid ille quaeso?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Perditus:</sp></l>
+				<l>risu omnes qui aderant emoriri; denique</l>
+				<l>metuebant omnes iam me.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Non iniuria.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Sed heus tu, purgo n' ego me de istac Thaidi,</sp></l>
+				<l>quod eam me amare suspicatast?</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Nil minus.</sp></l>
+				<l>immo auge magis suspitionem.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quor?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Rogas?</sp></l>
+				<l>scin, siquando illa mentionem Phaedriae</l>
+				<l>facit aut si laudat, te ut male urat?</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Sentio.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Id ut ne fiat, haec res solast remedio.</sp></l>
+				<l>ubi nominabit Phaedriam, tu Pamphilam</l>
+				<l>continuo.</l>
+				<l>siquando illa dicet 'Phaedriam</l>
+				<l>intro mittamus comissatum', Pamphilam</l>
+				<l>cantatum prouocemus.</l>
+				<l>si laudabit haec</l>
+				<l>illius formam, tu huius contra.</l>
+				<l>denique</l>
+				<l>par pro pari referto, quod eam mordeat.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Siquidem me amaret, tum istuc prodesset, Gnatho.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quando illud quod tu das exspectat atque amat,</sp></l>
+				<l>iam dudum te amat: iam dudum illi facile fit</l>
+				<l> doleat: metuit semper, quem ipsa nunc capit</l>
+				<l>fructum, nequando iratus tu alio conferas.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Bene dixti: at mihi istuc non in mentem uenerat.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Ridiculum: non enim cogitaras; ceterum</sp></l>
+				<l>idem hoc tute melius quanto inuenisses, Thraso!</l>
+				<castItem>THAIS THRASO PARMENO GNATHO MERETRIX MILES SERVOS PARASITVS PYTHIAS ANCILLA.</castItem>
+				<l><sp who='TH'><speaker>Thais</speaker>Audire uocem uisa sum modo militis.</sp></l>
+				<l>atque eccum.</l>
+				<l>salue, mi Thraso.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Thais mea,</sp></l>
+				<l>meum sauium, quid agitur?</l>
+				<l>ecquid nos amas</l>
+				<l>de fidicina istac?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quam uenuste, quod dedit</sp></l>
+				<l>principium adueniens!</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Plurumum merito tuo.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Eamus ergo ad cenam.</sp></l>
+				<l>quid stas?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Em alterum:</sp></l>
+				<l>ex homine hunc natum dicas?</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Vbi uis, non moror.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Adibo atque adsimulabo quasi nunc exeam.</sp></l>
+				<l>itura n', Thais, quopiam es?</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Ehem, Parmeno,</sp></l>
+				<l>bene fecisti hodie: itura ...</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quo?</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid, hunc non uides?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Video et me taedet.</sp></l>
+				<l>ubi uis, dona adsunt tibi</l>
+				<l>a Phaedria.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quid stamus? quor non imus hinc?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quaeso hercle ut liceat, pace quod fiat tua,</sp></l>
+				<l>dare huic quae uolumus, conuenire et conloqui.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Perpulcra credo dona aut nostri similia.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Res indicabit.</sp></l>
+				<l>heus! iubete istos foras</l>
+				<l>exire, quos iussi.</l>
+				<l>ocius procede tu huc.</l>
+				<l>ex Aethiopiast usque haec.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Hic sunt tres minae.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Vix.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Vbi tu es, Dore? accede huc.</sp></l>
+				<l>em eunuchum tibi,</l>
+				<l>quam liberali facie, quam aetate integra!</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Ita me di ament, honestust.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid tu ais, Gnatho?</sp></l>
+				<l>numquid habes quod contemnas?</l>
+				<l>quid tu autem, Thraso?</l>
+				<l>tacent: satis laudant.</l>
+				<l>fac periclum in litteris,</l>
+				<l>fac in palaestra, in musicis: quae liberum</l>
+				<l>scire aequomst adulescentem, sollertem dabo.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Ego illum eunuchum, si opus sit, uel sobrius ...!</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Atque haec qui misit, non sibi soli postulat</sp></l>
+				<l>te uiuere et sua causa excludi ceteros,</l>
+				<l>neque pugnas narrat neque cicatrices suas</l>
+				<l>ostentat neque tibi obstat, quod quidam facit;</l>
+				<l>uerum ubi molestum non erit, ubi tu uoles,</l>
+				<l>ubi tempus tibi erit, sat habet, si tum recipitur.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Adparet seruom hunc esse domini pauperis</sp></l>
+				<l>miseri que.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Nam hercle nemo posset, sat scio,</sp></l>
+				<l>qui haberet qui pararet alium, hunc perpeti</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Tace tu, quem ego esse infra infumos omnis puto</sp></l>
+				<l>homines: nam qui adsentari huic animum induxeris,</l>
+				<l>e flamma petere te cibum posse arbitror.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Iam ne imus?</sp></l> 
+				<l><sp who='TH'><speaker>Thais</speaker>Hos prius intro ducam et quae uolo</sp></l>
+				<l>simul imperabo: poste huc continuo exeo.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Ego hinc abeo.</sp></l>
+				<l>tu istanc opperire.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Haud conuenit</sp></l>
+				<l>una ire cum amica imperatorem in uia.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Hahahae.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quid rides?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Istuc quod dixti modo,</sp></l>
+				<l>et illud de Rhodio dictum quom in mentem uenit.</l>
+				<l>sed Thais exit.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Abi prae, cura ut sint domi</sp></l>
+				<l>parata.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Fiet.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Diligenter, Pythias,</sp></l>
+				<l>fac cures, si forte hoc Chremes aduenerit,</l>
+				<l>ut ores, primum ut redeat; si id non commodumst,</l>
+				<l>ut maneat; si id non poterit, ad me adducito.</l>					 
+				<l><sp who='PY'><speaker>Pythias</speaker>Ita faciam.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid?</sp></l>
+				<l>domi adsitis facite.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Eamus.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Vos me sequimini.</sp></l>
+				<castItem>CHREMES PYTHIAS ADVLESCENS ANCILLA.</castItem>
+				<l><sp who='CH'><speaker>Chremes</speaker>Profecto quanto magis magis que cogito,</sp></l>
+				<l>nimirum dabit haec Thais mihi magnum malum:</l>
+				<l>ita me uideo ab ea astute labefactarier</l>
+				<l>iam tum quom primum iussit me ad se arcessier.</l>
+				<l>roget quis 'quid tibi cum illa?' ne noram quidem.</l>
+				<l>ubi ueni, causam, ut ibi manerem, repperit:</l>
+				<l>ait rem diuinam fecisse et rem seriam</l>
+				<l>uelle agere me cum.</l>
+				<l>iam tum erat suspitio,</l>
+				<l>dolo malo haec fieri omnia.</l>
+				<l>ipsa adcumbere</l>
+				<l>me cum, mihi sese dare, sermonem quaerere.</l>
+				<l>ubi friget, huc euasit, quam pridem pater</l>
+				<l>mihi et mater mortui essent.</l>
+				<l>dico, iam diu.</l>
+				<l>rus ecquod Suni haberem et quam longe a mari.</l>
+				<l>credo ei placere hoc, sperat se a me auellere.</l>
+				<l>postremo, ecqua inde parua periisset soror;</l>
+				<l>ecquis cum ea una; quid habuisset, quom perit;</l>
+				<l>ecquis eam posset noscere.</l>
+				<l>haec quor quaeritet?</l>
+				<l>nisi si illa forte quae olim periit paruola</l>
+				<l>soror, eam se intendit esse, ut est audacia.</l>
+				<l>uerum ea si uiuit, annos natast sedecim,</l>
+				<l>non maior; Thais, quam ego sum, maiusculast.</l>
+				<l>misit porro orare, ut uenirem, serio.</l>
+				<l>aut dicat quod uolt aut molesta ne siet.</l>
+				<l>non hercle ueniam tertio.</l>
+				<l>heus heus, ecquis hic?</l>
+				<l>ego sum, Chremes.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>O capitulum lepidissumum!</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Dico ego mi insidias fieri?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Thais maxumo</sp></l>
+				<l>te orabat opere, ut cras redires.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Rus eo.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Fac amabo.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Non possum, inquam.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>At tu apud nos hic mane,</sp></l>
+				<l>dum redeat ipsa.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Nil minus.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quor, mi Chremes?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Malam rem hinc ibis?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Si istuc ita certumst tibi,</sp></l>
+				<l>amabo ut illuc transeas ubi illast.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Eo.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Abi, Dorias, cito hunc deduce ad militem.</sp></l>
+				<castItem>ANTIPHO ADVLESCENS.</castItem>
+				<l>Heri aliquot adulescentuli coiimus in Piraeo</l>
+				<l>in hunc diem, ut de symbolis essemus.</l>
+				<l>Chaeream ei rei</l>
+				<l>praefecimus: dati anuli; locus, tempus constitutumst.</l>
+				<l>praeteriit tempus: quo in loco dictumst, parati nil est.</l>					 
+				<l>homo ipse nusquamst, neque scio quid dicam aut quid coniectem.</l>
+				<l>nunc mi hoc negoti ceteri dedere, ut illum quaeram,</l>
+				<l>id que adeo uisam, si domist.</l>
+				<l>quisnam hinc a Thaide exit?</l>
+				<l>is est an non est?</l>
+				<l>ipsus est.</l>
+				<l>quid hoc hominist? quid hoc ornatist?</l>
+				<l>quid illud malist?</l>
+				<l>nequeo satis mirari neque conicere,</l>
+				<l>nisi, quidquid est, procul hinc lubet prius quid sit sciscitari.</l>
+				<castItem>CHAEREA ANTIPHO ADVLESCENTES DVO.</castItem>
+				<l><sp who='CH'><speaker>Chremes</speaker>Numquis hic est? nemost.</sp></l>
+				<l>numquis hinc me sequitur? nemo homost.</l>
+				<l>iam ne rumpere hoc licet mi gaudium?</l>
+				<l>pro Iuppiter!</l>
+				<l>nunc est profecto, interfici quom perpeti me possum,</l>
+				<l>ne hoc gaudium contaminet uita aegritudine aliqua.</l>
+				<l>sed neminem ne curiosum interuenire nunc mihi,</l>
+				<l>qui me sequatur quoquo eam, rogitando optundat, enicet,</l>
+				<l>quid gestiam aut quid laetus sim, quo pergam, unde emergam, ubi siem</l>
+				<l>uestitum hunc nanctus, mihi quid quaeram, sanus sim anne insaniam!</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Adibo atque ab eo gratiam hanc, quam uideo uelle, inibo.</sp></l>	 
+				<l>Chaerea, quid est quod sic gestis? quid ue hic uestitus sibi</l>
+				<l>quaerit?</l>			 
+				<l>quid est quod laetus es? quid tibi uis?</l>
+				<l>satine sanus es?</l>
+				<l>quid aspectas me? quid taces?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Oh, festus dies es hominis:</sp></l>
+				<l>amice, salue! o mi Antipho,</l>
+				<l>nemo hominumst, quem ego nunc magis uidere cuperem quam te.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Narra istuc quaeso quid siet.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Immo ego te oro hercle ut audias.</sp></l>
+				<l>nosti n' hanc, quam amat frater? AN. Noui: nempe, opinor, Thaidem.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Istam ipsam.</sp></l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Sic commemineram.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Hodie quaedamst ei dono data</sp></l>
+				<l>uirgo: quid ego eius tibi nunc faciem praedicem aut laudem, Antipho,</l>
+				<l>quom ipsus me noris quam elegans formarum spectator sim?</l>
+				<l>in hac commotus sum.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Ain tu?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Primam dices, scio, si uideris.</sp></l>
+				<l>quid multa uerba? amare coepi.</l>
+				<l>forte fortuna domi</l>
+				<l>erat quidam eunuchus, quem mercatus fuerat frater Thaidi,</l>
+				<l>neque is deductus etiamdum ad eam.</l>
+				<l>submonuit me Parmeno</l>
+				<l>ibi seruos, quod ego arripui.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Quid id est?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Tacitus citius audies:</sp></l>
+				<l>ut uestem cum eo mutem et pro illo iubeam me illoc ducier.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Pro eunucho n'?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Sic est.</sp></l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Quid ex ea re tandem ut caperes commodi?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Rogas? uiderem, audirem, essem una qua cum cupiebam, Antipho</sp></l>
+				<l>num parua causa aut praua ratiost?</l>
+				<l>traditus sum mulieri.</l>
+				<l>illa ilico ubi me accepit, laeta uero ad se abducit domum,</l>
+				<l>commendat uirginem.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Quoi? tibi ne?</sp></l>
+				<l>Mihi.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Satis tuto tamen.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Edicit ne uir quisquam ad eam adeat, et mihi ne abscedam imperat:</sp></l>
+				<l>in interiore parte ut maneam solus cum sola.</l>
+				<l>adnuo</l>
+				<l>terram intuens modeste.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Miser!</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>'Ego' inquit 'ad cenam hinc eo'.</sp></l>
+				<l>abducit se cum ancillas: paucae, quae circum illam essent, manent</l>
+				<l>nouiciae puellae.</l>
+				<l>continuo haec adornant ut lauet.</l>
+				<l>adhortor properent.</l>
+				<l>dum adparatur, uirgo in conclaui sedet</l>
+				<l>suspectans tabulam quandam pictam; ibi inerat pictura haec, Iouem</l>
+				<l>quo pacto Danaae misisse aiunt quondam in gremium imbrem aureum.</l>
+				<l>egomet quoque id spectare coepi, et quia consimilem luserat</l>
+				<l>iam olim ille ludum, inpendio magis animus gaudebat mihi:</l>
+				<l>deum sese in hominem conuortisse atque in alienas tegulas</l>
+				<l>uenisse clanculum per inpluuium fucum factum mulieri.</l>
+				<l>at quem deum! qui templa caeli summa suo nutu quatit.</l>
+				<l>ego homuncio hoc non facerem? facerem ego illud uero itidem ac lubens.</l>
+				<l>um haec me cum reputo, arcessitur lauatum interea uirgo:</l>
+				<l>iit, lauit, rediit; deinde eam in lecto illae conlocarunt.</l>
+				<l>sto exspectans, siquid mi imperent.</l>
+				<l>uenit una, 'heus tu' inquit 'Dore,</l>
+				<l>cape hoc flabellum, uentulum huic sic facito, dum lauamus:</l>
+				<l>ubi nos lauerimus, si uoles, lauato'.</l>
+				<l>accipio tristis.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Tum equidem istuc os tuom inpudens uidere nimium uellem,</sp></l>
+				<l>qui esset status, flabellulum tenere te asinum tantum.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Vix elocutast hoc, foras simul omnes proruont se,</sp></l>
+				<l>abeunt lauatum, perstrepunt, ita ut fit, domini ubi absunt.</l>
+				<l>interea somnus uirginem opprimit.</l>
+				<l>limis ego specto</l>
+				<l>sic per flabellum clanculum: simul alia circumspecto</l>
+				<l>satin explorata sint.</l>
+				<l>uideo esse.</l>
+				<l>pessulum ostio obdo.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Quid tum?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Quid 'quid tum' fatue?</sp></l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Fateor.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>An ego occasionem</sp></l>
+				<l>mihi ostentatam tam breuem, tam optatam, tam insperatam</l>
+				<l>amitterem?</l>
+				<l>tum pol ego is essem uere, qui simulabar.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Sane hercle ut dicis.</sp></l>
+				<l>sed interim de symbolis quid actumst?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Paratumst.</sp></l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Frugi es: ubi? domi n'?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Immo apud libertum Discum.</sp></l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Perlongest; sed tanto ocius properemus: muta uestem.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Vbi mutem? perii: nam domo exulo nunc; metuo fratrem</sp></l>
+				<l>ne intus sit; porro autem pater ne rure redierit iam.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Eamus ad me: ibi proxumumst ubi mutes.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Recte dicis.</sp></l>
+				<l>eamus; et de istac simul, quo pacto porro possim</l>
+				<l>potiri, consilium uolo capere una te cum.</l>
+				<l><sp who='AN'><speaker>Antipho</speaker>Fiat.</sp></l>
+				<castItem>DORIAS ANCILLA.</castItem>
+				<l>Ita me di ament, quantum ego illum uidi, non nil timeo misera,</l>
+				<l>nequam ille hodie insanus turbam faciat aut uim Thaidi.</l>
+				<l>nam postquam iste aduenit Chremes adulescens, frater uirginis,</l>
+				<l>militem rogat ut eum admitti iubeat; continuo ille irasci,</l>
+				<l>neque negare audere; Thais porro instare ut hominem inuitet.</l>
+				<l>id faciebat retinendi eius causa: quia illa quae cupiebat</l>
+				<l>de sorore eius indicare ad eam rem tempus non erat.</l>
+				<l>inuitat tristis: mansit.</l>
+				<l>ibi illa cum illo sermonem occipit.</l>
+				<l>miles uero sibi putare ante oculos aemulum illum adductum</l>
+				<l>uoluit contra facere huic aegre: 'heus, Pamphilam' inquit 'puer, arcesse,</l>
+				<l>ut delectet hic nos'.</l>					 
+				<l>illa exclamat 'minume gentium:</l>
+				<l>in conuiuium illam?'</l>
+				<l>miles tendere inde ad iurgium.</l>
+				<l>interea aurum sibi clam mulier demit, dat mihi ut auferam.</l>
+				<l>hoc est signi: ubi primum poterit, se illim subducet scio.</l>
+				<castItem>PHAEDRIA ADVLESCENS.</castItem>
+				<l>Dum rus eo, coepi egomet me cum inter uias,</l>
+				<l>ita ut fit, ubi quid in animost molestiae,</l>
+				<l>aliam rem ex alia cogitare et ea omnia</l>
+				<l>peiorem in partem.</l>					 
+				<l>quid opust uerbis? dum haec puto,</l>
+				<l>praeterii inprudens uillam.</l>
+				<l>longe iam abieram,</l>
+				<l>quom sensi; redeo rursum, male uero me habens.</l>
+				<l>ubi ad ipsum ueni deuorticulum, constiti:</l>
+				<l>occepi me cum cogitare 'hem, biduom hic</l>
+				<l>manendumst soli sine illa?</l>
+				<l>quid tum postea?</l>
+				<l>nil est.</l>					 
+				<l>quid? nil? si non tangendi copiast,</l>
+				<l>eho ne uidendi quidem erit?</l>
+				<l>si illud non licet,</l>
+				<l>saltem hoc licebit.</l>
+				<l>certe extrema linea</l>
+				<l>amare haud nihil est'.</l>
+				<l>uillam praetereo sciens.</l>
+				<l>sed quid hoc, quod timida subito egreditur Pythias?</l>
+				<castItem>PYTHIAS DORIAS PHAEDRIA ANCILLAE DVAE ADVLESCENS.</castItem>
+				<l><sp who='PY'><speaker>Pythias</speaker>Vbi ego illum scelerosum misera atque inpium inueniam?</sp></l>
+				<l>aut ubi quaeram?</l>
+				<l>hocine tam audax facinus facere esse ausum!</l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Perii.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Hoc quid sit uereor.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>quin etiam insuper scelus, postquam ludificatust uirginem,</sp></l>
+				<l>uestem omnem miserae discidit, tum ipsam capillo conscidit.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Hem!</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>qui nunc si detur mihi,</sp></l>
+				<l>ut ego unguibus facile illi in oculos inuolem uenefico!</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Hic nescio quid profecto absente nobis turbatumst domi.</sp></l>
+				<l>adibo.</l>					 
+				<l>quid istuc quid festinas? aut quem quaeris, Pythias?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Ehem Phaedria, ego quem quaeram? abi hinc</sp></l>
+				<l>quo dignu's cum donis tuis tam lepidis.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Quid istuc est rei?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Rogas me?</sp></l>
+				<l>eunuchum quem dedisti nobis quas turbas dedit!</l>
+				<l>quam erae dono dederat miles uirginem uitiauit.</l>					 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Quid ais?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Perii.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Temulenta's.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Vtinam sic sint qui mihi male uolunt.</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Au,</sp></l>
+				<l>obsecro, mea Pythias, quid istuc nam monstri fuit?</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Insanis: qui istuc facere eunuchus potuit?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Ego illum nescio</sp></l>
+				<l>qui fuerit: hoc quod fecit res ipsa indicat.</l>
+				<l>uirgo ipsa lacrumat neque, quom rogites, quid sit audet dicere.</l>
+				<l>ille autem bonus uir nusquam adparet.</l>
+				<l>etiam hoc misera suspicor,</l>
+				<l>aliquid domo abeuntem abstulisse.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Nequeo mirari satis,</sp></l>
+				<l>quo ille hinc abire ignauos possit longius, nisi si domum</l>
+				<l>forte ad nos rediit.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Vise amabo, num sit.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Iam faxo scies.</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Perii! obsecro, tam infandum facinus, mea tu, ne audiui quidem.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>At pol ego amatores mulierum esse eos audieram maxumos,</sp></l>
+				<l>sed nil potesse; uerum miserae non in mentem uenerat:</l>
+				<l>nam illum aliquo conclusissem neque illi commisissem uirginem.</l>
+				<castItem>PHAEDRIA DORVS PYTHIAS DORIAS ADVLESCENS EVNVCHVS ANCILLAE DVAE.</castItem>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Exi foras, sceleste.</sp></l>
+				<l>at etiam restitas,</l>
+				<l>fugitiue? prodi, male conciliate.</l>
+				<l><sp who='DO(RVS)'><speaker>Dorus</speaker>Obsecro.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Oh,</sp></l>
+				<l>illud uide, os ut sibi distorsit carnufex!</l>
+				<l>quid huc tibi reditiost?</l>					 
+				<l>uestis quid mutatiost?</l>
+				<l>quid narras? paulum si cessassem, Pythias,</l>
+				<l>domi non offendissem, ita iam adornarat fugam.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Haben hominem, amabo?</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Quid ni habeam?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Oh, factum bene.</sp></l>
+				<l><sp who='DOR(IAS)'><speaker>Dorias</speaker>Istuc pol uero bene.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Vbist?</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Rogitas? non uides?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Videam?</sp></l>
+				<l>obsecro quem?</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Hunc scilicet.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quis hic est homo?</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Qui ad uos deductus hodiest.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Hunc oculis suis</sp></l>
+				<l>nostrarum numquam quisquam uidit, Phaedria.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Non uidit?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>An tu hunc credidisti esse, obsecro,</sp></l>
+				<l>ad nos deductum?</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Namque alium habui neminem.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Au,</sp></l>
+				<l>ne comparandus quidem hic ad illumst: ille erat</l>
+				<l>honesta facie ac liberali.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Ita uisus est</sp></l>
+				<l>dudum, quia uaria ueste exornatus fuit;</l>
+				<l>nunc tibi uidetur foedus, quia illam non habet.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Tace obsecro: quasi uero paulum intersiet!</sp></l>
+				<l>ad nos deductus hodiest adulescentulus,</l>
+				<l>quem tu uidere uero uelles, Phaedria.</l>
+				<l>hic est uietus uetus ueternosus senex,</l>
+				<l>colore mustelino.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Hem, quae haec est fabula?</sp></l>
+				<l>eo rediges me, ut quid egerim egomet nesciam?</l>
+				<l>eho tu, emi n' ego te?</l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Emisti.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Iube mi denuo</sp></l>
+				<l>respondeat.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Roga.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Venisti hodie ad nos? negat.</sp></l>
+				<l>at ille alter uenit annos natus sedecim,</l>
+				<l>quem se cum adduxit Parmeno.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Age dum hoc mi expedi</sp></l>
+				<l>primum: istam quam habes unde habes uestem?</l>
+				<l>taces?</l>
+				<l>monstrum hominis, non dicturu's?</l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Venit Chaerea.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Frater ne?</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Ita.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Quando?</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Hocedie.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quam dudum?</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Modo.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Qui cum?</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Cum Parmenone.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Noras ne eum prius?</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Non.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Vnde fratrem meum esse scibas?</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Parmeno</sp></l>
+				<l>dicebat eum esse.</l>
+				<l>is mihi dedit hanc,</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Occidi!</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Meam ipse induit; post una ambo abierunt foras.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Iam satis credis sobriam esse me et nil mentitam tibi?</sp></l>
+				<l>iam satis certumst uirginem uitiatam esse?</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Age nunc, beluae</sp></l>
+				<l>credis huic quod dicat?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid isti credam? res ipsa indicat.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Concede istim huc paululum: audin? etiam nunc paulum: sat est.</sp></l>
+				<l>dicdum hoc rursum, Chaerea tuam uestem detraxit tibi?</l>					 
+				<l><sp who='DO'><speaker>Dorias</speaker>Factum.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Et eamst indutus?</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Factum.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Et pro te huc deductust?</sp></l> 
+				<l><sp who='DO'><speaker>Dorias</speaker>Ita.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Iuppiter magne, oh scelestum atque audacem hominem!</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Vae mihi:</sp></l>
+				<l>etiam nunc non credis nos indignis inrisas modis?</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Mirum ni tu credis quod iste dicit.</sp></l>
+				<l>quid agam nescio.</l>
+				<l>heus negato rursum.</l>
+				<l>possum ne ego hodie ex te exsculpere</l>
+				<l>uerum?</l>
+				<l>uidisti ne fratrem Chaeream?</l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Non.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Non potest</sp></l>
+				<l>sine malo fateri, uideo: sequere hac: modo ait modo negat.</l>
+				<l>ora me.</l>					 
+				<l><sp who='DO'><speaker>Dorias</speaker>Obsecro te uero, Phaedria.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>I intro nunciam.</sp></l>
+				<l><sp who='DO'><speaker>Dorias</speaker>Oiei.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Alio pacto honeste hinc quo modo abeam nescio.</sp></l>
+				<l>actumst, siquidem tu me hic etiam, nebulo, ludificabere.</l>
+				<l>-</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Parmenonis tam scio esse hanc techinam quam me uiuere.</sp></l>
+				<l><sp who='DOR(IAS)'><speaker>Dorias</speaker>Sic est.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Inueniam pol hodie, parem ubi referam gratiam.</sp></l>
+				<l>sed nunc quid faciundum censes, Dorias?</l>
+				<l><sp who='DOR(IAS)'><speaker>Dorias</speaker>De</sp></l>
+				<l>istac rogas</l>
+				<l>uirgine</l>					 
+				<l><sp who='PY'><speaker>Pythias</speaker>Ita, utrum praedicem ne an taceam? DOR. Tu pol, si sapis,</sp></l>
+				<l>quod scis nescis de isto eunucho aeque ac de uitio uirginis.</l>
+				<l>hac re et te omni turba euolues et illi gratum feceris.</l>
+				<l>id modo dic, abisse Dorum.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Ita faciam.</sp></l>
+				<l><sp who='DOR(IAS)'><speaker>Dorias</speaker>Sed uideo n' Chremem?</sp></l>
+				<l>Thais iam aderit.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid ita?</sp></l>
+				<l><sp who='DOR(IAS)'><speaker>Dorias</speaker>Quia, quom inde abeo, iam tum inceperat</sp></l>
+				<l>turba inter eos.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Tu aufer aurum hoc: ego scibo ex hoc quid siet.</sp></l>
+				<castItem>CHREMES PYTHIAS ADVLESCENS ANCILLA.</castItem>
+				<l><sp who='CH'><speaker>Chremes</speaker>Attat data hercle uerba mihi sunt: uicit uinum quod bibi.</sp></l>
+				<l>at dum adcubabam, quam uidebar mihi pulcre esse sobrius!</l>
+				<l>postquam surrexi, neque pes neque mens satis suom officium facit.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Chremes!</sp></l>
+				 CH. Quis est? ehem Pythias: uah, quanto nunc formonsior
+				<l>uidere mihi quam dudum!</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Certo tuquidem pol multo hilarior.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Verbum hercle hoc uerum erit 'sine Cerere et Libero friget Venus'.</sp></l>
+				<l>sed Thais multo n' ante uenit?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>An abiit iam a milite?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Iam dudum, aetatem.</sp></l>
+				<l>lites factae sunt inter eos maxumae.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Nil dixit, tu ut sequerere sese?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Nil, nisi abiens mi innuit.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Eho, nonne id sat erat?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>At nescibam id dicere illam, nisi quia</sp></l>
+				<l>correxit miles, quo intellexi minus: nam me extrusit foras.</l>
+				<l>sed eccam ipsam: miror ubi ego huic anteuorterim.</l>
+				<castItem>THAIS CHREMES PYTHIAS MERETRIX ADVLESCENS ANCILLA.</castItem>
+				<l><sp who='TH'><speaker>Thais</speaker>Credo equidem illum iam adfuturum esse, ut illam a me eripiat; sine ueniat!</sp></l>
+				<l>atqui si illam digito attigerit uno, oculi ilico ecfodientur.</l>
+				<l>usque adeo eius ferre possum ineptiam et magnifica uerba,</l>
+				<l>uerba dum sint; uerum enim si ad rem conferentur, uapulabit.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Thais, ego iam dudum hic adsum.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>O mi Chremes, te ipsum expeto.</sp></l>
+				<l>scin tu turbam hanc propter te esse factam?</l>
+				<l>et adeo ad te attinere hanc</l>
+				<l>omnem rem?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Ad me? qui quaeso istuc</sp></l>
+				 TH. Quia, dum tibi sororem studeo
+				<l>reddere ac restituere, haec atque huius modi sum multa passa.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Vbi east?</sp></l>
+				 TH. Domi apud me.
+				<l><sp who='CH'><speaker>Chremes</speaker>Hem!</sp></l>
+				 TH. Quid est?
+				<l>educta ita uti te que illa que dignumst.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Quid ais?</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Id quod res est.</sp></l>
+				<l>hanc tibi dono do neque repeto pro illa quicquam abs te preti.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Et habetur et referetur, Thais, tibi ita ut merita's gratia.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>At enim caue, ne prius quam hanc a me accipias amittas, Chremes:</sp></l>
+				<l>nam haec east, quam miles a me ui nunc ereptum uenit.</l>
+				<l>abi tu, cistellam, Pythias, domo ecfer cum monumentis.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Viden tu illum, Thais,</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Vbi sitast?</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>In risco: odiosa cessas.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>militem se cum ad te quantas copias adducere?</sp></l>
+				<l>attat.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Num formidulosus obsecro es, mi homo?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Apage sis:</sp></l>
+				<l>ego n' formidulosus?</l>
+				<l>nemost hominum qui uiuat minus.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Atqui ita opust.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Ah, metuo qualem tu me esse hominem existumes.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Immo hoc cogitato: qui cum res tibist, peregrinus est,</sp></l>
+				<l>minus potens quam tu, minus notus, minus amicorum hic habens.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Scio istuc sed tu quod cauere possis, stultum admittere est.</sp></l>
+				<l>malo ego nos prospicere quam hunc ulcisci accepta iniuria.</l>
+				<l>tu abi atque obsera ostium intus, dum ego hinc transcurro ad forum:</l>
+				<l>uolo ego adesse hic aduocatos nobis in turba hac.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Mane.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Melius est.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Omitte.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Iam adero.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Nil opus est istis, Chremes.</sp></l>
+				<l>hoc modo dic, sororem esse illam tuam et te paruam uirginem</l>
+				<l>amisisse, nunc cognosse.</l>
+				<l>signa ostende.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Adsunt.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Cape.</sp></l>
+				<l>si uim faciet, in ius ducito hominem: intellexti n'?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Probe.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Fac animo haec praesenti dicas.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Faciam.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Attolle pallium.</sp></l>
+				<l>perii: huic ipsist opus patrono, quem defensorem paro!</l>
+				<castItem>THRASO GNATHO SANGA CHREMES MILES PARASITVS SERVOS ADVLESCENS THAIS MERETRIX.</castItem>
+				<l><sp who='THR'><speaker>Thraso</speaker>Hancine ego ut contumeliam tam insignem in me accipiam, Gnatho?</sp></l>
+				<l>mori me satiust.</l>
+				<l>Simalio, Donax, Syrisce, sequimini!</l>
+				<l>primum aedis expugnabo.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Recte.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Virginem eripiam.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Probe.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Male mulcabo ipsam.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Pulcre.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>In medium huc agmen cum uecte i Donax;</sp></l>
+				<l>tu, Simalio, in sinistrum cornum; tu, Syrisce, in dexterum.</l>
+				<l>cedo alios: ubi centuriost Sanga et manipulus furum?</l>
+				<l><sp who='SA'><speaker>Sanga</speaker>Eccum adest.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quid ignaue? peniculo n' pugnare, qui istum huc portes, cogitas?</sp></l>
+				<l><sp who='SA'><speaker>Sanga</speaker>Ego ne? imperatoris uirtutem noueram et uim militum:</sp></l>
+				<l>sine sanguine hoc non posse fieri: qui abstergerem uolnera?</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Vbi alii?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Qui malum 'alii'?</sp></l>
+				<l>solus Sannio seruat domi.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Tu hosce instrue: ego ero hic post principia: inde omnibus signum dabo.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Illuc est sapere: ut hosce instruxit, ipsus sibi cauit loco.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Idem hoc iam Pyrrus factitauit.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Viden tu, Thais, quam hic rem agit?</sp></l>
+				<l>nimirum consilium illud rectumst de occludendis aedibus.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Sane quod tibi nunc uir uideatur esse hic, nebulo magnus est:</sp></l>
+				<l>ne metuas.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quid uidetur?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Fundam tibi nunc nimis uellem dari,</sp></l>
+				<l>ut tu illos procul hinc ex occulto caederes: facerent fugam.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Sed eccam Thaidem ipsam uideo.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quam mox inruimus?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Mane:</sp></l>
+				<l>omnia enim prius experiri quam armis sapientem decet.</l>
+				<l>qui scis an quae iubeam sine ui faciat?</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Di uostram fidem,</sp></l>
+				<l>quantist sapere! numquam accedo ad te, quin abeam doctior.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Thais, primum hoc mihi responde: quom tibi do istam uirginem,</sp></l>
+				<l>dixti n' hos dies mihi soli dare te?</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid tum postea?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Rogitas? quae mi ante oculos coram amatorem adduxti tuom</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quin cum illo nunc agis?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>et cum eo clam te subduxti mihi?</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Lubuit.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Pamphilam ergo huc redde, nisi ui mauis eripi.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Tibi illam reddat aut tu eam tangas, omnium ...?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Ah, quid agis? tace.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quid tu tibi uis? ego non tangam meam?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Tuam autem, furcifer?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Caue sis: nescis quoi maledicas nunc uiro.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Non tu hinc abis?</sp></l>
+				<l>scin tu ut tibi res se habeat?</l>
+				<l>si quicquam hodie hic turbae coeperis,</l>
+				<l>faciam ut huius loci diei que mei que semper memineris.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Miseret tui me, qui hunc tantum hominem facias inimicum tibi.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Dimminuam ego caput tibi hodie, nisi abis GN. Ain uero, canis?</sp></l>				 
+				<l>sicine agis?</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quis tu homo es?</sp></l>
+				<l>quid uis tibi? quid cum illa rei tibist?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Scibis: principio eam esse dico liberam.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Hem!</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Ciuem Atticam.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Hui!</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Meam sororem.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Os durum!</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Miles, nunc adeo edico tibi,</sp></l>
+				<l>ne uim facias ullam in illam.</l>
+				<l>Thais, ego eo ad Sophronam</l>
+				<l>nutricem, ut eam adducam et signa ostendam haec.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Tu n' me prohibeas,</sp></l>
+				<l>meam ne tangam?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Prohibebo, inquam.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Audin tu? hic furti se adligat:</sp></l>
+				<l>sat hoc tibist.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Idem hoc tu ais, Thais?</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quaere qui respondeat.</sp></l>
+				<l>-</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Quid nunc agimus?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quid?</sp></l>
+				<l>redeamus: iam haec tibi aderit supplicans</l>
+				<l>ultro.</l>	 
+				<l><sp who='THR'><speaker>Thraso</speaker>Credin?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Immo certe: noui ingenium mulierum:</sp></l>
+				<l>nolunt ubi uelis, ubi nolis cupiunt ultro.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Bene putas.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Iam dimitto exercitum?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Vbi uis.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Sanga, ita uti fortis decet</sp></l>
+				<l>milites, domi foci que fac uicissim ut memineris.</l>
+				<l><sp who='SA'><speaker>Sanga</speaker>am dudum animus est in patinis.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Frugi es.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Vos me hac sequimini.</sp></l>
+				<castItem>THAIS PYTHIAS MERETRIX ANCILLA.</castItem>
+				<l><sp who='TH'><speaker>Thais</speaker>Pergin, scelesta, me cum perplexe loqui?</sp></l>
+				<l>'scio, nescio, abiit, audiui, ego non adfui'.</l>
+				<l>non tu istuc mihi dictura aperte es, quidquid est?</l>
+				<l>uirgo conscissa ueste lacrumans opticet;</l>
+				<l>eunuchus abiit: quam ob rem?</l>
+				<l>aut quid factumst? taces?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid tibi ego dicam misera?</sp></l>
+				<l>illum eunuchum negant</l>
+				<l>fuisse.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quis fuit igitur?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Iste Chaerea.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Qui Chaerea?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Iste ephebus frater Phaedriae.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid ais, uenefica?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Atqui certo comperi.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid is obsecro ad nos? quam ob rem adductust?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Nescio,</sp></l>
+				<l>nisi amasse credo Pamphilam.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Hem! misera occidi,</sp></l>
+				<l>infelix, siquidem tu istaec uera praedicas.</l>
+				<l>num id lacrumat uirgo?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Id opinor.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid ais, sacrilega?</sp></l>
+				<l>istucine interminata sum hinc abiens tibi?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid facerem? ita ut tu iusti, soli creditast.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Scelesta lupo ouem commisisti.</sp></l>
+				<l>dispudet</l>
+				<l>sic mihi data esse uerba.</l>				 
+				<l>quid illud hominis est?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Era mea, tace tace obsecro, saluae sumus.</sp></l>
+				<l>habemus hominem ipsum.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Vbi is est?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Em ad sinisteram.</sp></l>
+				<l>uiden?</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Video.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Comprendi iube, quantum potest.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid illo faciemus, stulta?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid facias, rogas?</sp></l>
+				<l>uide amabo, si non, quom aspicias, os inpudens</l>
+				<l>uidetur!</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Non est.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Tum quae eius confidentiast!</sp></l>
+				<castItem>CHAEREA THAIS PYTHIAS ADVLESCENS MERETRIX ANCILLA.</castItem>
+				<l><sp who='CH'><speaker>Chremes</speaker>Apud Antiphonem uterque, mater et pater,</sp></l>
+				<l>quasi dedita opera domi erant, ut nullo modo</l>
+				<l>intro ire possem, quin uiderent me.</l>
+				<l>interim</l>
+				<l>dum ante ostium sto, notus mihi quidam obuiam</l>
+				<l>uenit.</l>
+				<l>ubi uidi, ego me in pedes quantum queo</l>
+				<l>in angiportum quoddam desertum, inde item</l>
+				<l>in aliud, inde in aliud: ita miserrumus</l>
+				<l>fui fugitando, nequis me cognosceret.</l>
+				<l>sed est ne haec Thais, quam uideo? ipsast.</l>
+				<l>haereo</l>
+				<l>quid faciam.</l>
+				<l>quid mea autem? quid faciet mihi?</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Adeamus.</sp></l>
+				<l>bone uir Dore, salue: dic mihi,</l>
+				<l>aufugisti n'?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Era, factum.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Satin id tibi placet?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Non.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Credin te inpune habiturum?</sp></l> CH. Vnam hanc noxiam
+				<l>amitte; si aliam admisero umquam, occidito.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Num meam saeuitiam ueritu's?</sp></l> CH. Non.
+				<l><sp who='TH'><speaker>Thais</speaker>Non? quid igitur?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Hanc metui ne me criminaretur tibi.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Quid feceras?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Paulum quiddam.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Eho 'paulum' inpudens?</sp></l>
+				<l>an paulum hoc esse tibi uidetur, uirginem</l>
+				<l>uitiare ciuem?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Conseruam esse credidi.</sp></l>				 
+				<l><sp who='PY'><speaker>Pythias</speaker>Conseruam? uix contineo me quin inuolem</sp></l>
+				<l>monstro in capillum: etiam ultro derisum aduenit.</l>				 
+				<l><sp who='TH'><speaker>Thais</speaker>Abin hinc, insana?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid ita?</sp></l>
+				<l>uero debeam,</l>
+				<l>credo, isti quicquam furcifero, id si fecerim:</l>
+				<l>praesertim quom se seruom fateatur tuom.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Missa haec faciamus.</sp></l>
+				<l>non te dignum, Chaerea,</l>
+				<l>fecisti: nam si ego digna hac contumelia</l>
+				<l>sum maxume, at tu indignus qui faceres tamen.</l>				 
+				<l>neque edepol quid nunc consili capiam scio</l>
+				<l>de uirgine istac: ita conturbasti mihi</l>
+				<l>rationes omnis, ut eam non possim suis</l>
+				<l>ita ut aequom fuerat atque ut studui tradere,</l>
+				<l>ut solidum parerem hoc mihi benficium, Chaerea.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>At nunc dehinc spero aeternam inter nos gratiam</sp></l>
+				<l>fore, Thais.</l>			 
+				<l>saepe ex huius modi re quapiam</l>
+				<l>malo principio magna familiaritas</l>
+				<l>conflatast.</l>	 
+				<l>quid si hoc quispiam uoluit deus?</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Equidem pol in eam partem accipio que et uolo.</sp></l> 
+				<l><sp who='CH'><speaker>Chremes</speaker>Immo ita quaeso.</sp></l>
+				<l>unum hoc scito, </l>
+				<l>non me fecisse causa, sed amoris.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Scio,</sp></l>
+				<l>et pol propterea magis nunc ignosco tibi.</l>
+				<l>non adeo inhumano sum ingenio, Chaerea,</l>
+				<l>neque ita inperita, ut quid amor ualeat nesciam.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Te quoque iam, Thais, ita me di bene ament, amo.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Tum pol tibi ab istoc, era, cauendum intellego.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Non ausim.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Nil tibi quicquam credo.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Desinas.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Nunc ego te in hac re mi oro ut adiutrix sies,</sp></l>
+				<l>ego me tuae commendo et committo fidei:</l>
+				<l>te mihi patronam capio, Thais, te obsecro:</l>
+				<l>emoriar, si non hanc uxorem duxero.</l>				 
+				<l><sp who='TH'><speaker>Thais</speaker>Tamen si pater quid ...</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Ah uolet, certo scio,</sp></l>
+				<l>ciuis modo haec sit.</l> 
+				<l><sp who='TH'><speaker>Thais</speaker>Paululum opperirier</sp></l>
+				<l>si uis, iam frater ipse hic aderit uirginis;</l>
+				<l>nutricem arcessitum iit, quae illam aluit paruolam:</l>
+				<l>in cognoscendo tute ipse aderis, Chaerea.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Ego uero maneo.</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Vin interea, dum is uenit,</sp></l>
+				<l>domi opperiamur potius quam hic ante ostium?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Immo percupio.</sp></l>				 
+				<l><sp who='PY'><speaker>Pythias</speaker>Quam tu rem actura obsecro es?</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>Nam quid ita?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Rogitas? hunc tu in aedis cogitas</sp></l>
+				<l>recipere posthac?</l> 
+				<l><sp who='TH'><speaker>Thais</speaker>Quor non?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Crede hoc meae fidei,</sp></l>
+				<l>dabit hic pugnam aliquam denuo.</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Au, tace obsecro.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Parum perspexisse eius uidere audaciam.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Non faciam, Pythias.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Non credo, Chaerea,</sp></l>
+				<l>nisi si commissum non erit.</l>			 
+				<l><sp who='CH'><speaker>Chremes</speaker>Quin, Pythias,</sp></l>
+				<l>tu me seruato.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Neque pol seruandum tibi</sp></l>
+				<l>quicquam dare ausim neque te seruare.</l>
+				<l>apage sis.</l>				 
+				<l><sp who='TH'><speaker>Thais</speaker>Adest optume ipse frater.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Perii hercle: obsecro</sp></l>
+				<l>abeamus intro, Thais: nolo me in uia</l>
+				<l>cum hac ueste uideat.</l>				 
+				<l><sp who='PY'><speaker>Pythias</speaker>Quam ob rem tandem? an quia pudet?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Id ipsum.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Id ipsum? uirgo uero!</sp></l>
+				<l><sp who='TH'><speaker>Thais</speaker>I prae, sequor.</sp></l>
+				<l>tu istic mane, ut Chremem intro ducas, Pythias.</l>	 
+				<castItem>PYTHIAS CHREMES SOPHRONA ANCILLA ADVLESCENS NVTRIX.</castItem>	 
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid, quid uenire in mentem nunc possit mihi,</sp></l>
+				<l>quidnam, qui referam sacrilego illi gratiam,</l>
+				<l>qui hunc supposuit nobis?</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Moue te oro ocius,</sp></l>
+				<l>mea nutrix.</l>
+				<l><sp who='SO'><speaker>Sophrona</speaker>Moueo.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Video, sed nil promoues.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Iam ne ostendisti signa nutrici?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Omnia.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Amabo, quid ait? cognoscit ne?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Ac memoriter.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Probe edepol narras: nam isti faueo uirgini.</sp></l>
+				<l>ite intro: iam dudum era uos exspectat domi.</l>
+				<l>uirum bonum eccum Parmenonem incedere</l>
+				<l>uideo: uide ut otiosus it! si dis placet,</l>
+				<l>spero me habere, qui hunc meo excruciem modo.</l>
+				<l>ibo intro, de cognitione ut certum sciam;</l>
+				<l>post exibo atque hunc perterrebo sacrilegum.</l>
+				<castItem>PARMENO PYTHIAS SERVOS ANCILLA.</castItem>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Reuiso, quidnam Chaerea hic rerum gerat.</sp></l>
+				<l>quod si astu rem tractauit, di uostram fidem,</l>
+				<l>quantam et quam ueram laudem capiet Parmeno!</l>
+				<l>nam ut mittam, quod ei amorem difficillumum,</l>
+				<l>carissumum, a meretrice auara uirginem</l>
+				<l>quam amabat, eam confeci sine molestia,</l>
+				<l>sine sumptu, sine dispendio, tum hoc alterum,</l>
+				<l>id uerost quod ego mihi puto palmarium,</l>
+				<l>me repperisse, quo modo adulescentulus</l>
+				<l>meretricum ingenia et mores posset noscere,</l>
+				<l>mature ut quom cognorit, perpetuo oderit.</l>				 
+				<l>quae dum foris sunt, nil uidetur mundius,</l>
+				<l>nec magis compositum quicquam nec magis elegans</l>
+				<l>quam cum amatore cenam quom ligurriunt.</l>
+				<l>harum uidere inluuiem sordes inopiam,</l>
+				<l>quam inhonestae solae sint domi atque auidae cibi,</l>
+				<l>quo pacto ex iure hesterno panem atrum uorent,</l>
+				<l>nosse omnia haec salutist adulescentulis.</l>				 
+				<l><sp who='PY'><speaker>Pythias</speaker>Ego pol te pro istis dictis et factis, scelus,</sp></l>
+				<l>ulciscar, ut ne inpune nos inluseris.</l>
+				<l>pro deum fidem, facinus foedum! infelicem adulescentulum!</l>
+				<l>o' scelestum Parmenonem, qui illum huc adduxit!</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid est?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Miseret me: itaque ut ne uiderem, misera huc ecfugi foras,</sp></l>
+				<l>quae futura exempla dicunt in eum indigna.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>O Iuppiter,</sp></l>
+				<l>quae illaec turbast? numnam ego perii? adibo.</l>
+				<l>quid istuc, Pythias?</l>
+				<l>quid ais? in quem exempla fient?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Rogitas, audacissume?</sp></l>
+				<l>perdidisti istum quem adduxti pro eunucho adulescentulum,</l>
+				<l>dum studes dare uerba nobis.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid ita? aut quid factumst? cedo.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Dicam: uirginem istam, Thaidi hodie quae dono datast,</sp></l>
+				<l>scis eam hinc ciuem esse?</l>				 
+				<l>et fratrem eius esse adprime nobilem?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Nescio.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Atqui sic inuentast: eam iste uitiauit miser.</sp></l>
+				<l>ille ubi id resciuit factum frater uiolentissumus,</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quidnam fecit?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>conligauit primum eum miseris modis.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Conligauit?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Atque equidem orante, ut ne id faceret, Thaide.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid ais?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Nunc minatur porro sese id quod moechis solet:</sp></l>
+				<l>quod ego numquam uidi fieri neque uelim.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Qua audacia</sp></l>
+				<l>tantum facinus audet?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Quid ita 'tantum'?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>An non hoc maxumumst?</sp></l>
+				<l>quis homo pro moecho umquam uidit in domo meretricia</l>
+				<l>prendi quemquam?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Nescio.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>At ne hoc nesciatis, Pythias,</sp></l>
+				<l>dico, edico uobis nostrum esse illum erilem filium.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Hem,</sp></l>
+				<l>obsecro, an is est? PA. Nequam in illum Thais uim fieri sinat!</l>
+				<l>atque adeo autem quor non egomet intro eo?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Vide, Parmeno,</sp></l>
+				<l>quid agas, ne neque illi prosis et tu pereas: nam hoc putant,</l>
+				<l>quidquid factumst, ex te esse ortum.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid igitur faciam miser?</sp></l>
+				<l>quid ue incipiam?</l>
+				<l>ecce autem uideo rure redeuntem senem:</l>
+				<l>dicam huic an non dicam?</l>
+				<l>dicam hercle: etsi mihi magnum malum</l>
+				<l>scio paratum; sed necessest, huic ut subueniat.</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Sapis.</sp></l>
+				<l>ego abeo intro: tu isti narra omne ordine, ut factum siet.</l>
+				<castItem>[LACHES] PARMENO SENEX SERVOS.</castItem>
+				<l><sp who='LA'><speaker>Laches</speaker>Ex meo propinquo rure hoc capio commodi:</sp></l>
+				<l>neque agri neque urbis odium me umquam percipit.</l>
+				<l>nam ubi satias coepit fieri, commuto locum.</l>
+				<l>sed est ne ille noster Parmeno? et certe ipsus est.</l>
+				<l>quem praestolare, Parmeno, hic ante ostium?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quis homost?</sp></l>
+				<l>ehem, saluom te aduenire, ere, gaudeo.</l>
+				<l><sp who='LA'><speaker>Laches</speaker>Quem praestolare?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Perii: lingua haeret metu.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Hem!</sp></l>
+				<l>quid est quod tu trepidas?</l>
+				<l>satine saluae? dic mihi.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Ere, primum te arbitrari id quod res est uelim:</sp></l>
+				<l>huius quidquid factumst, culpa non factumst mea.</l>
+				<l><sp who='LA'><speaker>Laches</speaker>Quid?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Recte sane interrogasti: oportuit</sp></l>
+				<l>rem praenarrasse me.</l>
+				<l>emit quendam Phaedria</l>
+				<l>eunuchum, quem dono huic daret.</l>
+				<l><sp who='LA'><speaker>Laches</speaker>Quoi?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Thaidi.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Emit? perii hercle.</sp></l>
+				<l>quanti?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Viginti minis.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Actumst.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Tum quandam fidicinam amat hinc Chaerea.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Hem,</sp></l>
+				<l>quid? amat? an iam scit ille quid meretrix siet?</l>
+				<l>an in astu uenit? aliud ex alio malum!</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Ere, ne me spectes: me inpulsore haec non facit.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Omitte de te dicere.</sp></l>
+				<l>ego te, furcifer,</l>
+				<l>si uiuo ... sed istuc, quidquid est, primum expedi.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Is pro illo eunucho ad Thaidem hanc deductus est.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Pro eunucho n'?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Sic est.</sp></l>
+				<l>hunc pro moecho postea</l>
+				<l>comprendere intus et constrinxere.</l>
+				<l><sp who='LA'><speaker>Laches</speaker>Occidi!</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Audaciam meretricum specta.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Numquid est</sp></l>
+				<l>aliud mali damni ue quod non dixeris</l>
+				<l>relicuom?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Tantumst.</sp></l>
+				<l><sp who='LA'><speaker>Laches</speaker>Cesso huc intro rumpere? -</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Non dubiumst quin mihi magnum ex hac re sit malum;</sp></l>
+				<l>nisi quia necessus fuit hoc facere.</l>
+				<l>id gaudeo</l>
+				<l>propter me hisce aliquid esse euenturum mali:</l>
+				<l>nam iam diu aliquam causam quaerebat senex,</l>
+				<l>quam ob rem insigne aliquid faceret eis: nunc repperit.</l>
+				<castitem>PYTHIAS PARMENO ANCILLA SERVOS.</castitem>
+				<l><sp who='PY'><speaker>Pythias</speaker>Numquam edepol quicquam iam diu quod magis uellem euenire</sp></l>
+				<l>mi euenit, quam quod modo senex intro ad nos uenit errans.</l>
+				<l>mihi solae ridiculo fuit, quae quid timeret scibam.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid hoc autemst?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Nunc id prodeo ut conueniam Parmenonem.</sp></l>
+				<l>sed ubi obsecro est?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Me quaerit haec.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Atque eccum uideo: adibo.</sp></l>				 
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid est, inepta? quid tibi uis?</sp></l>
+				<l>rides? pergin?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Perii,</sp></l>
+				<l>defessa iam sum misera te ridendo.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid ita?</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Rogitas?</sp></l>
+				<l>numquam pol hominem stultiorem uidi nec uidebo.</l>
+				<l>ah,</l>
+				<l>non satis potest narrari, quos ludos praebueris intus.</l>
+				<l>at etiam primo callidum ac disertum credidi hominem.</l>
+				<l>quid? ilico ne credere ea quae dixi oportuit te?</l>
+				<l>an paenitebat flagiti, te auctore quod fecisset</l>
+				<l>adulescens, ni miserum insuper etiam patri indicares?</l>
+				<l>nam quid illi credis tum animi fuisse, ubi uestem uidit</l>
+				<l>illam esse eum indutum pater?</l>
+				<l>quid? iam scis te perisse?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Hem,</sp></l>
+				<l>quod dudum dixti, pessuma, an mentita's?</l>
+				<l>etiam rides?</l>
+				<l>ita n' lepidum tibi uisumst, scelus, nos inridere?</l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Nimium.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Siquidem istuc inpune habueris ...</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Verum?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Reddam hercle.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Credo:</sp></l>
+				<l>sed in diem istuc Parmeno, est fortasse, quod minare.</l>
+				<l>tu iam pendebis, adulescentulum istum qui nobilitas</l>
+				<l>flagitiis et eundem indicas: uterque in te exempla edent.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Nullus sum.</sp></l>
+				<l><sp who='PY'><speaker>Pythias</speaker>Hic pro illo munere tibi honos est habitus: abeo.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Egomet meo indicio miser quasi sorex hodie perii.</sp></l>
+				<castItem>GNATHO THRASO. PARASITVS MILES.</castItem>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quid nunc? qua spe aut quo consilio huc imus?</sp></l>
+				<l>quid coeptas, Thraso?</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Ego ne? ut Thaidi me dedam et faciam quod iubeat.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quid est?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Qui minus quam Hercules seruiuit Omphalae?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Exemplum placet.</sp></l>
+				<l>utinam tibi commitigari uideam sandalio caput!</l>
+				<l>sed fores crepuerunt ab ea.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Perii: quid hoc autemst mali?</sp></l>
+				<l>hunc ego numquam uideram etiam: quidnam hic properans prosilit?</l>				 
+				<castItem>CHAEREA PARMENO GNATHO THRASO. ADVLESCENS SERVOS PARASITVS MILES.</castItem>
+				<l><sp who='CH'><speaker>Chremes</speaker>O mei populares, ecquis me hodie uiuit fortunatior?</sp></l>
+				<l>nemo hercle quisquam: nam in me plane di potestatem suam</l>
+				<l>omnem ostendere, quoi tam subito tot congruerint commoda.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Quid hic laetus est?</sp></l>
+				<l><sp who='CH'><speaker>Chereas</speaker>O Parmeno mi, o mearum uoluptatum omnium</sp></l>
+				<l>inuentor inceptor perfector, scis me in quibus sim gaudiis?</l>
+				<l>scis Pamphilam meam inuentam ciuem?</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Audiui.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Scis sponsam mihi?</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Bene, ita me di ament, factum.</sp></l>		 
+				<l><sp who='GN'><speaker>Gnatho</speaker>Audin tu, hic quid ait?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Tum autem Phaedriae</sp></l>
+				<l>meo fratri gaudeo esse amorem omnem in tranquillo: unast domus;</l>
+				<l>patri se Thais commendauit, in cluentelam et fidem</l>
+				<l>nobis dedit se.</l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Fratris igitur Thais totast?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Scilicet.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Iam hoc aliud est quod gaudeamus: miles pelletur foras.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Tu frater ubi ubi est fac quam primum haec audiat.</sp></l>
+				<l><sp who='PA'><speaker>Parmeno</speaker>Visam domum.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Numquid, Gnatho, tu dubitas quin ego nunc perpetuo perierim?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Sine dubio opinor.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Quid commemorem primum aut laudem maxume?</sp></l>
+				<l>illum qui mihi dedit consilium ut facerem, an me qui id ausus sim</l>
+				<l>incipere, an Fortunam conlaudem, quae gubernatrix fuit,</l>
+				<l>quae tot res tantas tam opportune in unum conclusit diem,</l>
+				<l>an mei patris festiuitatem et facilitatem?</l>
+				<l>o Iuppiter, serua obsecro haec bona nobis!</l>
+				<catItem>PHAEDRIA CHAEREA THRASO GNATHO ADVLESCENTES DVO MILES PARASITVS.</catItem>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Di uostram fidem, incredibilia Parmeno modo quae narrauit! sed ubist frater?</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Praesto adest.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Gaudeo.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Satis credo.</sp></l>				 
+				<l>nihil est Thaide hac,</l>
+				<l>frater, tua dignius quod ametur: ita nostrae omnist fautrix familiae.</l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Hui,</sp></l>
+				<l>mihi illam laudas?</l>
+				<l><sp who='TH'><speaker>Thais</speaker>Perii, quanto minus spei est, tanto magis amo.</sp></l>
+				<l>obsecro, Gnatho, in te spes est.</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quid uis faciam?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Perfice hoc</sp></l>
+				<l>precibus pretio, ut haeream in parte aliqua tandem apud Thaidem.</l>				 
+				<l><sp who='GN'><speaker>Gnatho</speaker>Difficilest.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Siquid conlubitumst, noui te.</sp></l>
+				<l>hoc si effeceris,</l>
+				<l>quoduis donum praemium a me optato, id optatum auferes.</l>				 
+				<l><sp who='GN'><speaker>Gnatho</speaker>Ita ne?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Sic erit.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Si efficio hoc, postulo ut mihi tua domus</sp></l>
+				<l>te praesente absente pateat, inuocato ut sit locus</l>
+				<l>semper.</l>				 
+				<l><sp who='THR'><speaker>Thraso</speaker>Do fidem futurum.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Adcingar.</sp></l>				 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Quem ego hic audio?</sp></l>
+				<l>o Thraso!</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Saluete.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Tu fortasse quae facta hic sient</sp></l>
+				<l>nescis.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Scio.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Quor ergo ego in his te conspicor regionibus?</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Vobis fretus ...</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Scin quam fretus?</sp></l>
+				<l>miles, edico tibi,</l>
+				<l>si te in platea offendero hac post umquam, quod dicas mihi</l>
+				<l>'alium quaerebam, iter hac habui', periisti.</l>				 
+				<l><sp who='GN'><speaker>Gnatho</speaker>Heia, haud sic decet.</sp></l>				 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Dictumst.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Non cognosco uostrum tam superbum.</sp></l>			 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Sic ago.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Prius audite paucis: quod quom dixero, si placuerit,</sp></l>
+				<l>facitote.</l>
+				<l><sp who='CH'><speaker>Chereas</speaker>Audiamus.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Tu concede paulum istuc, Thraso.</sp></l>
+				<l>principio ego uos credere ambos hoc mihi uehementer uelim,</l>
+				<l>me huius quidquid facio id facere maxume causa mea;</l>
+				<l>uerum idem si uobis prodest, uos non facere inscitiast.</l>				 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Quid id est?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Militem ego riualem recipiundum censeo.</sp></l>		 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Hem,</sp></l>
+				<l>recipiundum?</l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Cogita modo.</sp></l>
+				<l>tu hercle cum illa, Phaedria,</l>
+				<l>ut lubenter uiuis (etenim bene lubenter uictitas),</l>
+				<l>quod des paulumst, et necessest multum accipere Thaidem.</l>
+				<l>ut tuo amori suppeditare possint sine sumptu tuo</l>
+				<l>omnia haec, magis opportunus nec magis ex usu tuo</l>
+				<l>nemost.</l>				 
+				<l>principio et habet quod det, et dat nemo largius.</l>
+				<l>fatuos est, insulsus, tardus, stertit noctis et dies:</l>
+				<l>neque istum metuas ne amet mulier: facile pellas ubi uelis.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Quid agimus?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Praeterea hoc etiam, quod ego uel primum puto:</sp></l>
+				<l>accipit hoc homo nemo melius prorsus neque prolixius.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Mirum ni illoc homine quoquo pacto opus est.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Idem ego arbitror.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Recte facitis.</sp></l>
+				<l>unum etiam hoc uos oro, ut me in uostrum gregem</l>
+				<l>recipiatis: satis diu hoc iam saxum uorso.</l>				 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Recipimus.</sp></l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Ac lubenter.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>At ego pro isto, Phaedria et tu Chaerea,</sp></l>
+				<l>hunc comedendum uobis propino et deridendum.</l>
+				<l><sp who='CH'><speaker>Chremes</speaker>Placet.</sp></l>
+				<l><sp who='PH'><speaker>Phaedria</speaker>Dignus est.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Thraso, accede ubi uis.</sp></l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Obsecro te, quid agimus?</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Quid?</sp></l>
+				<l>isti te ignorabant; postquam eis mores ostendi tuos</l>
+				<l>et conlaudaui secundum facta et uirtutes tuas,</l>
+				<l>inpetraui.</l>
+				<l><sp who='THR'><speaker>Thraso</speaker>Bene fecisti: gratiam habeo maxumam.</sp></l>
+				<l>numquam etiam fui usquam, quin me amarent omnes plurumum.</l>				 
+				<l><sp who='GN'><speaker>Gnatho</speaker>Dixi n' ego in hoc esse uobis Atticam elegantiam?</sp></l>				 
+				<l><sp who='PH'><speaker>Phaedria</speaker>Nil praeter promissum est.</sp></l>
+				<l><sp who='GN'><speaker>Gnatho</speaker>Ite hac..</sp></l>				 
+				<castItem>CANTOR</castItem>
+				<l>Vos ualete et plaudite.</l>
+ 
+
+
+
+
+ 					</body>
+ 						<back>
+ 							<div type="colophon">
+ 								<p>Typeset in Haselfoot 37 and Henry 8. Printed and bound by Whistleshout, South Africa.</p>
+ 							</div>
+ 						</back>
+ 					</oggetto>
+ 				</archivio>
+ 				 </TEI>

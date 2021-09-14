@@ -1,0 +1,1836 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<archivio>
+	<oggetto n="1">
+		<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+		<fileDesc>
+			<titleStmt>
+				<!--Titolo della risorsa-->
+				<title>Andria</title>
+				<author>
+					<name>Terenzio Afro, Publio</name>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<!--Informazioni sulla distribuzione della risorsa-->
+				<publisher>Brepols Publishers NV</publisher>
+				<distributor><authority>Università di Bologna</authority></distributor>
+				<availability status="restricted">
+				<p>Disponibile con accesso limitato per scopi di ricerca accademica e insegnamento.</p><licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distribuito sotto la licenza di Creative Commons Attribution-ShareAlike 3.0 Unported</licence>
+				</availability>
+			</publicationStmt>
+			<editionStmt>
+				<edition>Edizione per il proxy Unibo, <date>10-08-2021</date></edition>
+			</editionStmt>
+			<sourceDesc>
+				<respStmt>
+				<resp>Edited and made available by</resp>
+				<name xml:id="BP">Brepols Publishers NV</name>
+			</respStmt>
+			<respStmt>
+				<resp>Metadata</resp>
+				<resp>Commento</resp>
+				<resp>Note</resp>
+				<resp>Classificazione retorica</resp>
+				<name xml:id="MC">Martina Cofano</name>
+			</respStmt>
+					<!--Informazioni sulla fonte primaria della risorsa-->
+				<sourceDesc>
+					<bibl><title level="m">Andria. P. Terenti Afri</title></bibl>
+						<author>Terentius (Publius Terentius Afer)</author>	
+						<publisher>Walter de Gruyter</publisher>
+					<distributor>Biblioteca Teubneriana Latina</distributor>
+					<editor>Fleckeisen, Alfred</editor>
+					<pubPlace>Leipzig</pubPlace>
+					<idno type="ISBN">9783110984217</idno>
+					<idno type="DOI">/10.1515/9783111327532</idno>
+					<date when="1898-12">December 31, 1898</date>
+					 <availability status="restricted">
+					 <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distribuito con la licenza Creative Commons Attribution-ShareAlike 3.0.
+					 </licence>
+					</availability>
+					<bibl xml:id="dimartinosommerstain" resp="#DMS" sameAs="https://www.worldcat.org/title/studi-sulleufemismo/oclc/237369782">
+					<editor ref="#Levante" role="editor"/>
+					<author ref="#DMS"/>
+					<biblScope unit="book" n="1">1</biblScope>
+					<bibl><title level="m" type="Work" subtype="Book">Studi sull'eufemismo</title></bibl>
+					<pubPlace>Bari</pubPlace>
+					<publisher>Levante</publisher> 
+					<date>1999</date> -->
+					<citedRange xml:id="bibl1" unit="work">All</citedRange>
+					</bibl>
+					</sourceDesc>
+				<seriesStmt>
+					<bibl><title level="s">Library of Latin Texts - Series A (LLT-A)(era: CLCLT</title></bibl>
+					<respStmt>
+				  		<resp>Università di Bologna</resp>
+				  		<name>Area Biblioteche e Servizi allo Studio (ABIS)</name>
+					</respStmt>
+				</seriesStmt>
+				<note>Abbonamento sottoscritto dalla Biblioteca Umanistica ''Ezio Raimondi'', dalla Biblioteca Centrale del Campus di Ravenna e dalla Biblioteca del Dipartimento di Storia Culture Civiltà - DiSCi con il contributo dell'Area Biblioteche e Servizi allo Studio (ABIS).</note>
+				<note>Contenuti non ricercabili in AlmaStart.</note>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Full Text trasctitto, con evidenziate sezioni retoriche compatibili col tema del progetto.</p>
+			</projectDesc>
+			<samplingDecl>
+				<p>La trascrizione del testo di Terenzio è costellata di evidenziature, avvenute previo studio dei meccanismi retorici e nella tradizione classica e nel teatro terenziano. Queste evidenziature, classificate in una sezione apposita del sito web corrispondono all'applicazione e al riconoscimento di ellissi e aposiopesi nel testo drammatico.</p>
+			</samplingDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la" usage="100">Latin</language>
+			</langUsage>
+			<keywords>
+				<term>Teatro Latino</term>
+				<term>Figure retoriche</term>
+				<term>Ellissi</term>
+				<term>Aposiopesi</term>
+				<term>Silenzio</term>
+			</keywords>
+			<abstract xml:lang="it">
+				<p>Questo studio riguarda la classificazione di fenomeni retorici del silenzio riconoscibili. Commenti e contributi sono graditi al fine di rendere quello presente, un documento utile anche a chi se ne vorrà servire in un secondo momento. L'argomento è affascinante perché percorre tonalità inesplorate della rappresentazione in negativo: dire di più attraverso la reticenza, voluta o casuale.</p>
+			</abstract>
+			<abstract xml:lang="en">
+				<p>This study deals with the classification of visible phenomena of silence. Any comment or contribution is welcome to create a useful document for those who will make use of it, even in the future. The topic is fascinating, because it laps unexplored shades of speaking in the negative: say more through reticence, which can be intentional or by chance.</p>
+			</abstract>
+		</profileDesc>	
+ 	</teiHeader>
+ 	<text>
+ 	<front>
+ 		<docTitle>
+ 			<titlePart>ANDRIA</titlePart>
+ 		</docTitle>	
+ 		<docAuthor><persName lang='lat'>P. TERENTI AFRI</persName>.</docAuthor>
+ 		<didascalia>
+ 			<p>Acta ludis Megalensibus, <persName lang='lat'>M. Fulvio</persName>, <persName lang='lat'>M'. Glabrione</persName> <roleName>aedilibus curulibus</roleName>.</p>
+ 			<p>Egere <persName lang='lat'>L. Hatilius <geogName>Praenestinus</geogName></persName> et <persName lang='lat'>L. Ambivius Turpio</persName>.</p>
+ 			<p>Modos fecit <persName lang='lat'>Flaccus Claudi</persName>; tibiis paribus dextris vel sinistris tota.</p>
+ 			<p>Graeca <persName lang='lat'>Menandru</persName>.</p>
+ 			<p>Facta est prima, <persName lang='lat'>M. Marcello C. Sulpicio</persName> <roleName>consulibus</roleName>.</p>
+ 		</didascalia><pb/>
+ 		<periocha>
+ 			<docAuthor><persName lang='lat'>C. SVLPICIUS APOLLINARIS</persName></docAuthor>
+ 			 <l>Sororem falso creditam meretriculae</l>
+ 			 <l>genere <geogName lang='lat'>Andriae</geogName>, <name type='persona.fit' key='Glycerius'>Glycerium</name>, vitiat <name type='persona.fit' key='Pamphilus'>Pamphilus</name></l>
+ 			 <l>gravidaque facta dat fidem uxorem sibi</l>
+ 			 <l>fore hanc: nam aliam pater ei desponderat,</l>
+ 			 <l>gnatam <name type='persona.fit' key='Chremes'>Chremetis</name>, atque, ut amorem comperit</l>
+ 			 <l>simulat futuras nuptias, cupiens suus</l>
+ 			 <l>quid haberet animi filius cognoscere</l>
+ 			 <l> <name type='persona.fit' key='Davos'>Davi</name> suasu non repugnat <name type='persona.fit' key='Pamphilus'>Pamphilus</name>.</l>
+ 			 <l>Sed ex <name type='persona.fit' key='Glycerius'>Glycerio</name> natum ut vidit puerulum</l>
+ 			 <l> <name type='persona.fit' key='Chremes'>Chremes</name>, recusat nuptias, generum abdicat.</l>
+ 			 <l>Mox filiam <name type='persona.fit' key='Glycerius'>Glycerium</name> insperato adgnitam</l>
+ 			 <l>hanc <name type='persona.fit' key='Pamphilus'>Pamphilo</name>, aliam dat <name type='persona.fit' key='Charinus'>Charino</name> coniugem.</l>
+ 		</periocha><pb/>
+ 		<castList>
+ 			<head>PERSONAE</head>
+ 			<castItem>SIMO SENEX SOSIA LIBERTVS COCVS DAVOS SERVOS MYSIS ANCILLA PAMPHILVS ADVLESCENS CHARINVS ADVLESCENS BYRRIA SERVOS LESBIA OBSTETRIX GLYCERIVM MVLIER CHREMES SENEX CRITO SENEX DROMO LORARIVS</castItem>
+ 		</castList><pb/>
+ 		<prologue>
+ 			<head><ref target="file:///C:/Users/Utente/Desktop/Progettodh/VitaeOpere.html">PROLOGVS</ref></head>
+ 			<q type='diretto'><sp who='DG'><speaker>Dominus Gregis</speaker>
+ 			<l n="1"><seg type='w' ana='eufemismo' resp='MC'><emph>Poeta</emph>
+ 				<note place='foot' n='1' resp="MC">Il prologo della <mentioned>commedia terenziana</mentioned> ha un carattere autobiografico e polemico: rinunciando ad informare sugli antefatti o sulle trame della vicenda e a presentare i personaggi, esso costituisce il luogo in cui il <mentioned>poeta</mentioned> si difende dalle accuse dei malevoli detrattori. Non accade mai che Terenzio parli in prima persona nei suoi prologhi, ma accenna a se stesso, per bocca dell’attore, mediante pronomi o appellativi generici: <mentioned>poeta</mentioned> è uno di questi.</note>
+ 				</seg> quom primum animum ad scribendum adpulit,</l>
+ 			<l n="2">id sibi negoti credidit solum dari,</l>
+ 			<l n="3">populo ut placerent quas fecisset <seg type='w' ana='eufemismo' resp="MC"><emph>fabulas
+ 				<note place='foot' n='2'>Il meccanismo di interdizione e l’impiego neutralizzato o ellittico si evidenzia quando, ad essere difesi sono i prodotti letterari di <mentioned>Terenzio</mentioned>, piuttosto che quelli di Luscio o di Plauto e Nevio, per la citazione delle cui comedie, si registra il termine <mentioned>fabulas</mentioned>.</note>
+ 			</emph></seg>.</l>
+  			<l n="4">uerum aliter euenire multo intellegit:</l>
+ 			<l n="5">nam in prologis scribundis operam abutitur,</l>
+ 			<l n="6">non qui argumentum narret, sed qui <seg type='phr' ana='eufemismo' resp="MC"><emph>maliuoli</emph></seg></l>
+ 			<l n="7"><seg type='phr' ana='eufemismo'><emph>ueteris poetae maledictis</emph>
+ 				<note place='foot' n='3' id='Andr17'>Le descrizioni nella rosa delle sei commedie presentano il velenoso malevolus vetus poeta, la cui identità è, talvolta generalizzata, in quanto inserita in un gruppo più ampio di detrattori che <q>faciuntne intellegendo, ut nihil intellegant</q>: si tratta di Luscio di Lanuvio, commediografo all’antica, pedissequo traduttore, insensibile alla novità, attivo nel II secolo a.C. ed autore di palliate.</note>
+ 			</seg> respondeat.</l>
+ 			<l>nunc, quam rem uitio dent, quaeso animum attendite.</l>
+ 			<l><persName lang='lat'>Menander</persName> fecit <bibl type='monogr'><title>Andriam</title></bibl> et <bibl type='monogr'><title>Perinthiam</title></bibl>.</l>
+ 			<l>qui utramuis recte norit, ambas nouerit:</l>
+ 			<l>ita non dissimili sunt argumento, et tamen</l>
+ 			<l>dissimili oratione sunt factae ac stilo.</l>
+ 			<l>quae conuenere, in <bibl type='monogr'><title>Andriam</title></bibl> ex <bibl type='monogr'><title>Perinthia</title></bibl></l>
+ 			<l>fatetur transtulisse atque usum pro suis.</l>
+ 			<l>id isti uituperant factum atque in eo disputant</l>
+ 			<l>contaminari non decere fabulas.</l>
+ 			<l><seg type='phr' ana='eufemismo' resp="MC"><emph>faciunt ne intellegendo, ut nihil intellegant?<ptr target='Andr17'/></emph></seg></l>
+ 			<l>qui quom hunc accusant, <persName lang='lat'>Naeuium</persName> <persName lang='lat'>Plautum</persName> <persName lang='lat'>Ennium</persName></l>
+ 			<l>accusant, quos hic noster auctores habet,</l>
+ 			<l>quorum aemulari exoptat neclegentiam</l>
+ 			<l>potius quam istorum obscuram diligentiam.</l>
+ 			<l>dehinc ut quiescant porro moneo et desinant</l>
+ 			<l>maledicere, ut malefacta ne noscant sua.</l>
+ 			<l>fauete, adeste aequo animo et rem cognoscite,</l>
+ 			<l>ut pernoscatis, ecquid spei sit relicuom,</l>
+ 			<l>psthac quas faciet de integro comoedias,</l>
+ 			<l>spectandae an exigendae sint uobis prius.</l>
+ 			</sp></q>
+  		</prologue><pb/>
+  	</front>
+  </text> 
+   	<body>
+   		<div1 type='Atto' n='1'><head>ACTVS I</head>
+   		<div2 type='Scena' n='1'><head><mentioned lang='it'>Scena I</mentioned></head>
+	   		<castItem>SIMO SOSIA SENEX LIBERTVS COCVS</castItem>
+	  		<sp who='SI'><speaker>Simo</speaker><lg><l>Vos istaec intro auferte: abite.</l>
+	  		<l><name type='persona.fit' key='Sosia'>Sosia</name>,</l></lg>
+	  		<lg/><l>adesdum: paucis te uolo.</l></sp>		 
+	  		<sp who='SO'><speaker>Sosia</speaker><l>Dictum puta:</l>
+	  		<lg/><l>nempe ut curentur recte haec?</l></sp>			 
+	  		<sp who='SI'><speaker>Simo</speaker><l>Immo aliud.</l></sp>		 
+	  		<sp who='SO'><speaker>Sosia</speaker><l>Quid est,</l>
+	  		<lg/><l>quod tibi mea ars efficere hoc possit amplius?</l></sp>
+	  		<lg/><sp who='SI'><speaker>Simo</speaker><l>Nihil istac opus est arte ad hanc rem quam paro,</l>
+	  		<lg/><l>sed eis quas semper in te intellexi sitas,</l>
+	  		<lg/><l>fide et taciturnitate.</l></sp>
+	  		<sp who='SO'><speaker>Sosia</speaker><l>Exspecto quid uelis.</l></sp>
+	  		<lg/><sp who='SI'><speaker>Simo</speaker><l>Ego postquam te emi, a paruolo ut semper tibi</l>
+	  		<lg/><l>apud me iusta et clemens fuerit seruitus,</l>
+	  		<lg/><l>scis.</l>
+	  		<l>feci ex seruo ut esses libertus mihi,</l>
+	  		<lg/><l>propterea quod seruibas liberaliter:</l>
+	  		<lg/><l>quod habui summum pretium persolui tibi.</l></sp>
+	  		<lg/><sp who='SO'><speaker>Sosia</speaker><l>In memoria habeo.</l></sp>
+	  		<sp who='SI'><speaker>Simo</speaker><l>Haud muto factum.</l></sp>
+	  		<sp who='SO'><speaker>Sosia</speaker><l>Gaudeo,</l>
+	  		<lg/><l>si tibi quid feci aut facio quod placeat, Simo,</l>
+	  		<lg/><l>et id gratum fuisse aduorsum te habeo gratiam.</l>
+	  		<lg/><l>sed hoc mihi molestumst: nam istaec commemoratio</l>
+	  		<lg/><l>quasi exprobratio inmemorist tui benefici.</l>
+	  		<lg/><l>quin tu uno uerbo dic: quid est quod me uelis?</l></sp>
+	  		<lg/><sp who='SI'><speaker>Simo</speaker><l>Ita faciam.</l>
+	  		<l>hoc primum in hac re praedico tibi:</l>
+	  		<lg/><l>credis esse has, non sunt uerae nuptiae.</l></sp>
+	  		<lg/><sp who='SO'><speaker>Sosia</speaker><l>Quor simulas igitur?</l></sp>
+	  		<sp who='SI'><speaker>Simo</speaker><l>Rem omnem a principio audies:</l>
+	  		<lg/><l>eo pacto et gnati uitam et consilium meum</l>
+	  		<lg/><l>cognosces et quid facere te in hac re uelim.</l>
+	  		<lg/><l>nam is postquam excessit ex ephebis, <name type='persona.fit' key='Sosia'>Sosia</name>,</l>
+	  		<lg/><l>liberius uiuendi ubi potestas (nam antea)</l>
+	  		<lg/><l>qui scire posses aut ingenium noscere,</l>
+	  		<lg/><l>dum <seg type='w' ana='eufemismo'><emph>aetas</emph>
+	  			<note place='foot' n='4'><p>Per un dramma che <q>si svolge nell’ambito liminale dell’organizzazione sociale</q>, la famiglia, costanti imprescindibili dell’impalcatura sono le due età agli estremi della linea del tempo: la ribollente e disordinata adolescenza, da una parte; l’incerta, problematica ma esperta vecchiaia. C’è una delicatezza tutta terenziana capace di occultare i due poli della linea del tempo della vita, contraddistinti da esigenze e fenomeni opposti: è ravvisabile, per esempio, un riferimento tenue e neutralizzato alla vecchiaia. Quasi sempre connotata con terminologia neutra e non dotata di qualifiche aggettivali, è pure l’altro estremo: l’adolescenza, cui si accenna in modo privilegiato e soprattutto per bocca della fazione opposta, quella dei vecchi.</p>
+	  			<p>Nel dramma terenziano, i giovani sono solidali coi giovani e la messa in questione dei valori – che è, a buon diritto, la ragione della rivoluzione di questo teatro – procede anche attraverso il mezzo linguistico. Accade che la confidenza ricercata, se non l’atto di solidarizzare, tra padri e figli, oltre a passare attraverso infortuni e malesseri, privilegi  <mentioned>manifestazioni ellittiche</mentioned> e/o perifrastiche.</p></note>
+	  		</seg> metus magister prohibebant?</l></sp>
+	  		<sp who='SO'><speaker>Sosia</speaker><l>Itast,</l></sp>
+	  		<lg/><sp who='SI'><speaker>Simo</speaker><l>quod plerique omnes faciunt adulescentuli,</l>
+	  		<lg/><l>ut animum ad aliquod studium adiungant, aut equos</l>
+	  		<lg/><l>alere aut canes ad uenandum, aut ad philosophos:</l>
+	  		<lg/><l>horum nihil ille egregie praeter cetera</l>
+	  		<lg/><l>studebat, et tamen omnia haec mediocriter.</l>
+	  		<lg/><l>gaudebam.</l></sp>
+	  		<sp who='SO'><speaker>Sosia</speaker><l>Non iniuria: nam id arbitror</l>
+	  		<lg/><l>adprime in uita esse utile, ut nequid nimis.</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>Sic uita erat: facile omnes perferre ac pati,</l>
+			<lg/><l>cum quibus erat quom que una, eis sese dedere</l>
+			<lg/><l>aduorsus nemini, eorum studiis obsequi</l>
+			<lg/><l>numquam praeponens se illis, ita ut facillume</l>
+			<lg/><l>sine inuidia laudem inuenias et amicos pares.</l></sp>
+			<lg/><sp who='SO'><speaker>Sosia</speaker><l>Sapienter uitam instituit: namque hoc tempore</l>
+			<lg/><l>obsequium amicos, ueritas odium parit.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Interea mulier quaedam abhinc triennium</l>
+			<lg/><l>ex Andro commigrauit huc uiciniam,</l>
+			<lg/><l>inopia et cognatorum neclegentia</l>
+			<lg/><l>coacta, egregia forma atque aetate integra.</l></sp>
+			<lg/><sp who='SO'><speaker>Sosia</speaker><l>Ei, uereor nequid <geogName lang='lat'>Andria</geogName> adportet mali.</l></sp>	
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Primo haec pudice uitam parce ac duriter</l>
+			<lg/><l>agebat, lana ac tela uictum quaeritans;</l>
+			<lg/><l>sed postquam amans accessit pretium pollicens</l>
+			<lg/><l>unus et item alter: ita ut ingeniumst omnium</l>
+			<lg/><l>hominum ab labore procliue ad lubidinem,</l>
+			<lg/><l>accepit condicionem, dein quaestum occipit.</l>
+			<lg/><l>qui tum illam amabant, forte, ita ut fit, filium</l>
+			<lg/><l>perduxere illuc, se cum ut una esset, meum.</l>
+			<lg/><l>egomet continuo me cum 'certe captus est:</l>
+			<lg/><l>habet'.</l>
+			<l>obseruabam mane illorum seruolos</l>
+			<lg/><l>uenientis aut abeuntis: rogitabam 'heus puer,</l>
+			<lg/><l>dic sodes, quis heri <name type='persona.fit' key='Chrysis'>Chrysidem</name> habuit?'</l>
+			<l>nam <geogName>Andriae</geogName></l>
+			<l>illi id erat nomen.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l>Teneo.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Phaedrum aut Cliniam</l>
+			<lg/><l>dicebant aut <name type='persona.fit' key='Niceratus'>Niceratum</name> (ei tres tum simul</l>
+			<lg/><l>eam amabant).</l>
+			<l>'eho, quid <name type='persona.fit' key='Pamphilus'>Pamphilus</name>?' "quid? symbolam</l>
+			<lg/><l>dedit, cenauit". gaudebam.</l>
+			<l>item alio die</l>
+			<lg/><l>quaerebam: comperibam nihil ad <name type='persona.fit' key='Pamphilus'>Pamphilum</name></l>
+			<lg/><l>quicquam attinere.</l>
+			<l>enim uero spectatum satis</l>
+			<lg/><l>putabam et magnum exemplum <seg type='w' ana='eufemismo'><emph>continentiae</emph>
+				<note place='foot' n='5'>Allusivo di un diletto proibito, ancora più nascosto dalla sostituzione di un possibile complemento di compagnia (<emph>cum illa</emph>>) con un generico avverbio di luogo (<emph>intus</emph>>), capace di mostrare l’idea di occultamento volontario da occhi indiscreti.</note>
+			</seg>:</l>
+			<lg/><l>nam qui cum ingeniis conflictatur eius modi</l>
+			<lg/><l>neque commouetur animus in ea re tamen,</l>
+			<lg/><l>scias posse habere iam ipsum suae uitae modum.</l>
+			<lg/><l>quom id mihi placebat, tum uno ore omnes omnia</l>
+			<lg/><l>bona dicere et laudare fortunas meas,</l>
+			<lg/><l>qui gnatum haberem tali ingenio praeditum.</l>
+			<lg/><l>quid uerbis opus est? hac fama inpulsus Chremes</l>
+			<lg/><l>ultro ad me uenit, unicam gnatam suam</l>
+			<lg/><l>cum dote summa filio uxorem ut daret.</l>
+			<lg/><l>placuit: despondi: hic nuptiis dictust dies.</l></sp>
+			<lg/><sp who='SO'><speaker>Sosia</speaker><l>Quid igitur obstat, quor non fiant?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Audies.</l>
+	 		<lg/><l>ferme in diebus paucis, quibus haec acta sunt,</l>
+			<lg/><l>Chrysis uicina haec moritur.</l></sp>
+	 		<sp who='SO'><speaker>Sosia</speaker><l>Oh, factum bene!</l>
+			<lg/><l>beasti: metui a <name type='persona.fit' key='Chrysis'>Chryside</name>.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Ibi tum filius</l>
+			<lg/><l>cum illis, qui amarant <name type='persona.fit' key='Chrysis'>Chrysidem</name>, una aderat frequens.</l>		 
+			<lg/><l>curabat una funus: tristis interim,</l>
+			<lg/><l>non numquam conlacrumabat.</l>
+	 		<l>placuit tum id mihi.</l> 
+			<lg/><l>sic cogitabam 'hic paruae consuetudinis</l>
+			<lg/><l>causa huius mortem tam fert familiariter:</l>
+			<lg/><l>quid si ipse amasset?</l>
+			<l>quid hic mihi faciet patri?'</l>
+			<lg/><l>haec ego putabam esse omnia humani ingeni</l>
+			<lg/><l>mansueti que animi officia.</l>
+			<l>quid multis moror?</l>
+			<lg/><l>egomet quoque eius causa in funus prodeo,</l>
+			<lg/><l>nil etiam suspicans mali.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l>Hem, quid id est?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Scies.</l>
+			<lg/><l>ecfertur intus.</l>
+	 		<l>interea inter mulieres,</l>
+			<lg/><l>quae ibi aderant, forte unam aspicio adulescentulam,</l>
+			<lg/><l>forma.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l>Bona fortasse?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>et uoltu, Sosia,</l>
+			<lg/><l><seg type='phr' ana='aposiopesi'><emph>adeo modesto, adeo uenusto ut...</emph></seg>nil supra.</l>
+	 		<l>quae tum mihi lamentari praeter ceteras</l>
+			<lg/><l>uisast, et quia erat <seg type='w' ana='eufemismo'><emph>forma</emph></seg> praeter ceteras</l>
+				<note place='foot' n='5'>Tuttavia <mentioned>Terenzio</mentioned> non permette mai che vengano nominate direttamente, aggirando l’ostacolo di un’eccessiva sfacciataggine con perifrasi da un verso o da una parola</note>.
+			<lg/><l>honesta ac liberali, accedo ad pedisequas,</l>
+			<lg/><l>quae sit rogo.</l>
+	 		<l>sororem esse aiunt Chrysidis.</l>		 
+			<lg/><l>percussit ilico animum.</l>
+			<l>attat hoc illud est,</l>
+			<lg/><l>hinc illae lacrumae, haec illast misericordia.</l></sp>
+	 		<lg/><sp who='SO'><speaker>Sosia</speaker><l>Quam timeo, quorsum euadas!</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Funus interim</l>
+			<lg/><l>procedit.</l>
+	 		<l>sequimur; ad sepulcrum uenimus;</l>
+			<lg/><l>in ignem inpositast; fletur.</l>
+			<l>interea haec soror,</l>
+			<lg/><l>quam dixi, ad flammam accessit inprudentius,</l>
+			<lg/><l>satis cum periclo.</l>
+			<l>ibi tum exanimatus <name type='persona.fit' key='Pamphilus'>Pamphilus</name></l>
+			<lg/><l>bene dissimulatum amorem et celatum indicat:</l>
+			<lg/><l>adcurrit, mediam mulierem complectitur.</l>
+	 		<lg/><l>'mea <name type='persona.fit' key='Glycerius'>Glycerium</name>' inquit 'quid agis? quor te is perditum?'</l>
+	 		<lg/><l>tum illa, ut consuetum facile amorem cerneres,</l>
+			<lg/><l>reiecit se in eum flens quam familiariter!</l></sp>
+			<lg/><sp who='SO'><speaker>Sosia</speaker><l>Quid ais?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Redeo inde iratus atque aegre ferens;</l>
+			<lg/><l>nec satis ad obiurgandum causae.</l>
+			<l>diceret</l>
+			<lg/><l>'quid feci? quid commerui aut peccaui, pater?</l>
+			<lg/><l>quae sese in ignem inicere uoluit, prohibui:</l>
+			<lg/><l>seruaui'.</l>
+			<l>honesta oratiost.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l>Recte putas:</l>
+			<lg/><l>nam si illum obiurges, uitae qui auxilium tulit,</l>
+			<lg/><l>quid facias ei, qui damnum dederit aut malum?</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>Venit <name type='persona.fit' key='Chremes'>Chremes</name> postridie ad me clamitans</l>
+			<lg/><l>indignum facinus comperisse, <name type='persona.fit' key='Pamphilus'>Pamphilum</name></l>
+			<lg/><l>pro uxore habere hanc peregrinam.</l>
+			<l>ego illud sedulo</l>
+			<lg/><l>negare factum.</l>
+			<l>ille instat factum.</l>
+			<l>denique</l>
+			<lg/><l>ita tum discedo ab illo, ut qui se filiam</l>
+			<lg/><l>neget daturum.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l><seg type='phr' ana='brachilogia affettiva'><emph>Non tu ibi gnatum-?</emph>
+				<note place='foot' n='7'>Sosia si arresta, dopo aver richiesto a Simone conferma della necessità di un rimprovero nei confronti del figlio: è il vecchio a chiarire di non avere un motivo abbastanza valido per farlo. Sembra che casi come questi nascano da un <emph>silenzio di necessità</emph>: troppo lungo perché non sia da altro riempito, troppo breve per ipotizzarne una significativa intenzionalità. Di tali esperienze espressive si può indovinare la durata, corrispondente al tempo che separa la frase interrotta da quella che nasce da tale interuzione.</note>
+			</seg></l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Ne haec quidem</l>
+			<lg/><l>satis uehemens causa ad obiurgandum.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l>Qui? cedo.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>'Tute ipse his rebus finem praescripsti, pater:</l>
+			<lg/><l>prope adest, quom alieno more uiuendumst mihi:</l>
+			<lg/><l>sine nunc meo me uiuere interea modo'.</l></sp>
+			<lg/><sp who='SO'><speaker>Sosia</speaker><l>Qui igitur relictust obiurgandi tibi locus?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Si propter amorem uxorem nolit ducere.</l>
+			<lg/><l>ea primum ab illo animum aduortenda iniuriast.</l>
+			<lg/><l>et nunc id operam do, ut per falsas nuptias</l>
+			<lg/><l>uera obiurgandi causa sit, si deneget;</l>
+			<lg/><l>simul sceleratus <name type='persona.fit' key='Davos'>Dauos</name> siquid consili</l>
+			<lg/><l>habet, ut consumat nunc, quom nihil obsint doli:</l>
+			<lg/><l>quem ego credo manibus pedibus que obnixe omnia</l>
+			<lg/><l>facturum: magis id adeo, mihi ut incommodet</l>
+			<lg/><l>quam ut obsequatur gnato.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l>Quapropter?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Rogas?</l>
+			<lg/><l>mala mens, malus animus.</l>
+			<l><seg type='phr' ana='aposiopesi'><emph>quem quidem ego si sensero-!</emph></seg></l>
+				<note place='foot' n='8'>
+					<p>Si tratta un procedimento retorico in cui l’emotività è espressa in modo assolutamente verosimile; la rinunzia a dire certe cose non inficia il messaggio, ma lo potenzia e svela del silenzio prima di tutto la necessità collettiva, comunitaria. In sostanza, <mentioned>Terenzio</mentioned> vuol dare l’impressione di non aver volutamente completato il proprio discorso, lasciando alla mente dell’interlocutore la libertà di inserire la propria interpretazione entro i limiti di due variabili: le ‘circostanze’ da una parte; l’‘immaginazione’ dall’altra.</p>
+					<p>A sua volta, tale facoltà non è completamente libera ed autodeterminata, dal momento che si lascia imprescindibilmente influenzare da un ‘codice’ comune di norme e da ‘gesti ed atti’</p>
+				</note>
+			<lg/><l>sed quid opust uerbis?</l>
+			<l>sin eueniat, quod uolo,</l>
+			<lg/><l>in <name type='persona.fit' key='Pamphilus'>Pamphilo</name> ut nil sit morae, restat <name type='persona.fit' key='Pamphilus'>Chremes</name>,</l>
+			<lg/><l>qui mi exorandust: atque id spero confore.</l>
+	 		<lg/><l>nunc tuomst officium, has bene ut adsimules nuptias,</l>
+			<lg/><l>perterrefacias <name type='persona.fit' key='Davos'>Dauom</name>, obserues filium,</l>
+			<lg/><l>quid agat, quid cum illo consili captet.</l></sp>
+			<sp who='SO'><speaker>Sosia</speaker><l>Sat est:</l>
+			<lg/><l>curabo.</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Eamus nunciam intro.</l>
+	 		<l>i prae, sequar.</l></sp>
+		</div2>
+		<div2 type='Scena' n='2'><head><mentioned lang='it'>Scena II</mentioned></head>
+	 		<castItem>SIMO DAVOS SENEX SERVOS</castItem>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Non dubiumst, quin uxorem nolit filius:</l>
+			<lg/><l>ita <name type='persona.fit' key='Davos'>Dauom</name> modo timere sensi, ubi nuptias</l>
+			<lg/><l>futuras esse audiuit.</l>
+			<l> ipse exit foras.</l></sp>
+			<lg/><sp who='D'><speaker>Davos</speaker><l>Mirabar hoc si sic abiret, et eri semper lenitas</l>
+			<lg/><l>uerebar quorsum euaderet:</l>
+	 		<lg/><l>qui postquam audierat non datum iri filio uxorem suo,</l>
+	 		<lg/><l>numquam quoiquam nostrum uerbum fecit neque id aegre tulit.</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>At faciet nunc, neque id, ut opinor, sine tuo magno malo.</l></sp>
+	 		<lg/><sp who='DA'><speaker>Davos</speaker><l>Id uoluit, nos sic necopinantis duci falso gaudio,</l>
+	 		<lg/><l>sperantis, iam amoto metu interoscitantis opprimi,</l>
+	 		<lg/><l>ne esset spatium cogitandi ad disturbandas nuptias:</l>
+	 		<lg/><l>astute!</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Carnufex quae loquitur?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Erus est, neque prouideram.</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>Daue.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Em, quid est?</l></sp>
+	 		<sp who='Si'><speaker>Simo</speaker><l>Ehodum ad me!</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Quid hic uolt?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Quid ais?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Qua de re?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Rogas?</l>
+	 		<lg/><l>meum gnatum rumor est amare.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Id populus curat scilicet.</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>Hocine agis an non?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Ego uero istuc</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Sed nunc ea me exquirere</l>
+	 		<lg/><l>iniqui patris est: nam quod antehac fecit, nihil ad me attinet.</l>
+	 		<lg/><l>dum tempus ad eam rem tulit, siui, animum ut expleret suom:</l>
+	 		<lg/><l>nunc hic dies aliam uitam ei adfert, alios mores postulat.</l> 
+	 		<lg/><l>dehinc postulo siue aequomst te oro, Daue, ut redeat iam in uiam.</l>	 
+	 		<lg/><l>hoc quid sit? omnes, qui amant, grauiter sibi dari uxorem ferunt.</l></sp>		 
+	 		<lg/><sp who='DA'><speaker>Davos</speaker><l>Ita aiunt.</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Tum siquis magistrum cepit ad eam rem inprobum,</l>
+	 		<lg/><l>ipsum animum aegrotum ad deteriorem partem plerumque adplicat.</l></sp>	 
+	 		<lg/><sp who='DA'><speaker>Davos</speaker><l>Non hercle intellego.</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Non? hem.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Non: <name type='persona.fit' key='Davos'>Dauos</name> sum, non <name type='persona.fit' key='Chrysis'>Oedipus</name>.</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>Nempe ergo aperte uis quae restant me loqui?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Sane quidem.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Si sensero hodie quicquam in his te nuptiis</l>
+			<lg/><l>fallaciae conari, quo fiant minus,</l>
+			<lg/><l>aut uelle in ea re ostendi, quam sis callidus:</l>
+			<lg/><l>uerberibus caesum te in pistrinum, <name type='persona.fit' key='Davos'>Daue</name>, dedam usque ad necem,</l>
+			<l>ea lege atque omine, ut, si te inde exemerim, ego pro te molam.</l>
+			<lg/><l>quid? hoc intellexti n' an nondum etiam ne hoc quidem?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Immo callide:</l>
+			<lg/><l>ita aperte rem ipsam modo locutus, nil circum itione usus es.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Vbiuis facilius passus sim quam in hac re me deludier.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Bona uerba, quaeso.</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Inrides? nil me falles.</l>
+	 		<l>edico tibi,</l>
+			<lg/><l>ne temere facias: neque tu hau dices tibi non praedictum.</l>
+			<l>caue!</l></sp>
+		</div2>
+		<div2 type='Scena' n='3'><head><mentioned lang='it'>Scena III</mentioned></head>
+			<castItem>DAVOS SERVOS.</castItem>
+			<lg/><l>Enim uero, Daue, nil locist segnitiae neque socordiae,</l>
+			<lg/><l>quantum intellexi modo senis sententiam de nuptiis:</l>
+			<lg/><l>quae si non astu prouidentur, me aut erum pessum dabunt.</l> 
+			<lg/><l>nec quid agam certumst: <name type='persona.fit' key='Pamphilus'>Pamphilum</name> ne adiutem an auscultem seni.</l>
+			<lg/><l>si illum relinquo, eius uitae timeo; sin opitulor, huius minas,</l>
+			<lg/><l>quoi uerba dare difficilest.</l>
+			<l>primum iam de amore hoc comperit;</l>
+			<lg/><l>me infensus seruat, nequam faciam in nuptiis fallaciam.</l>
+	 		<lg/><l>si senserit, (perii!) ut ei lubitum fuerit, causam ceperit,</l>
+			<lg/><l>qua iure, qua me iniuria praecipitem in pistrinum dabit.</l>
+	 		<lg/><l>ad haec mala hoc mi accedit etiam: haec <geogName lang='lat'>Andria</geogName>,</l>
+			<lg/><l>si ista uxor siue amicast, grauida e <name type='persona.fit' key='Pamphilus'>Pamphilost</name>.</l>
+	 		<lg/><l>audire que eorumst operae pretium audaciam:</l>
+			<lg/><l>nam inceptiost amentium, haud amantium.</l>
+	 		<lg/><l>quidquid peperisset, decreuerunt tollere,</l>
+			<lg/><l>et fingunt quandam inter se nunc fallaciam,</l>
+			<lg/><l>ciuem <placeName lang='lat'>Atticam</placeName> esse hanc.</l>		 
+			<l>'fuit olim hinc quidam senex</l>
+			<lg/><l>mercator: nauem is fregit apud <placeName lang='lat'>Andrum</placeName> insulam;</l>
+			<lg/><l>is obiit mortem.</l>
+			<l>ibi tum hanc eiectam <name type='persona.fit' key='Chrysis'>Chrysidis</name></l>
+			<lg/><l>patrem recepisse 'orbam, paruam'.</l>
+			<l>fabulae!</l>
+			<lg/><l>miquidem hercle non fit ueri simile: atqui ipsis commentum placet.</l>
+			<lg/><l>sed eccam eius ancilla <name type='persona.fit' key='Mysis'>Mysis</name> ab ea egreditur: at ego hinc me ad forum,</l>
+			<lg/><l>conueniam Pamphilum, ne de hac re pater inprudentem opprimat.</l>
+		</div2>
+		<div2 type='Scena' n='4'><head><mentioned lang='it'>Scena IV</mentioned></head>
+			<castItem>MYSIS ANCILLA.</castItem>
+			<lg/><l>Audiui, <name type='persona.fit' key='Archylis'>Archylis</name>, iam dudum: <placeName lang='lat'>Lesbiam</placeName> adduci iubes.</l>
+			<lg/><l>sane pol illa temulentast mulier et temeraria</l>
+			<lg/><l>nec satis digna, quoi committas primo partu mulierem.</l>
+			<lg/><l>tamen eam adducam? inportunitatem spectate <seg type='w' ana='eufemismo'><emph>aniculae</emph></seg>:</l>
+				<note place='foot' n='9'>
+					L’età avanzata, come si vede, rende chi la reca <q>sexually unattractive</q> , tremante nel passo, bianca di capelli e lentigginosa; <mentioned>Terenzio</mentioned>, per esempio mette in bocca a Micione, in <emph>Ad.</emph>> 939, l’aggettivo decrepitam in riferimento alla donna cui un sessantenne come lui potrebbe aspirare. Inoltre, non si deve dimenticare che spesso, rientra nella caratterizzazione della vecchia, la consuetudine all’ebbezza: in <emph>Andr.</emph>> 231-233, l’eufemia che connota la vecchiaia è rafforzata dal diminutivo anicula e la connotazione dell’ebbrezza appare chiarita dal riferimento alla compagna di bevute, <emph>compotrix</emph>>.
+				</note>
+			<lg/><l>quia compotrix eius est.</l>
+			<l>di, date facilitatem, obsecro,</l>
+			<lg/><l>huic pariundi atque illi in aliis potius peccandi locum!</l>
+			<lg/><l>sed quidnam <name type='persona.fit' key='Pamphilus'>Pamphilum</name> exanimatum uideo?</l>
+			<l>uereor quid siet.</l>
+			<lg/><l>opperiar, ut sciam numquidnam turbae haec tristitia adferat.</l>
+		</div2>
+		<div2 type='Scena' n='4'><head><mentioned lang='it'>Scena V</mentioned></head>
+			<castItem>PAMPHILVS MYSIS ADVLESCENS ANCILLA.</castItem>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Hocinest humanum factu aut inceptu? hocinest patris?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Quid illud est?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>quid est, si haec non contumeliast?</l>
+	 		<lg/><l>uxorem dare sese hodie mihi decrerat: nonne oportuit</l>
+			<lg/><l>praescisse me ante?</l>
+	 		<l>nonne prius communicatum oportuit?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Miseram me, quod uerbum audio!</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>quid?</l>
+	 		<l>Chremes, qui denegarat se commissurum mihi</l>
+			<lg/><l>gnatam suam uxorem, id mutauit, quom me inmutatum uidet?</l>
+			<lg/><l>ita ne obstinate dat operam, ut me a <name type='persona.fit' key='Glycerius'>Glycerio</name> miserum abstrahat!</l>
+			<lg/><l>quod si fit, pereo, funditus.</l>
+			<lg/><l>adeone hominem esse inuenustum aut infelicem quemquam, ut ego sum!</l>
+			<lg/><l>pro deum atque hominum fidem!</l>
+			<lg/><l>nullo ne ego <name type='persona.fit' key='Chremes'>Chremetis</name> pacto adfinitatem ecfugere potero?</l>
+			<lg/><l>quot modis contemptus, spretus! facta, transacta omnia.</l>
+			<l>hem,</l>
+			<lg/><l>repudiatus repetor: quam ob rem? nisi si id est, quod suspicor:</l>
+			<lg/><l>aliquid monstri alunt: ea quoniam nemini optrudi potest,</l>
+			<lg/><l>itur ad me.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Oratio haec me miseram exanimauit metu.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>nam quid ego dicam de patre?</l>
+			<l>ah,</l>
+			<lg/><l>tantam ne rem tam neclegenter agere! praeteriens modo</l>
+			<lg/><l>mihi apud forum 'uxor tibi ducendast, <name type='persona.fit' key='Pamphilus'>Pamphile</name>, hodie'</l>
+			<l>inquit, 'para:</l>
+			<lg/><l>abi hinc domum'.</l>
+			<l>id mihi uisust dicere 'abi cito ac suspende te'.</l>
+			<lg/><l>obstipui: me censeti n' uerbum potuisse ullum proloqui</l>
+			<lg/><l>aut causam ineptam saltem, falsam? obmutui.</l>
+			<lg/><l>quodsi ego resciuissem id prius, quid facerem, siquis me roget:</l>
+			<lg/><l>aliquid facerem, ut hoc ne facerem.</l>
+			<l>sed nunc quid primum exsequar?</l>
+			<lg/><l>tot me inpediunt curae, quae meum animum diuorsae trahunt:</l>
+			<lg/><l>amor, misericordia huius, nuptiarum sollicitatio,</l>
+			<lg/><l>tum patris pudor, qui me tam leni passus est animo usque adhuc</l>
+			<lg/><l>quae meo quom que animo lubitumst facere.</l>
+			<l>ei ne ego ut aduorser? ei mihi</l>
+			<lg/><l>incertumst quid agam.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Misera timeo 'incertumst' hoc quorsum accidat.</l>
+			<lg/><l>sed peropust nunc aut hunc cum ipsa aut de illa aliquid me aduorsum hunc loqui.</l>
+			<lg/><l>dum in dubiost animus, paulo momento huc uel illuc inpellitur.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Quis hic loquitur? Mysis, salue.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Oh, salue, <name type='persona.fit' key='Pamphilus'>Pamphile</name>.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quid agit?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Rogas?</l>
+			<lg/><l>laborat e <seg type='w' ana='eufemismo'><emph>dolore</emph></seg>, atque ex hoc misera sollicitast, diem</l>
+			<lg/><l>quia olim in hunc sunt constitutae nuptiae.</l>
+			<l>tum autem hoc timet,</l>
+			<lg/><l>ne deseras se.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Ego ne istuc conari queam?</l>
+			<lg/><l>egone propter me illam decipi miseram sinam,</l>
+			<lg/><l>quae mihi suom animum atque omnem uitam credidit?</l>
+			<lg/><l>quam ego animo egregie caram pro uxore habuerim,</l>
+			<lg/><l>bene et pudice eius doctum atque eductum sinam</l>
+			<lg/><l>coactum egestate ingenium inmutarier?</l>
+			<lg/><l>non faciam.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Haud uerear, si in te sit solo situm;</l>
+			<lg/><l><seg type='phr' ana='aposiopesi'><emph>sed ut uim queas ferre-</emph></seg>.</l></sp>
+				<note place='foot' n='10'>
+					<p>Quasi alla fine dell’atto I dell’<bibl type='monogr'><title><emph>Andria</emph></title></bibl>, ai vv. 276-277, si registra una esemplare applicazione di interdizione per motivi superstiziosi: Miside teme che Panfilo non riesca a sfuggire alle imposizioni di suo padre, che lo vorrebbe sposato con una donna diversa dalla cortigiana Glicerio, di cui è amante. Affaticata dalle doglie e preoccupata di essere abbandonata dal suo uomo, Glicerio non conosce il suo futuro e la serva Miside, che è a lei legata anche per ragioni di affetto, si interroga su quanto potrebbe succedere, tacendone la realizzazione meno piacevole.</p>
+				</note>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Adeo n' me ignauom putas,</l>
+			<lg/><l>adeone porro ingratum aut inhumanum aut ferum,</l>
+			<lg/><l>ut neque me consuetudo neque amor neque pudor</l>
+			<lg/><l>commoueat neque commoneat, ut seruem fidem?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Vnum hoc scio, esse hanc meritam, ut memor esses sui.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Memor essem? o Mysis Mysis, etiam nunc mihi</l>
+			<lg/><l>scripta illa sunt in animo dicta Chrysidis</l>
+			<lg/><l>de <name type='persona.fit' key='Glycerius'>Glycerio</name>.</l>
+			<l>iam ferme moriens me uocat;</l>
+			<lg/><l>accessi; uos semotae, nos soli.</l>
+			<l>incipit</l>
+			<lg/><l>'mi <name type='persona.fit' key='Pamphilus'>Pamphile</name>, huius formam atque aetatem uides,</l>
+			<lg/><l>nec clam te est, quam illi nunc utraeque inutiles</l>
+			<lg/><l>et ad pudicitiam et ad rem tutandam sient.</l>
+			<lg/><l>quod per ego te dextram hanc oro et genium tuom,</l>
+			<lg/><l>per tuam fidem per que huius solitudinem</l>
+			<lg/><l>te optestor, ne abs te hanc segreges neu deseras.</l>
+			<lg/><l>si te in germani fratris dilexi loco</l>
+			<lg/><l>siue haec te solum semper fecit maxumi</l>
+			<lg/><l>seu tibi morigera fuit in rebus omnibus,</l>
+			<lg/><l>te isti uirum do, amicum tutorem patrem:</l>
+			<lg/><l>bona nostra haec tibi permitto et tuae mando fidei'.</l>
+			<lg/><l>hanc mi in manum dat: mors continuo ipsam occupat.</l>
+			<lg/><l>accepi: acceptam seruabo.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Ita spero quidem.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Sed quor tu abis ab illa?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Obstetricem arcesso.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Propera.</l> 
+			<l>atque audin?</l>
+			<lg/><l>uerbum unum caue de nuptiis, ne ad morbum hoc etiam ...</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Teneo.</l></sp>
+		</div2>
+		</div1>
+		<div1 type='Atto' n='1'><head>ACTVS II</head>
+		<div2 type='Scena' n='1'><head><mentioned lang='it'>Scena I</mentioned></head>
+			<castItem>CHARINVS PAMPHILVS BYRRIA ADVLESCENTES DVO SERVOS.</castItem> 
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quid ais, Byrria? datur ne illa <name type='persona.fit' key='Pamphilus'>Pamphilo</name> hodie nuptum?</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Sic est.</l></sp>	 
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Qui scis?</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Apud forum modo e <name type='persona.fit' key='Davos'>Dauo</name> audiui.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Vae misero mihi!</l>
+			<lg/><l>ut animus in spe atque in timore usque antehac attentus fuit,</l>
+			<lg/><l>ita, postquam adempta spes est, lassus cura confectus stupet.</l></sp>
+			<lg/><sp who='BY'><speaker>Birria</speaker><l>Quaeso edepol, <name type='persona.fit' key='Charinus'>Charine</name>, quoniam non potest id fieri quod uis,</l>
+			<lg/><l>id uelis quod possit.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Nil uolo aliud nisi <name type='persona.fit' key='Charinus'>Philumenam</name>.</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Ah,</l>
+			<lg/><l>quanto id te satiust dare operam, istam qui ab animo amoueas tuo,</l>
+			<lg/><l>quam id eloqui, quo magis lubido frustra incendatur tua!</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Facile omnes, quom ualemus, recta consilia aegrotis damus:</l>
+			<lg/><l>tu si hic sis, aliter sentias.</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Age age, ut lubet.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Sed Pamphilum</l>
+			<lg/><l>uideo.</l>
+			<l>omnia experiri certumst prius quam pereo:</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Quid hic agit?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>hunc ipsum orabo, huic supplicabo, amorem huic narrabo meum:</l>
+			<lg/><l>credo inpetrabo, ut aliquot saltem nuptiis prodat dies:</l>
+			<lg/><l>interea fiet aliquid, spero.</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Id 'aliquid' nihil est.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Byrria,</l>
+			<lg/><l>quid tibi uidetur? adeo n' ad eum?</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Quidni? si nihil inpetres,</l>
+			<lg/><l>ut te arbitretur sibi paratum moechum, si illam duxerit.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Abin hinc in malam rem cum suspitione istac, scelus?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Charinus'>Charinum</name> uideo. salue.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Oh, salue, <name type='persona.fit' key='Pamphilus'>Pamphile</name>:</l>
+			<lg/><l>ad te aduenio spem salutem auxilium consilium expetens.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Neque pol consili locum habeo neque ad auxilium copiam.</l>
+			<lg/><l>sed istuc quidnam est?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hodie uxorem ducis?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Aiunt.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l><name type='persona.fit' key='Pamphilus'>Pamphile</name>,</l>
+			<lg/><l>si id facis, hodie postremum me uides.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quid ita?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Ei mihi,</l>
+			<lg/><l>uereor dicere: huic dic quaeso, <name type='persona.fit' key='Byrria'>Byrria</name>.</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Ego dicam.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quid est?</l></sp>
+			<lg/><sp who='BY'><speaker>Byrria</speaker><l>Sponsam hic tuam amat.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Ne iste haud me cum sentit.</l>
+			<l>ehodum dic mihi:</l>
+			<lg/><l>numquidnam amplius tibi cum illa fuit, <name type='persona.fit' key='Charinus'>Charine</name>?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Aha, <name type='persona.fit' key='Pamphilus'>Pamphile</name>,</l>
+			<lg/><l>nil.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quam uellem!</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Nunc te per amorem et per amicitiam obsecro,</l>
+			<lg/><l>principio ut ne ducas.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Dabo equidem operam.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Sed si id non potest</l>
+			<lg/><l>aut tibi nuptiae haec sunt cordi,</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Cordi?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>saltem aliquot dies</l>
+			<lg/><l>profer, dum proficiscar aliquo, ne uideam.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Audi nunciam.</l>
+			<lg/><l>ego, Charine, ne utiquam officium liberi esse hominis puto,</l>
+			<lg/><l>quom is nil mereat, postulare id gratiae adponi sibi.</l>
+			<lg/><l>nuptias ecfugere ego istas malo quam tu apiscier.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Reddidisti animum.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Nunc siquid potes aut tu aut hic <name type='persona.fit' key='Byrria'>Byrria</name>,</l>
+			<lg/><l>facite fingite inuenite efficite qui detur tibi:</l>
+			<lg/><l>ego id agam, mihi qui ne detur.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Sat habeo.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Davos'>Dauom</name> optume</l>
+			<lg/><l>uideo, quoius consilio fretus sum.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>At tu hercle haud quicquam mihi</l>
+			<lg/><l>nisi ea quae nihil opus sunt sciri.</l>
+			<l>fugin hinc?</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Ego uero ac lubens.</l></sp>
+		</div2>
+		<div2 type="Scena" n='2'><head><mentioned lang='it'>Scena II</mentioned></head>
+			<castItem>DAVOS CHARINVS PAMPHILVS SERVOS ADVLESCENTES DVO</castItem>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Di boni, boni quid porto! sed ubi inueniam Pamphilum,</l>
+			<lg/><l>ut metum in quo nunc est adimam atque expleam animum gaudio?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Laetus est nescio quid.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Nihil est: nondum haec resciuit mala.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>quem ego nunc credo, si iam audierit sibi paratas nuptias,</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Audin tu illum?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>toto me oppido exanimatum quaerere.</l>
+			<lg/><l>sed ubi quaeram aut quo nunc primum intendam?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Cessas adloqui?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Habeo.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Daue, ades, resiste.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l><seg type='phr' ana='aposiopesi'><emph>Quis homost, qui me-?</emph>
+				<note place='foot' n='10'>
+					Più vicino alla <emph>‘transitio-Aposiopese’</emph> che all’ ‘<emph>Affekt-</emph>>’, è il caso di <bibl type='monogr'><title><emph>Andr.</emph></title></bibl> 344-345, ove è la fretta, unita alla vista del personaggio cercato (Panfilo), a spingere il servo Davo a troncare la sua frase. Felice per la notizia appena appresa, cioè che Cremete non darà più sua figlia in moglie ad un farabutto come Panfilo (esito per altro auspicato dal giovane) dice: <q><emph>Quis homost qui me– ? O Pamphile, / te ipsum quaero.</emph></q> Anche in questo caso, come nei precedenti, il silenzio sembra essere figlio dell’<q>azione distruttrice dell’affettività</q>.
+				</note>
+			</seg> o Pamphile,</l>
+			<lg/><l>te ipsum quaero.</l>
+			<l>euge o Charine: ambo opportune: uos uolo.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Daue, perii.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quin tu hoc audi.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Interii.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid timeas scio.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Mea quidem hercle certe in dubio uitast.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Et quid tu, scio.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Nuptiae mi</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Etsi scio?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>hodie ...</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Optundis, tam etsi intellego?</l>
+			<lg/><l>tu id paues, ne ducas illam: tu autem, ut ducas.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Rem tenes.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Istuc ipsum.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Atque istuc ipsum nil periclist: me uide.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Obsecro te, quam primum hoc me libera miserum metu.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Em,</l>
+			<lg/><l>libero: uxorem tibi non dat iam <name type='persona.fit' key='Chremes'>Chremes</name>.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Qui scis?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Scio.</l>
+			<lg/><l>tuos pater modo me prehendit: ait tibi se uxorem dare</l>
+			<lg/><l>hodie, item alia multa, quae nunc non est narrandi locus.</l>
+			<lg/><l>continuo ad te properans percurro ad forum, ut dicam haec tibi.</l>
+			<lg/><l>ubi te non inuenio, ibi ascendo in quendam excelsum locum;</l>
+			<lg/><l>circumspicio: nusquam.</l>
+			<l>forte ibi huius uideo Byrriam;</l>
+			<lg/><l>rogo: negat uidisse.</l>
+			<l>mihi molestum.</l>
+			<l>quid agam cogito.</l>
+			<lg/><l>redeunti interea ex re eapse mi incidit suspitio 'hem,</l>
+			<lg/><l>paululum opsoni; ipsus tristis; de inprouiso nuptiae:</l>
+			<lg/><l>non cohaerent'.</l></sp>		 
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quorsumnam istuc?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ego me continuo ad <name type='persona.fit' key='Chremes'>Chremem</name>.</l>
+			<lg/><l>quom illo aduenio, solitudo ante ostium: iam id gaudeo.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Recte dicis.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Perge.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Maneo: interea intro ire neminem</l>
+			<lg/><l>uideo, exire neminem; matronam nullam in aedibus,</l>
+			<lg/><l>nil ornati, nil tumulti; accessi, intro aspexi.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Scio:</l>
+			<lg/><l>magnum signum.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Num uidentur conuenire haec nuptiis?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Non opinor, <name type='persona.fit' key='Davos'>Daue</name></l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>'Opinor' narras? non recte accipis.</l>
+			<lg/><l>certa res est.</l>
+			<l>etiam puerum inde abiens conueni <name type='persona.fit' key='Chremes'>Chremi</name>:</l>
+			<lg/><l>holera et pisciculos minutos ferre obolo in cenam seni.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Liberatus sum, Daue, hodie tua opera.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ac nullus quidem.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quid ita? nempe huic prorsus illam non dat.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ridiculum caput!</l>
+			<lg/><l>quasi necessus sit, si huic non dat, te illam uxorem ducere,</l>
+			<lg/><l>nisi uides, nisi senis amicos oras, ambis.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Bene mones:</l>
+			<lg/><l>ibo, etsi hercle saepe iam me spes haec frustratast. uale.</l></sp>	
+		</div2>
+		<div2 type='Scena' n='3'><head><mentioned lang='it'>Scena III</mentioned></head> 
+			<castItem>PAMPHILVS DAVOS ADVLESCENS SERVOS</castItem>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Quid igitur sibi uolt pater? quor simulat?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ego dicam tibi.</l>
+			<lg/><l>si id suscenseat nunc, quia non det tibi uxorem Chremes,</l>
+			<lg/><l>prius quam tuom animum ut sese habet ad nuptias perspexerit:</l>
+			<lg/><l>ipsus sibi esse iniurius uideatur, neque id iniuria.</l>
+			<lg/><l>sed si tu negaris ducere, ibi culpam in te transferet:</l>
+			<lg/><l>tum illae turbae fient.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quiduis patiar.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Pater est, Pamphile:</l>
+			<lg/><l>difficilest.</l>
+			<l>tum haec solast mulier: dictum factum inuenerit</l>
+			<lg/><l>aliquam causam, quam ob rem eiciat oppido.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Eiciat?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Cito.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Cedo igitur, quid faciam, Daue?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Dic te ducturum.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Hem!</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid est?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Ego n' dicam?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quor non?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Numquam faciam.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ne nega.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Noli suadere.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ex ea re quid fiat, uide.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Vt ab illa excludar, hoc concludar.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Non itast.</l>
+			<lg/><l>nempe hoc sic esse opinor: dicturum patrem</l>
+			<lg/><l>'ducas uolo hodie uxorem': tu 'ducam' inquies:</l>
+			<lg/><l>cedo quid iurgabit te cum hic?</l>
+			<l>reddes omnia</l>
+			<lg/><l>quae nunc sunt certa ei consilia incerta ut sient,</l>
+			<lg/><l>sine omni periclo: nam hoc hau dubiumst, quin Chremes</l>
+			<lg/><l>tibi non det gnatam.</l>
+			<l>nec tu ea causa minueris</l>
+			<lg/><l>haec quae facis, ne is mutet suam sententiam.</l>
+			<lg/><l>patri dic uelle, ut, quom uelit, tibi iure irasci non queat.</l>
+			<lg/><l>nam quod tu speres 'propulsabo facile uxorem his moribus,</l>
+			<lg/><l>dabit nemo': inueniet inopem potius, quam te corrumpi sinat.</l>
+			<lg/><l>sed si te aequo animo ferre accipiet, neclegentem feceris:</l>
+			<lg/><l>alia otiosus quaeret, aliquid interea acciderit boni.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Ita n' credis?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Hau dubium id quidemst.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Vide quo me inducas.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quin taces?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Dicam.</l>
+			<l>puerum autem ne resciscat mihi esse ex illa cautiost:</l>
+			<lg/><l>nam pollicitus sum suscepturum.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>O facinus audax!</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Hanc fidem</l>
+			<lg/><l>sibi me obsecrauit, qui se sciret non desertum iri, ut darem.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Curabitur.</l>
+			<l>sed pater adest.</l>
+			<l>caue te esse tristem sentiat.</l></sp>
+		</div2>		
+		<div2 type='Scena' n='4'><head><mentioned lang='it'>Scena IV</mentioned></head> 
+			<castItem>SIMO DAVOS PAMPHILVS SENEX SERVOS ADVLESCENS.</castItem>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Reuiso quid agant aut quid captent consili.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Hic nunc non dubitat, quin te ducturum neges.</l>
+			<lg/><l>uenit meditatus alicunde ex solo loco:</l>
+			<lg/><l>orationem sperat inuenisse se,</l>
+			<lg/><l>qui differat te: proin tu fac apud te sies.</l></sp>		
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Modo ut possim, <name type='persona.fit' key='Davos'>Daue</name></l></sp>!
+			<sp who='DA'><speaker>Davos</speaker><l>Crede inquam hoc mihi, <name type='persona.fit' key='Pamphilus'>Pamphile</name>,</l>
+			<lg/><l>numquam hodie te cum commutaturum patrem</l>
+			<lg/><l>unum esse uerbum, si te dices ducere.</l></sp>
+		</div2>
+		<div2 type='Scena' n='5'><head><mentioned lang='it'>Scena V</mentioned></head>
+			<castItem>BYRRIA SIMO DAVOS PAMPHILVS SERVOS SENEX SERVOS ADVLESCENS.</castItem>
+			<lg/><sp who='BY'><speaker>Byrria</speaker><l>Erus me relictis rebus iussit <name type='persona.fit' key='Pamphilus'>Pamphilum</name></l>
+			<lg/><l>hodie obseruare, ut quid ageret de nuptiis</l>
+			<lg/><l>scirem: id propterea nunc huc uenientem sequor.</l>
+			<lg/><l>ipsum adeo praesto uideo cum Dauo: hoc agam.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Vtrumque adesse uideo.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Em, serua.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l><name type='persona.fit' key='Pamphilus'>Pamphile</name>!</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quasi de inprouiso respice ad eum.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Ehem pater!</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Probe.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Hodie uxorem ducas, ut dixi, uolo.</l></sp>
+			<lg/><sp who='BY'><speaker>Byrria</speaker><l>Nunc nostrae timeo parti, quid hic respondeat.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Neque istic neque alibi tibi erit usquam in me mora.</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Hem,</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Obmutuit.</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>quid dixit? SI. Facis ut te decet,</l>
+			<lg/><l>quom istuc quod postulo inpetro cum gratia.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Sum uerus?</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Erus, quantum audio, uxore excidit.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>I nunciam intro, ne in mora, quom opus sit, sies.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Eo.</l></sp>
+			<sp who='BY'><speaker>Byrria</speaker><l>Nulla ne in re esse quoiquam homini fidem!</l>
+			<lg/><l>uerum illud uerbumst, uolgo quod dici solet,</l>
+			<lg/><l>omnis sibi malle melius esse quam alteri.</l>
+			<lg/><l>ego illam uidi: uirginem forma bona</l>
+			<lg/><l>memini uidere.</l>
+			<l>quo aequior sum <name type='persona.fit' key='Pamphilus'>Pamphilo</name>,</l>
+			<lg/><l>si se illam in somnis quam illum <seg type='w' ana='eufemismo'><emph>amplecti</emph></seg> maluit.</l>
+				<note place='foot' n='11'>
+				<emph>Futuo</emph> è l’oscenità primaria per l’uomo nel rapporto sessuale con una donna. Tuttavia, dal momento che <i>futuo</i> fa riferimento piuttosto ad un atto ‘aggressivo’, ‘insultante’, è probabile che la sostituzione più adatta sia il verbo <emph>amplector</emph>>, nel significato di ‘abbracciare, tenere” come <q>gesto concomitante nel rapporto</q>. Con questo verbo attenuato si fa riferimento a contatto fisico che non esplicita, ma è capace di implicare l’avvenuta unione sessuale. Anche Eugrafio e Donato confermano l’allusione sessuale da attribuire a tale termine, il più delicato ed il meno icastico tra tutti, quindi perfettamente in linea con il teatro demistificatore e ridimensionante di <mentioned>Terenzio</mentioned>. 
+			</note>
+			<lg/><l>renuntiabo, ut pro hoc malo mihi det malum.</l></sp>
+		</div2>
+		<div2 type='Scena' n='6'><head><mentioned lang='it'>Scena VI</mentioned></head>
+			<castItem>DAVOS SIMO</castItem>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Hic nunc me credit aliquam sibi fallaciam</l>
+			<lg/><l>portare et ea me hic restitisse gratia.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>quid <name type='persona.fit' key='Davos'>Davos</name> narrat?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>aeque quicquam nunc quidem.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>nilne? hem.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>nil prorsus.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>atqui exspectabam quidem.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>praeter spem evenit, sentio: hoc male habet</l>
+			<l>virum.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>potin es mihi verum dicere?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>nil facilius.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>num illi molestae quidpiam haec sunt nuptiae</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Num propter <seg type='w' ana='eufemismo'><emph>consuetudinem</emph></seg> huiusce hospitae?</l></sp>
+				<note place='foot' n='12'>La consuetudine alla quale si allude è quella del <emph>mos meretricius</emph> e non può che trattarsi di una regolarità nei rapporti sessuali. Sono eluse indicazioni dirette da parte dell’autore, ma il trascorso non può che richiamare alla mente del fruitore le esatte coordinate delle allusioni.</note>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>nil hercle; aut, si adeo, biduist aut tridui</l>
+			<lg/><l>haec sollicitudo: nostin?</l>
+			<l>deinde desinet.</l>
+			<lg/><l>etenim ipsus se cum id recta reputavit via.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>laudo.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>dum licitumst ei dumque <seg type='w' ana='eufemismo'><emph>aetas</emph></seg> tulit,</l>
+			<lg/><l>amavit; tum id clam: cavit ne umquam infamiae</l>
+			<lg/><l>ea res sibi esset, ut virum fortem decet.</l>
+			<l>ea res sibi esset, ut virum fortem decet</l>
+			<lg/><l>nunc uxore opus est: animum ad uxorem adpulit.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>subtristis visus est esse aliquantillum mihi.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>nil propter hanc rem, sed est quod suscenset tibi.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>quid id est?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>puerilest.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>quidnamst?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>nil.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>quin dic, quid est?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>ait nimium parce facere sumptum.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>me ne?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>te.</l>
+			<lg/><l>"vix" inquit "drachumis est opsonatum decem:</l>
+			<lg/><l>non filio videtur uxorem dare.</l>
+			<lg/><l>quem' inquit 'uocabo ad cenam meorum aequalium?</l>
+			<lg/><l>potis sum nunc unum?' et quod tibi dicendum hic siet,</l>
+			<lg/><l>tu quoque per parce, nimium: non laudo.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Tace:</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Commoui.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>ego istaec recte ut fiant uidero.</l>
+			<lg/><l>quidnam hoc est rei: quid hic uolt ueterator sibi?</l>
+			<lg/><l>nam si hic malist quicquam, em illic est huic rei caput.</l></sp>
+		</div2>
+		</div1>
+		<div1 type='Atto' n='3'><head>ACTVS III</head>
+		<div2 type='Scena' n='1'><head><mentioned lang='it'>Scena I</mentioned></head>
+			<castItem>MYSIS LESBIA SIMO DAVOS GLYCERIVM ANCILLA OBSTETRIX SENEX SERVOS MVLIER</castItem>.
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Ita pol quidem res est, ut tu dixti, Lesbia:</l>
+			<lg/><l>fidelem hau ferme mulieri inuenias uirum.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Ab <geogName lang='lat'>Andriast</geogName> ancilla haec?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid narras?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Itast.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>sed hic <name type='persona.fit' key='Pamphilus'>Pamphilus</name>. .</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>it?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>firmavit fidem.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>hem.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>utinam aut hic surdus aut haec muta facta sit!</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>nam quod peperisset iussit tolli.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l><persName>Iuppiter</persName>,</l>
+			<lg/><l>quid ego audio? actumst, siquidem haec vera praedicat.</l></sp>
+			<lg/><sp who='LE'><speaker>Lesbia</speaker><l>bonum ingenium narras adulescentis.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>optumum.</l>
+			<lg/><l>sed sequere me intro, ne in mora illi sis.</l></sp>
+			<sp who='LE'><speaker>Lesbia</speaker><l>sequor.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>quod remedium nunc huic malo inveniam?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l><seg type='phrase' ana='ellissi'><emph>quid hoc?</emph>
+				<note place='foot' n='13'>I due passi citati contengono entrambi domande ellittiche, che mancano di un costituente fondamentale della frase minima: si tratta del verbo, facilmente integrabile, anche senza attingere al commento di Donato che precisa comunque la natura dell’integrazione,</note>
+			</seg></l>
+			<lg/><l>adeon est demens?</l>
+			<l>ex peregrina? iam scio: ah</l>
+			<lg/><l>vix tandem sensi stolidus.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>quid hic sensisse ait?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>haec primum adfertur iam mi ab hoc fallacia:</l>
+			<lg/><l>hanc simulant parere, quo Chremetem absterreant.</l></sp>
+			<lg/><sp who='GL'><speaker>Glycerium</speaker><l>(intus) <persName>Iuno Lucina</persName>, fer opem, serua me, obsecro.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Hui, tam cito? ridiculum: postquam ante ostium</l>
+			<lg/><l>me audiuit stare, adproperat.</l>	 
+			<l>non sat commode</l>
+			<lg/><l>diuisa sunt temporibus tibi, <name type='persona.fit' key='Davos'>Daue</name>, haec.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Mihi n'?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Num inmemores discipuli?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ego quid narres nescio.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Hic me si in ueris inparatum nuptiis</l>
+			<lg/><l>adortus esset, quos mihi ludos redderet!</l>
+			<lg/><l>nunc huius periclo fit, ego in portu nauigo.</l></sp>
+		</div2>
+		<div2 type='Scena' n='2'><head><mentioned lang='it'>Scena II</mentioned></head>
+			<castItem>LESBIA SIMO DAVOS OBSTETRIX SENEX SERVOS.</castItem>
+			<lg/><sp who='LE'><speaker>Lesbia</speaker><l>Adhuc, <name type='persona.fit' key='Archylis'>Archylis</name>, quae adsolent quaeque oportet</l>
+			<lg/><l>signa esse ad salutem, omnia huic esse uideo.</l> 
+			<lg/><l>nunc primum fac istam ut lauet; poste deinde,</l>
+			<lg/><l>quod iussi ei dari bibere et quantum imperaui,</l>
+			<lg/><l>date: mox ego huc reuortor.</l>
+			<lg/><l>per ecastor scitus puer est natus Pamphilo.</l>
+			<lg/><l>deos quaeso ut sit superstes, quandoquidem ipsest ingenio bono,</l>
+			<lg/><l>quom que huic est ueritus optumae facere adulescenti iniuriam.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Vel hoc quis non credat, qui te norit, abs te esse ortum?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quidnam id est?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Non imperabat coram, quid facto esset opus puerperae,</l>
+			<lg/><l>sed postquam egressast, illis quae sunt intus clamat de uia.</l>
+			<lg/><l>o <name type='persona.fit' key='Davos'>Daue</name>, ita n' contemnor abs te?</l>
+			<l>aut ita ne tandem idoneus</l>
+			<lg/><l>tibi uideor esse, quem tam aperte fallere incipias dolis?</l>
+			<lg/><l>saltem accurate, ut metui uidear certe, si resciuerim.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Certe hercle nunc hic se ipsus fallit, haud ego.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Edixi n' tibi,</l>
+			<lg/><l>interminatus sum, ne faceres?</l>
+			<l>ueritu's? numquid re tulit?</l>
+			<lg/><l>credo n' tibi hoc nunc, peperisse hanc e <name type='persona.fit' key='Pamphilus'>Pamphilo</name>?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Teneo quid erret, et quid agam habeo.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quid taces?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quid credas? quasi non sint tibi renuntiata haec sic fore.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Mihi n' quisquam?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Eho an tute intellexti hoc adsimulari?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Inrideor.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Renuntiatumst: nam qui tibi istaec incidit suspitio?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Qui? quia te noram.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quasi tu dicas factum id consilio meo.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Certe enim scio.</l></sp>	 
+			<sp who='DA'><speaker>Davos</speaker><l>Non satis me pernosti etiam, qualis sim, <name type='persona.fit' key='Simo'>Simo</name>.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Ego n' te?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Sed siquid tibi narrare occepi, continuo dari</l>
+			<lg/><l>tibi uerba censes:</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Falso?</l></sp>
+			<l><sp who='DA'><speaker>Davos</speaker>itaque hercle nil iam muttire audeo</sp></l>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Hoc ego scio unum, neminem peperisse hic.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Intellexti.</l>
+			<lg/><l>nihilo setius mox puerum huc deferent ante ostium.</l>
+			<lg/><l>id ego iam nunc tibi renuntio, ere, futurum, ut sis sciens,</l>
+			<lg/><l>ne hoc posterius dicas Daui factum consilio aut dolis:</l>
+			<lg/><l>prorsus a me opinionem hanc tuam esse ego amotam uolo.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Vnde id scis?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Audiui et credo: multa concurrunt simul,</l>
+			<lg/><l>qui coniecturam hanc nunc faciam.</l>
+			<l>iam prius haec se e <name type='persona.fit' key='Pamphilus'>Pamphilo</name></l>
+			<lg/><l>grauidam dixit esse: inuentumst falsum.</l>
+			<l>nunc, postquam uidet</l>
+			<lg/><l>nuptias domi adparari, missast ancilla ilico</l>
+			<lg/><l>obstetricem arcessitum ad eam et puerum ut adferret simul.</l>
+			<lg/><l>hoc nisi fit, puerum ut tu uideas, nil remouentur nuptiae.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Quid ais? quom intellexeras</l>
+			<lg/><l>id consilium capere, quor non dixti extemplo <name type='persona.fit' key='Pamphilus'>Pamphilo</name>?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quis igitur eum ab illa abstraxit nisi ego?</l>
+			<l>nam omnes nos quidem</l>
+			<lg/><l>scimus, quam misere hanc amarit.</l>
+			<l>nunc sibi uxorem expetit.</l>
+			<lg/><l>postremo id mihi da negoti; tu tamen idem has nuptias</l>
+			<lg/><l>perge facere ita ut facis, et id spero adiuturos deos.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Immo abi intro: ibi me opperire et quod parato opus est para.</l>
+			<lg/><l>non inpulit me, haec nunc omnino ut crederem.</l>
+			<lg/><l>atqui hauscio an quae dixit sint uera omnia.</l>
+			<lg/><l>sed parui pendo: illud mihi multo maxumumst,</l>
+			<lg/><l>quod mihi pollicitust ipsus gnatus.</l>
+			<l>nunc Chremem</l>
+			<lg/><l>conueniam: orabo gnato uxorem: id si inpetro,</l>
+			<lg/><l>quid alias malim quam hodie has fieri nuptias?</l>
+			<lg/><l>[nam gnatus quod pollicitust, haud dubiumst mihi,</l>
+			<lg/><l>si nolit, quin eum merito possim cogere].</l>
+			<lg/><l>atque adeo in ipso tempore eccum ipsum obuiam.</l></sp>
+		</div2>
+		<div2 type="Scena" n='3'><head><mentioned lang='it'>Scena III</mentioned></head>
+			<castItem>SIMO CHREMES SENES DVO.</castItem>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Iubeo <name type='persona.fit' key='Chremes'>Chremetem</name> ...</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Oh, te ipsum quaerebam.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Et ego te: optato aduenis.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Aliquot me adierunt, ex te auditum qui aibant hodie nubere</l>
+			<lg/><l>meam filiam tuo gnato: id uiso tu n' an illi insaniant.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Ausculta paucis: quid ego te uelim et tu quod quaeris scies.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Ausculto: loquere quid uelis.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Per te deos oro et nostram amicitiam, Chremes,</l>
+			<lg/><l>quae incepta a paruis cum aetate adcreuit simul,</l>
+			<lg/><l>per que unicam gnatam tuam et gnatum meum,</l>
+			<lg/><l>quoius tibi potestas summa seruandi datur,</l>
+			<lg/><l>ut me adiuues in hac re, atque ita uti nuptiae</l>
+			<lg/><l>fuerant futurae, fiant.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Ah, ne me obsecra:</l>
+			<lg/><l>alium esse censes nunc me atque olim quom dabam?</l>
+			<lg/><l>si in remst utrique ut fiant, arcessi iube;</l>
+			<lg/><l>sed si ex ea re plus malist quam commodi</l>
+			<lg/><l>utrique, id te obsecro in commune ut consulas,</l>
+			<lg/><l>quasi si illa tua sit <name type='persona.fit' key='Pamphilus'>Pamphili</name> que ego sim pater.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Immo ita uolo ita que postulo ut fiat, Chremes,</l>
+			<lg/><l>neque postulem abs te, ni ipsa res moneat.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Quid est?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Irae sunt inter <name type='persona.fit' key='Glycerius'>Glycerium</name> et gnatum.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Audio.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Ita magnae, ut sperem posse auelli.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Fabulae!</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Profecto sic est.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Sic hercle ut dicam tibi:</l>
+			<lg/><l>amantium irae amoris integratiost.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Em, id te oro ut ante eamus, dum tempus datur</l>
+			<lg/><l>dum que eius lubido occlusast contumeliis.</l>
+			<lg/><l>prius quam harum scelera et lacrumae confictae dolis</l>
+			<lg/><l>redducant animum aegrotum ad misericordiam,</l>
+			<lg/><l>uxorem demus.</l>
+			<l>spero consuetudine</l>
+			<lg/><l>coniugi eum liberalis deuinctum, <name type='persona.fit' key='Chremes'>Chremes</name>,</l>
+			<lg/><l>dein facile ex illis sese emersurum malis.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Tibi ita hoc uidetur; at ego non posse arbitror,</l>
+			<lg/><l>neque illum hanc perpetuo habere neque me perpeti.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Qui scis ergo istuc, nisi periclum feceris?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>At istuc periclum in filia fieri grauest.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Nempe incommoditas denique huc omnis redit,</l>
+			<lg/><l><seg type='phr' ana='aposiopesi'><emph>si eueniat-</emph></seg>, quod di prohibeant, discessio.
+				<note place='foot' n='14'>Tra le formule eufemistiche più diffuse, c’è <emph>ita me di ament</emph> o sim.: chi la pronuncia vuole evitare di peccare di <seg ana='#verb-trans'>ybris</seg> di fronte alla divinità, quindi <q>si procaccia la sua benevolenza mediante espressioni che ammettono implicitamente la dipendenza del suo agire dalla volontà divina</q>. La formula non è assoluta invenzione né di <mentioned>Terenzio</mentioned>, né dei Romani (anche se è quasi esclusivamente nei comici a comparire). Si tratta di un’<q>ancienne formule de serment dans la tradition indo-européenne</q>, mutuata con adattamento dalla lingua romana ed oggi ereditata anche dalle lingue moderne; essa, inoltre, compare anche in greco nella forma <seg ana='#verb-trans'>an theos ethelhi</seg>.</note></l>
+			<lg/><l>at si corrigitur, quot commoditates uide:</l>
+			<lg/><l>principio amico filium restitueris,</l>
+			<lg/><l>tibi generum firmum et filiae inuenies uirum.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quid istic? si ita istuc animum induxti esse utile,</l>
+			<lg/><l>nolo tibi ullum commodum in me claudier.</l></sp>
+			<lg/><l><sp who='SI'><speaker>Simo</speaker>Merito te semper maxumi feci, <name type='persona.fit' key='Chremes'>Chremes</name>.</sp></l> 
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Sed quid ais?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quid?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Qui scis eos nunc discordare inter se?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Ipsus mihi <name type='persona.fit' key='Davos'>Dauos</name>, qui intumust eorum consiliis, dixit;</l>
+			<lg/><l>et is mihi suadet nuptias quantum queam ut maturem..</l>
+			<lg/><l>num censes faceret, filium nisi sciret eadem haec uelle?</l>
+			<lg/><l><seg type='phr' ana='aposiopesi'><emph>tute adeo iam eius uerba audies-</emph></seg></l>
+			<l>heus, euocate huc <name type='persona.fit' key='Davos'>Dauom</name>.</l>
+	 		<lg/><l>atque eccum uideo ipsum foras exire.</l></sp>
+	 	</div2>
+	 	<div2 type="Scena" n='4'><head><mentioned lang='it'>Scena IV</mentioned></head>
+	 		<castItem>DAVOS SIMO CHREMES SERVOS SENES DVO.</castItem>
+			<sp who='DA'><speaker>Davos</speaker><l>Ad te ibam.</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Quidnam est?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quor uxor non arcessitur?</l>
+	 		<l>iam aduesperascit.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Audin?</l>
+	 		<lg/><l>ego dudum non nil ueritus sum, <name type='persona.fit' key='Davos'>Daue</name>, abs te, ne faceres idem,</l>
+	 		<lg/><l>quod uolgus seruorum solet, dolis ut me deluderes</l>
+	 		<lg/><l>propterea quod amat filius.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Ego n' istuc facerem?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Credidi,</l>
+	 		<lg/><l>id que adeo metuens uos celaui, quod nunc dicam.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Quid?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Scies:</l>
+	 		<lg/><l>nam propemodum habeo iam fidem.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Tandem cognosti qui siem?</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>Non fuerant nuptiae futurae.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Quid? non?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Sed ea gratia</l>
+	 		<lg/><l>simulaui, uos ut pertemptarem.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Quid ais?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Sic res est.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Vide:</l>
+	 		<lg/><l>numquam istuc quiui ego intellegere.</l>
+	 		<l>uah, consilium callidum!</l></sp>
+	 		<lg/><sp who='SI'><speaker>Simo</speaker><l>Hoc audi: ut hinc te intro ire iussi, opportune hic fit mi obuiam,</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Hem,</l>
+	 		<lg/><l>numnam perimus?</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>narro huic quae tu dudum narrasti mihi,</l></sp>
+	 		<lg/><sp who='DA'><speaker>Davos</speaker><l>Quidnam audiam?</l></sp>	 
+	 		<sp who='SI'><speaker>Simo</speaker><l>gnatam ut det oro, uix que id exoro.</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Occidi.</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Hem,</l>
+	 		<lg/><l>quid dixisti?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Optume inquam factum.</l></sp>
+	 		<sp who='SI'><speaker>Simo</speaker><l>Nunc per hunc nullast mora.</l></sp>
+	 		<lg/><sp who='CH'><speaker>Charinus</speaker><l>Domum modo ibo, ut adparetur dicam, atque huc renuntio.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Nunc te oro, <name type='persona.fit' key='Davos'>Daue</name>, quoniam solus mi effecisti has nuptias,</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Ego uero solus.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>corrigi mihi gnatum porro enitere.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Faciam hercle sedulo.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Potes nunc, dum animus irritatus est.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quiescas.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Age igitur, ubi nunc est ipsus?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Mirum ni domist.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Ibo ad eum atque eadem haec, tibi quae dixi, dicam itidem illi.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Nullus sum.</l>
+			<lg/><l>quid causaest, quin hinc in pistrinum recta proficiscar uia?</l>
+			<lg/><l>nihil est preci loci relictum.</l>
+			<l>iam perturbaui omnia:</l>
+			<lg/><l>erum fefelli; in nuptias conieci erilem filium;</l>
+			<lg/><l>feci hodie ut fierent insperante hoc atque inuito <name type='persona.fit' key='Pamphilus'>Pamphilo</name>.</l>
+			<lg/><l>em astutias! quodsi quiessem, nihil euenisset mali.</l>
+			<lg/><l>sed eccum ipsum: utinam esset mi aliquid hic, quo nunc me praecipitem darem.</l></sp>
+		</div2>
+		<div2 type='Scena' n='5'><head><mentioned lang='it'>Scena V</mentioned></head>
+			<castItem>PAMPHILVS DAVOS ADVLESCENS SERVOS.</castItem>
+	 		<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Vbi illest scelus, qui me perdidit?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Perii.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>atque hoc confiteor mihi</l>
+			<lg/><l>iure optigisse, quandoquidem ego tam iners, tam nulli consili.</l>
+			<lg/><l>oh, seruo n' fortunas meas me commisisse futtili!</l>
+			<lg/><l>ego pretium ob stultitiam fero, sed numquam inultum id auferet.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Posthac me incolumem sat scio fore, nunc si deuito hoc malum.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>nam quid ego nunc dicam patri? negabon velle me, modo</l>
+			<lg/><l>qui sum pollicitu' ducere? qua audacia id facere audeam?</l>
+			<lg/><l>nec quid nunc me faciam scio. DA. nec mequidem, atque id ago sedulo.</l>
+			<lg/><l>dicam aliquid me inuenturum, ut huic malo aliquam producam moram.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Oh!</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Sum uisus.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Ehodum, bone uir, quid ais? uiden me consiliis tuis</l>
+			<lg/><l>miserum inpeditum esse?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>At iam expediam.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Expedies?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Certe, <name type='persona.fit' key='Pamphilus'>Pamphile</name>.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Nempe ut modo.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Immo melius spero.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Oh, tibi ego ut credam, furcifer?</l>	
+			<lg/><l>tu rem inpeditam et perditam restituas?</l>
+			<l>em quo fretus sim,</l>
+			<lg/><l>qui me hodie ex tranquillissuma re coniecisti in nuptias!</l>
+			<lg/><l>an non ego dixi esse hoc futurum?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Dixti.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quid meritu's?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Crucem.</l>
+			<lg/><l>sed sine paululum ad me redeam: iam aliquid dispiciam.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Ei mihi</l>
+			<lg/><l>quom non habeo spatium, ut de te sumam supplicium, ut uolo!</l>
+			<lg/><l>namque hoc tempus praecauere mihi me, hau te ulcisci sinit.</l>,</sp>
+		</div2>
+		</div1>
+		<div1 type='Atto' n='4'><head>ACTVS IV</head>
+		<div2 type='Scena' n='1'><head><mentioned lang='it'>Scena I</mentioned></head>
+			<castItem>CHARINVS PAMPHILVS DAVOS ADVLESCENTES DVO SERVOS.</castItem>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Hocinest credibile aut hercle memorabile,</l>
+			<lg/><l>tanta uecordia innata quoiquam ut siet,</l>
+			<lg/><l>ut malis gaudeant atque ex incommodis</l>
+			<lg/><l>alterius sua ut comparent commoda! ah</l>
+			<lg/><l>idnest uerum?</l>
+			<l>immo id est pessumum hominum genus,</l>
+			<lg/><l>in negando modo quis pudor paulum adest;</l>
+			<l>et timent denegare, et tamen res premit.</l>
+			<lg/><l>post ubist tempus promissa iam perfici,</l>
+			<lg/><l>tum coacti necessario se aperiunt:</l>
+			<lg/><l>Et timent, et tamen res premit denegare,</l>
+			<lg/><l>ibi tum eorum inpudentissuma oratiost</l>
+			<lg/><l>'quis tu's?</l>
+			<l>quis mihi's? quor meam tibi?</l>
+			<lg/><l>heus, proxumus sum egomet mihi'.</l>
+			<lg/><l>at tamen 'ubi fides?' si roges,</l>
+			<lg/><l>nil pudet hic ubi opust: illi ubi</l>
+			<lg/><l>nil opus est, ibi uerentur.</l>
+			<lg/><l>ingeram mala multa? atqui aliquis dicat 'nil promoueris':</l>
+			<lg/><l>multum: molestus certe ei fuero atque animo morem gessero.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Charinus'>Charine</name>, et me et te inprudens, nisi quid di respiciunt, perdidi.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Ita ne 'inprudens'? tandem inuentast causa, soluisti fidem!</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Quid 'tandem'?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Etiam nunc me ducere istis dictis postulas?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Quid istuc est?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Postquam me amare dixi, complacitast tibi.</l>
+			<lg/><l>heu me miserum, qui tuom animum ex animo spectaui meo!</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Falsus es.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Non satis tibi esse hoc solidum uisumst gaudium,</l>
+			<lg/><l>ni me lactasses amantem et falsa spe produceres?</l>
+			<lg/><l>habeas.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Habeam? ah, nescis quantis in malis uorser miser,</l>
+			<lg/><l>quantas que hic consiliis suis conflauit sollicitudines,</l>
+			<lg/><l>meus carnufex.</l></sp>
+	 		<sp who='CH'><speaker>Charinus</speaker><l>Quid istuc tam mirumst, de te si exemplum capit?</l></sp>
+	 		<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Haud istuc dicas, si cognoris uel me uel amorem meum.</l></sp>
+	 		<lg/><sp who='CH'><speaker>Charinus</speaker><l>Scio: cum patre altercasti dudum, et is nunc propterea tibi</l>
+	 		<lg/><l>suscenset nec te quiuit hodie cogere illam ut duceres.</l></sp>
+	 		<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Immo etiam, quo tu minus scis aerumnas meas,</l>
+	 		<lg/><l>haec nuptiae non adparabantur mihi,</l>
+	 		<lg/><l>nec postulabat nunc quisquam uxorem dare.</l></sp>
+	 		<lg/><sp who='CH'><speaker>Charinus</speaker><l>Scio: tu coactus tua uoluntate es.</l></sp>
+	 		<sp who='PA'><speaker>Pamphilus</speaker><l>Mane:</l>
+	 		<lg/><l>nondum scis ...</l></sp>
+	 		<sp who='CH'><speaker>Charinus</speaker><l>Scio equidem illam ducturum esse te.</l></sp> 
+	 		<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Quor me enicas? hoc audi.</l>
+	 		<l>numquam destitit</l>
+	 		<lg/><l>instare, ut me esse ducturum patri dicerem:</l>
+	 		<lg/><l>suadere, orare usque adeo donec perpulit.</l></sp>
+	 		<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quis homo istuc?</l></sp>
+	 		<sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Davos'>Dauos</name>.</l></sp>
+	 		<sp who='CH'><speaker>Charinus</speaker><l><name type='persona.fit' key='Davos'>Dauos</name>? quam ob rem?</l></sp>
+	 		<sp who='PA'><speaker>Pamphilus</speaker><l>Nescio,</l>
+	 		<lg/><l>nisi deos mihi fuisse iratos, qui auscultauerim.</l></sp>
+	 		<lg/><sp who='CH'><speaker>Charinus</speaker><l>Factum hoc est, <name type='persona.fit' key='Davos'>Daue</name>?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Factum.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hem, quid ais? <seg type='phr' ana='aposiopesi'><emph>o scelus-!</emph></seg></l>
+			<lg/><l>at tibi di dignum <seg type='w' ana='eufemismo'><emph>factis</emph></seg> exitium duint!</l>
+			<lg/><l>eho, dic mihi, si omnes hunc coniectum in nuptias</l>
+			<lg/><l>inimici uellent, quod nisi consilium hoc darent?</l></sp>
+	 		<lg/><sp who='DA'><speaker>Davos</speaker><l>Deceptus sum, at non defetigatus.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Scio.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Hac non successit, alia adgrediemur uia:</l>
+			<lg/><l>nisi si id putas, quia primo processit parum,</l>
+			<lg/><l>non posse iam ad salutem hoc conuorti malum.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Immo etiam: nam satis credo, si aduigilaueris,</l>
+			<lg/><l>ex unis geminas mihi conficies nuptias.</l></sp>
+	 		<lg/><sp who='DA'><speaker>Davos</speaker><l>Ego, <name type='persona.fit' key='Pamphilus'>Pamphile</name>, hoc tibi pro seruitio debeo,</l>
+			<lg/><l>conari manibus pedibus noctis que et dies,</l>
+			<lg/><l>capitis periclum adire, dum prosim tibi;</l>
+			<lg/><l>tuomst, siquid praeter spem euenit, mi ignoscere.</l>
+			<lg/><l>parum succedit quod ago? at facio sedulo.</l>
+	 		<lg/><l>uel melius tute reperi, me missum face.</l></sp>
+	 		<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Cupio: restitue me in quem accepisti locum.</l></sp>
+	 		<lg/><sp who='DA'><speaker>Davos</speaker><l>Faciam.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>At iam hoc opus est.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Hem, mane: crepuit a Glycerio ostium.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Nihil ad te.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quaero.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Hem, nuncin demum?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>At iam hoc tibi inuentum dabo.</l></sp>
+		</div2>
+		<div2 type='Scena' n='2'><head><mentioned lang='it'>Scena II</mentioned></head>
+	 		<castItem>MYSIS PAMPHILVS CHARINVS DAVOS ANCILLA ADVLESCENTES DVO SERVOS.</castItem>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Iam ubi ubi erit, inuentum tibi curabo et me cum adductum</l>
+			<lg/><l>tuom <name type='persona.fit' key='Pamphilus'>Pamphilum</name>: modo tu, anime mi, noli te macerare.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Mysis!</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Quis est? ehem <name type='persona.fit' key='Pamphilus'>Pamphile</name>, optume mihi te offers.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quidnam est?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Orare iussit, si se ames, era, iam ut ad sese uenias:</l>
+			<lg/><l>uidere te ait cupere.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>vah perii: hoc malum integrascit.</l>
+			<lg/><l>sicin me atque illam opera tua nunc miseros sollicitari!</l>
+			<lg/><l>nam idcirco arcessor, nuptias quod mi adparari sensit.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quibus quidem quam facile potuerat quiesci, si hic quiesset!</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Age, si hic non insanit satis sua sponte, instiga.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Atque edepol</l>
+			<lg/><l>ea res est: propterea que nunc misera in maerorest.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Mysis,</l>
+			<lg/><l>per omnis tibi adiuro deos, numquam eam me deserturum,</l>
+			<lg/><l>non, si capiundos mihi sciam esse inimicos omnis homines.</l>
+			<lg/><l>hanc mi expetiui, contigit.</l>
+	 		<l>conueniunt mores.</l>
+	 		<l>ualeant</l>
+			<lg/><l>qui inter nos discidium uolunt: hanc nisi mors mi adimet nemo.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Resipisco.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Non <persName lang='lat'>Apollinis</persName> magis uerum atque hoc responsumst.</l>
+			<lg/><l>si poterit fieri, ut ne pater per me stetisse credat,</l>
+			<lg/><l>quo minus haec fierent nuptiae, uolo.</l>
+			<l>sed si id non poterit,</l>
+			<lg/><l>id faciam, in procliui quod est, per me stetisse ut credat.</l>
+			<lg/><l>quis uideor?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Miser, aeque atque ego.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Consilium quaero.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Forti's,</l>
+			<lg/><l>scio, quod conere.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Hoc ego tibi profecto effectum reddam.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Iam hoc opus est.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quin iam habeo.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Quid est?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Huic, non tibi habeo, ne erres.</l></sp> 
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Sat habeo.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quid facies? cedo.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Dies hic mi ut satis sit uereor</l>
+			<lg/><l>ad agendum, ne nunc me uociuom esse ad narrandum credas.</l>
+			<lg/><l>proinde hinc uos amolimini: nam mi inpedimento estis.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Ego hanc uisam.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid tu? quo hinc te agis?</l></sp>	 
+			<sp who='CH'><speaker>Charinus</speaker><l>Verum uis dicam?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Immo etiam:</l>
+			<lg/><l>narrationis incipit mi initium.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Quid me fiet?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Eho tu inpudens, non satis habes quod tibi dieculam addo,</l>
+			<lg/><l>quantum huic promoueo nuptias?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Daue, at tamen</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid ergo?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>ut ducam.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ridiculum.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Huc face ad me ut uenias, siquid poteris.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quid ueniam? nil habeo.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>At tamen siquid.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Age, ueniam, siquid.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Domi ero.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Tu, Mysis, dum exeo, parumper opperire hic.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Quapropter?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ita factost opus.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Matura.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Iam, inquam, hic adero.</l></sp>
+		</div2>
+		<div2 type='Scena' n='3'><head><mentioned lang='it'>Scena III</mentioned></head>
+			<castItem>MYSIS DAVOS ANCILLA SERVOS</castItem>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Nil ne esse proprium quoiquam! di uostram fidem!</l>
+			<lg/><l>summum bonum esse erae hunc putabam Pamphilum,</l>
+			<lg/><l><seg type='w' ana='eufemismo'><emph>amicum</emph></seg>,
+				<note place='foot' n='15'><q><emph>Amica est etiam mulier amata cum pudice, tum saepius impudice</emph></q>: è tutt’altro che azzardato individuare meccanismi allusivi ed ellittici dietro la designazione con un termine ‘neutro’ di un ruolo specifico come quello dell’amante.</note>
+			amatorem et uirum in quouis loco</l>
+			<lg/><l>paratum; uerum ex eo nunc misera quem capit</l>
+			<lg/><l>dolorem! facile hic plus malist quam illic boni.</l>
+			<lg/><l>sed Dauos exit.</l>
+			<l>mi homo, quid istuc obsecro est?</l>
+			<lg/><l>quo portas puerum?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Mysis, nunc opus est tua</l>
+			<lg/><l>mihi ad hanc rem exprompta malitia atque astutia.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Quidnam incepturu's?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Accipe a me hunc ocius</l>
+			<lg/><l>atque ante nostram ianuam adpone.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Obsecro,</l>
+			<lg/><l>humi ne?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ex ara hinc sume uerbenas tibi</l>
+			<lg/><l>atque eas substerne.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Quam ob rem tute id non facis?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quia, si forte opus sit ad erum iurato mihi</l>
+			<lg/><l>non adposisse, ut liquido possim.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Intellego:</l>
+			<lg/><l>noua nunc religio in te istaec incessit.</l>
+			<l>cedo!</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Moue ocius te, ut quid agam porro intellegas.</l>
+			<lg/><l>pro Iuppiter!</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Quid est?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Sponsae pater interuenit.</l>
+			<lg/><l>repudio quod consilium primum intenderam.</l></sp>
+	 		<lg/><sp who='MY'><speaker>Mysis</speaker><l>Quid narres nescio.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ego quoque hinc ab dextera</l>
+			<lg/><l>uenire me adsimulabo: tu ut subseruias</l>
+			<lg/><l>orationi, utquomque opus sit, uerbis uide.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Ego quid agas nihil intellego; sed siquid est,</l>
+			<lg/><l>quod mea opera opus sit uobis, ut tu plus uides, manebo, nequod uostrum remorer commodum.</l></sp>
+		</div2>
+		<div2 type='Scena' n='4'><head><mentioned lang='it'>Scena IV</mentioned></head>
+			<castItem>CHREMES MYSIS DAVOS SENEX ANCILLA SERVOS.</castItem>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Reuortor, postquam quae opus fuere ad nuptias</l>
+			<lg/><l>gnatae paraui, ut iubeam arcessi.</l>
+			<l>sed quid hoc?</l>
+			<lg/><l>puer herclest.</l>
+			<l>mulier, tu adposisti hunc?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Vbi</l>
+			<l>illic est?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Non mihi respondes?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Nusquam est.</l>
+			<l>vae miserae mihi!</l>
+			<l>uae miserae mihi!</l>
+			<lg/><l>reliquit me homo atque abiit.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Di uostram fidem,</l>
+			<lg/><l>apud forum quid turbaest! quid illic hominum litigant!</l>
+			<lg/><l>tum annona carast.</l>
+			<l>quid dicam aliud, nescio.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Quor tu obsecro hic me solam ...?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Hem, quae haec est fabula?</l>
+			<lg/><l>eho Mysis, puer hic undest?</l>
+			<l>quis ue huc attulit?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Satin sanu's, qui me id rogites?</l></sp>
+	 		<sp who='DA'><speaker>Davos</speaker><l>Quem ego igitur rogem,</l>
+			<lg/><l>qui hic neminem alium uideam?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Miror unde sit.</l>
+	 		<lg/><l>Dictura's quod rogo?</l></sp>
+	 		<sp who='MY'><speaker>Mysis</speaker><l>Au.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Concede ad dexteram.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Deliras: non tute ipse ...?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Verbum si mihi</l>
+			<lg/><l>unum praeterquam quod te rogo faxis, caue.</l>
+			<lg/><l>male dicis.</l> 
+			<l>undest? dic clare.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>A nobis.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Hahae:</l>
+			<lg/><l>mirum uero, inpudenter mulier si facit?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Ab <geogName lang='lat'>Andriast</geogName> ancilla haec, quantum intellego.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Adeo n' uidemur uobis esse idonei,</l>
+			<lg/><l>in quibus sic inludatis?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Veni in tempore.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Propera adeo puerum tollere hinc ab ianua.</l>
+	 		<lg/><l>mane: caue quoquam ex istoc excessis loco.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Di te eradicent: ita me miseram territas.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Tibi dico ego an non?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Quid uis?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>At etiam rogas?</l>
+			<lg/><l>cedo, quoium puerum hic adposisti?</l>
+			<l>dic mihi.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Tu nescis?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Mitte id quod scio: dic quod rogo.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Vostri.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quoius nostri?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l><name type='persona.fit' key='Pamphilus'>Pamphili</name>.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hem!</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid? <name type='persona.fit' key='Pamphilus'>Pamphili</name>?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Eho, an non est?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Recte ego semper fugi has nuptias.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>O facinus animum aduortendum!</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Au quid calamitas?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quem ne ego heri uidi ad uos adferri uesperi?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>O hominem audacem!</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Verum: uidi Cantharam</l>
+			<lg/><l>suffarcinatam.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Dis pol habeo gratiam,</l>
+			<lg/><l>quom in pariundo aliquot adfuerunt liberae.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Ne illa illum haud nouit, quoia causa haec incipit:</l>
+			<lg/><l>'Chremes si puerum adpositum ante aedis uiderit,</l>
+			<lg/><l>suam gnatam non dabit': tanto hercle magis dabit.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Non hercle faciet.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Nunc adeo, ut tu sis sciens,</l>
+			<lg/><l>nisi puerum tollis, iam ego hunc in mediam uiam</l>
+			<lg/><l>prouoluam te que ibidem peruoluam in luto.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Tu pol, homo, non es sobrius.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Fallacia</l>
+			<lg/><l>alia aliam trudit.</l>
+			<l>iam susurrari audio,</l>
+			<lg/><l>ciuem Atticam esse hanc:</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hem!</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>'coactus legibus</l>
+			<lg/><l>eam uxorem ducet'.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Eho obsecro, an non ciuis est?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Iocularium in malum insciens paene incidi.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Quis hic loquitur? euge, o <name type='persona.fit' key='Chremes'>Chremes</name>, per tempus aduenis:</l>
+			<l>ausculta.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Audiui iam omnia.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ain tu? haec omnia?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Audiui, inquam, a principio.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Audisti n', obsecro? em</l>
+			<lg/><l>scelera! hanc iam oportet in cruciatum hinc abripi.</l>
+			<lg/><l>hic est ille, ne te credas Dauom ludere.</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Me miseram: nil pol falsi dixi, mi senex.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Noui omnem rem.</l>
+			<l>est Simo intus?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Est.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Ne me attigas,</l>
+			<lg/><l>sceleste.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>si pol <name type='persona.fit' key='Glycerius'>Glycerio</name> non omnia haec ...</l>
+			<lg/><l>Eho inepta, nescis quid sit actum?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Qui sciam?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Hic socer est.</l>
+			<l>alio pacto haud poterat fieri,</l>
+			<lg/><l>ut sciret haec quae uolumus.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Hem, praediceres.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Paulum interesse censes, ex animo omnia,</l>
+			<lg/><l>ut fert natura, facias an de industria?</l></sp>
+		</div2>
+		<div2 type='Scena' n='5'><head><mentioned lang='it'>Scena V</mentioned></head>
+			<castItem>CRITO MYSIS DAVOS SENEX ANCILLA SERVOS.</castItem>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>In hac habitasse platea dictumst <name type='persona.fit' key='Chrysis'>Chrysidem</name>,</l>
+			<lg/><l>quae sese inhoneste optauit parere hic ditias</l>
+			<lg/><l>potius quam in patria honeste pauper uiueret.</l>
+			<lg/><l>eius morte ea ad me lege redierunt bona.</l>
+			<lg/><l>sed quos perconter uideo. saluete.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Obsecro,</l>
+			<lg/><l>est ne hic, quem uideo, Crito sobrinus <name type='persona.fit' key='Chrysis'>Chrysidis</name>?</l>		 
+			<lg/><l>is est.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>O <name type='persona.fit' key='Mysis'>Mysis</name>, salue.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Saluos sis, <name type='persona.fit' key='Crito'>Crito</name>.</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Ita n' <name type='persona.fit' key='Chrysis'>Chrysis</name>? hem.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Nos quidem pol miseras perdidit.</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Quid uos? quo pacto hic? sati ne recte?</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Nos ne? sic:</l>
+			<lg/><l>'ut quimus' aiunt, quando 'ut uolumus' non licet.</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Quid <name type='persona.fit' key='Glycerium'>Glycerium</name>? iam hic suos parentis repperit?</l></sp>
+			<lg/><sp who='MY'><speaker>Mysis</speaker><l>Vtinam!</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>An nondum etiam? haud auspicato huc me attuli:</l>
+			<lg/><l>nam pol, si id scissem, numquam huc tetulissem pedem.</l>		 
+			<lg/><l>semper ei dictast esse haec atque habitast soror:</l>
+			<lg/><l>quae illi fuerunt, possidet.</l>
+			<l>nunc me hospitem</l>
+			<lg/><l>lites sequi, quam id mihi sit facile atque utile,</l>
+			<lg/><l>aliorum exempla commonent.</l>
+			<l>simul arbitror</l>
+			<lg/><l>iam aliquem esse amicum et defensorem ei: nam fere</l>
+			<lg/><l>grandicula iam profectast illim.</l>		 
+			<l>clamitent</l>
+			<lg/><l>me sycophantam, hereditatem persequi,</l>
+			<lg/><l>mendicum; tum ipsam despoliare non lubet.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>O optume hospes! MY. Pol, <name type='persona.fit' key='Crito'>Crito</name>, antiquom optines.</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Duc me ad eam, quando huc ueni, ut uideam.</l></sp>
+			<sp who='MY'><speaker>Mysis</speaker><l>Maxume.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Sequar hos: me nolo in tempore hoc uideat senex.</l></sp>
+		</div2>
+		</div1>
+		<div1 type='Atto' n='5'><head>ACTVS V</head>
+		<div2 type='Scena' n='1'><head><mentioned lang='it'>Scena I</mentioned></head>
+			<castItem>CHREMES SIMO SENES DVO.</castItem>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Satis, iam satis, <name type='persona.fit' key='Simo'>Simo</name>, spectata erga te amicitiast mea:</l>
+			<lg/><l>satis pericli incepi adire: orandi iam finem face.</l>		 
+			<lg/><l>dum studeo obsequi tibi, paene inlusi uitam filiae.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Immo enim nunc quom maxume abs te postulo atque oro, <name type='persona.fit' key='Chremes'>Chremes</name>,</l>
+			<lg/><l>ut beneficium uerbis initum dudum nunc re comprobes.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Vide quam iniquos sis prae studio: dum id efficias quod cupis,</l>
+			<lg/><l>neque modum benignitatis neque quid me ores cogitas:</l>
+			<lg/><l>nam si cogites, remittas iam me onerare iniuriis.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Quibus?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>At rogitas? perpulisti me, ut homini adulescentulo</l>
+			<lg/><l>in alio occupato amore, abhorrenti ab re uxoria,</l>
+			<lg/><l>filiam ut darem in seditionem atque incertas nuptias,</l>
+			<lg/><l>eius labore atque eius dolore gnato ut medicarer tuo.</l>
+			<lg/><l>inpetrasti: incepi, dum res tetulit.</l>
+			<l>nunc non fert: feras.</l>
+			<lg/><l>illam hinc ciuem esse aiunt: puer est natus: nos missos face.</l></sp>	
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Per ego te deos oro, ut ne illis animum inducas credere,</l>
+			<lg/><l>quibus id maxume utilest, illum esse quam deterrumum.</l>
+			<lg/><l>nuptiarum gratia haec sunt ficta atque incepta omnia.</l>
+			<lg/><l>ubi ea causa, quam ob rem haec faciunt, erit adempta eis, desinent.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Erras: cum Dauo egomet uidi iurgantem ancillam.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Scio.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Vero uoltu, quom ibi me adesse neuter tum praesenserat.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Credo, et id facturas Dauos dudum praedixit mihi:</l>
+			<l>et nescio qui id tibi sum oblitus hodie ac uolui dicere.</l></sp>
+		</div2>	
+		<div2 type='Scena' n='2'><head><mentioned lang='it'>Scena II</mentioned></head> 
+			<castItem>DAVOS CHREMES SIMO DROMO SERVOS SENES DVO LORARIVS.</castItem>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Animo nunciam otioso esse impero.</l></sp>
+			<sp who='CH'><speaker>Chremes</speaker><l>Em <name type='persona.fit' key='Davos'>Dauom</name> tibi.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Vnde egreditur?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>meo praesidio atque hospitis.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quid illud malist?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Ego commodiorem hominem aduentum tempus non uidi.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Scelus,</l>
+			<lg/><l>quemnam hic laudat?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Omnis res est iam in uado</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Cesso adloqui?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Erus est: quid agam?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Oh, salue, bone uir.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ehem <name type='persona.fit' key='Simo'>Simo</name>, o noster <name type='persona.fit' key='Chremes'>Chremes</name>,</l>
+			<lg/><l>omnia adparata iam sunt intus.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Curasti probe.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Vbi uoles, arcesse.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Bene sane: id enim uero hinc nunc abest.</l>
+			<lg/><l>et iam tu hoc responde: quid istic tibi negotist?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Mihi ne?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Ita.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Mihi n'?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Tibi ergo.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Modo huc ii intro.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quasi ego quam dudum rogem.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Cum tuo gnato una.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Anne est intus <name type='persona.fit' key='Pamphilus'>Pamphilus</name>? crucior miser.</l>
+			<lg/><l>eho, non tu dixti esse inter eos inimicitias, carnufex?</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Sunt.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quor igitur hic est?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Quid illum censes?</l>
+			<l>cum illa litigat.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Immo uero indignum, <name type='persona.fit' key='Chremes'>Chremes</name>, iam facinus faxo ex me audies.</l>
+			<lg/><l>nescio quis senex modo uenit: ellum! confidens catus:</l>
+			<lg/><l>quom faciem uideas, uidetur esse quanti uis preti:</l>
+			<lg/><l>tristis est seueritas in uoltu atque in uerbis fides.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Quidnam adportas?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Nil equidem, nisi quod illum audiui dicere.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Quid ait tandem?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Glycerium se scire ciuem esse Atticam.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hem!</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l><name type='persona.fit' key='Dromo'>Dromo, Dromo</name>!</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid est?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l><name type='persona.fit' key='Dromo'>Dromo</name>!</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Audi.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l><seg type='phr' ana='aposiopesi'><emph>Verbum si addideris</emph></seg>... <name type='persona.fit' key='Dromo'>Dromo</name>!
+				<note place='foot' n='16'><q>L’aposiopesi che si riconosce qui rivela un chiaro moto di stizza: l’irritazione è, per il momento, non violenta, ma l’improvvisa e scontrosa modalità di espressione, modulata su sentimenti di insoddisfazione e scontentezza, si arresta prima del tempo, quasi a presentire che potrebbe diventare qualcosa di molto meno piacevole.</q></note></l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Audi obsecro.</l></sp>
+			<sp who='DR'><speaker>Dromo</speaker><l>Quid uis?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Sublimen intro hunc rape quantum potest.</l></sp>
+			<lg/><sp who='DR'><speaker>Dromo</speaker><l>Quem?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l><name type='persona.fit' key='Dromo'>Dauom</name>.</l></sp>
+			<sp who='DR'><speaker>Dromo</speaker><l>Quam ob rem?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quia lubet.</l>
+			<l>rape inquam.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quid feci?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Rape.</l></sp>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l>Si quicquam inuenies me mentitum, occidito.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Nihil audio:</l>
+			<lg/><l>ego te continuo mutum reddam.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Tamen etsi hoc uerumst?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Tamen.</l>
+			<lg/><l>cura adseruandum uinctum, atque audin? quadrupedem constringito.</l>
+			<lg/><l>age nunciam: ego pol hodie, si uiuo, tibi</l>
+			<lg/><l>ostendam, quid erum sit pericli fallere,</l>
+			<lg/><l>et illi patrem.</l></sp>
+			<l><sp who='CH'><speaker>Charinus</speaker>Ah, ne saeui tanto opere.</sp></l>
+			<sp who='SI'><speaker>Simo</speaker><l>Oh, <name type='persona.fit' key='Chremes'>Chremes</name>,</l>
+			<lg/><l>pietatem gnati! nonne te miseret mei?</l>
+			<lg/><l>tantum laborem capere ob talem filium!</l>
+			<lg/><l>age <name type='persona.fit' key='Pamphilus'>Pamphile</name>, exi <name type='persona.fit' key='Pamphilus'>Pamphile</name>: ecquid te pudet?</l></sp>
+		</div2>
+		<div2 type='Scena' n='3'><head><mentioned lang='it'>Scena III</mentioned></head>
+			<castItem>PAMPHILVS SIMO CHREMES ADVLESCENS SENES DVO.</castItem>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Quis me uolt? perii, pater est.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>uid ais, omnium ...?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Ah,</l>
+			<lg/><l>rem potius ipsam dic ac mitte male loqui.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Quasi quicquam in hunc iam grauius dici possiet.</l>
+			<lg/><l>ain tandem, ciuis Glyceriumst?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Ita praedicant.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>'Ita praedicant'? o ingentem confidentiam!</l>
+			<lg/><l>num cogitat quid dicat?</l>
+			<l>num facti piget?</l>
+			<lg/><l>uide: num eius color pudoris signum usquam indicat?</l> 
+			<lg/><l>adeo inpotenti esse animo, ut praeter ciuium</l>
+			<lg/><l>morem atque legem et sui uoluntatem patris</l>
+			<lg/><l>tamen hanc habere studeat cum summo probro!</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Me miserum!</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Hem, modo ne id demum sensti, <name type='persona.fit' key='Pamphilus'>Pamphile</name>?</l>
+			<lg/><l>olim istuc, olim, quom ita animum induxti tuom,</l>
+			<lg/><l>quod cuperes aliquo pacto efficiundum tibi:</l>
+			<lg/><l>eodem die istuc uerbum uere in te accidit.</l>
+			<lg/><l>sed quid ego? quor me excrucio? quor me macero?</l>
+			<lg/><l>quor meam senectutem huius sollicito amentia?</l>
+			<lg/><l>an ut pro huius peccatis ego supplicium sufferam?</l>
+			<lg/><l>immo habeat, ualeat, uiuat cum illa.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Mi pater!</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Quid 'mi pater'?</l>
+			<l>quasi tu huius indigeas patris:</l>
+			<lg/><l>domus uxor liberi inuenti inuito patre.</l>
+			<lg/><l>adducti qui illam hinc ciuem dicant: uiceris.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Pater, licet ne pauca?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quid dices mihi?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Tamen, Simo, audi.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Ego audiam? quid ego audiam,</l>
+			<lg/><l>Chremes?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>At tandem dicat.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Age dicat sino.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Ego me amare hanc fateor; si id peccarest, fateor id quoque.</l>
+	 		<lg/><l>tibi, pater, me dedo.</l>
+			<l>quiduis oneris inpone, impera.</l>
+			<lg/><l>uis me uxorem ducere, hanc amittere? ut potero, feram.</l>
+			<lg/><l>hoc modo te obsecro, ut ne credas a me adlegatum hunc senem:</l>
+			<lg/><l>sine me expurgem atque illum huc coram adducam.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Adducas?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Sine, pater.</l></sp>
+	 		<lg/><sp who='CH'><speaker>Charinus</speaker><l>Aequom postulat: da ueniam.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Sine te hoc exorem!</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Sino.</l>
+			<lg/><l>quiduis cupio, dum ne ab hoc me falli comperiar, Chremes.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Pro peccato magno paulum supplici satis est patri.</l></sp>
+		</div2>
+		<div2 type='Scena' n='4'><head><mentioned lang='it'>Scena IV</mentioned></head>
+			<castItem>CRITO CHREMES SIMO PAMPHILVS SENES TRES ADVLESCENS.</castItem>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Mitte orare.</l>
+			<l>una harum quaeuis causa me ut faciam monet,</l></sp>
+			<lg/><l>uel tu uel quod uerumst uel quod ipsi cupio <name type='persona.fit' key='Glycerius'>Glycerio</name>.</l>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Andrium ego Critonem uideo? certe is est.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Saluos sis, Chremes.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quid tu <placeName lang='lat'>Athenas</placeName> insolens?</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Euenit.</l>
+			<lg/><l>sed hicinest Simo?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hic Simost.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Me n' quaeris?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Eho tu, <name type='persona.fit' key='Glycerius'>Glycerium</name> hinc ciuem esse ais?</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Tu negas?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Ita ne huc uenis paratus?</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Qua de re?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Rogas?</l>
+			<lg/><l>tu ne inpune haec facias?</l>
+			<l>tu ne hic homines adulescentulos</l>
+			<lg/><l>inperitos rerum, eductos libere, in fraudem inlicis</l>
+			<lg/><l>sollicitando, et pollicitando eorum animos lactas?</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Sanun es?</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>ac meretricios amores nuptiis conglutinas?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Perii, metuo ut substet hospes.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Si, <name type='persona.fit' key='Simo'>Simo</name>, hunc noris satis,</l>
+			<lg/><l>non ita arbitrere: bonus est hic uir.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Hic sit uir bonus?</l>
+			<lg/><l>ita ne attemperate euenit, hodie in ipsis nuptiis</l>
+			<lg/><l>ut ueniret, antehac numquam?</l>
+			<l>est uero huic credundum, <name type='persona.fit' key='Chremes'>Chremes</name>.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Ni metuam patrem, habeo pro illa re illum quod moneam probe.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Sycophanta!</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Hem!</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Sic, <name type='persona.fit' key='Crito'>Crito</name>, est hic: mitte.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Videat qui siet:</l>
+			<lg/><l>si mihi perget quae uolt dicere, ea quae non uolt audiet.</l>
+			<lg/><l>ego istaec moueo aut curo? non tu tuom malum aequo animo feras?</l>
+			<lg/><l>nam ego quae dico uera an falsa audierim, iam sciri potest.</l>
+			<lg/><l>Atticus quidam olim naue fracta ad Andrum eiectus est</l>
+			<lg/><l>et istaec una parua uirgo.</l>
+			<l>tum ille egens forte adplicat</l>
+			<lg/><l>primum ad Chrysidis patrem se.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Fabulam inceptat.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Sine.</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Ita ne uero opturbat?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Perge tu.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Is mihi cognatus fuit,</l>
+			<lg/><l>qui eum recepit.</l>
+			<l>ibi ego audiui ex illo sese esse <geogName>Atticum</geogName>.</l>
+			<lg/><l>is ibi mortuost.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Eius nomen?</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Nomen tam cito?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Phania'>Phania</name>.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hem,</l>
+			<lg/><l>perii!</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Verum hercle opinor fuisse <name type='persona.fit' key='Phania'>Phaniam</name>: hoc certo scio,</l>
+			<lg/><l>Rhamnusium se aibat esse.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>O <persName lang='lat'>Iuppiter</persName>!</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Eadem haec, <name type='persona.fit' key='Chremes'>Chremes</name>,</l>
+			<lg/><l>multi alii in Andro tum audire.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Vtinam id sit, quod spero! eho, dic mihi,</l>
+			<lg/><l>quid eam tum?</l>
+			<l>suam ne esse aibat?</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Non.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Quoiam igitur?</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Fratris filiam.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Certe meast.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Quid ais?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quid tu ais?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Arrige aures, <name type='persona.fit' key='Pamphilus'>Pamphile</name>!</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Qui id credis?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Phania ille frater meus fuit.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Noram et scio.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Is hinc bellum fugiens me que in <placeName>Asiam</placeName> persequens proficiscitur:</l>
+			<lg/><l>tum ueritust meam relinquere hic.</l>
+			<l>postilla nunc primum audio</l>
+			<lg/><l>quid illo sit factum.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Vix sum apud me: ita animus commotust metu</l>
+			<lg/><l>spe gaudio, mirando tanto tam repentino hoc bono.</l></sp>
+			<lg/><sp who='CR'><speaker>Crito</speaker><l>Ne istam inueniri tuam multimodis gaudeo.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Credo.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>O pater!</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>At scrupulus mi etiam unus restat, qui me male habet.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Dignus es:</l></sp>
+			<lg/><l><seg type='phr' ana='aposiopesi'><emph>cum tua religione</emph></seg>... odium, nodum in scirpo quaeris.</l>
+			<sp who='CR'><speaker>Crito</speaker><l>Quid istud est?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Nomen non conuenit.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Fuit hercle huic aliud paruae.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Quod, <name type='persona.fit' key='Crito'>Crito</name>?</l>
+			<lg/><l>numquid meministi?</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>Id quaero.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Ego n' huius memoriam patiar meae.</l> 
+			<lg/><l>uoluptati obstare, quom ego possim in hac re medicari mihi?</l>
+			<lg/><l>heus, <name type='persona.fit' key='Chremes'>Chremes</name>, quod quaeris, <name type='persona.fit' key='Pasibula'>Pasibulast</name>.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>ipsa ea est.</l></sp>
+			<sp who='CR'><speaker>Crito</speaker><l>east.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Ex ipsa audiui miliens.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Omnis nos gaudere hoc, <name type='persona.fit' key='Chremes'>Chremes</name>,</l>
+			<lg/><l>te credo credere.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l><seg type='phr' ana='eufemismo'><emph>Ita me di ament, credo.</emph></seg></l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quod restat, pater ...</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Iam dudum res redduxit me ipsa in gratiam.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>O lepidum patrem!</l>
+			<lg/><l>de uxore, ita ut possedi, nihil mutat <name type='persona.fit' key='Chremes'>Chremes</name>?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Causa optumast:</l>
+			<lg/><l>nisi quid pater ait aliud.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Nempe id?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Scilicet.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Dos, <name type='persona.fit' key='Pamphilus'>Pamphile</name>, est</l>
+			<lg/><l>decem talenta.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Accipio.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Propero ad filiam.</l>
+			<l>eho me cum i, Crito:</l>
+			<lg/><l>nam illam me credo haud nosse.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quor non illam huc transferri iubes?</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Recte admones: Dauo ego istuc dedam iam negoti.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Non potest.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Qui?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Quia habet aliud magis ex sese et maius.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quidnam?</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Vinctus est.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Pater, non recte uinctust.</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Haud ita iussi.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Iube solui obsecro.</l></sp>
+			<lg/><sp who='SI'><speaker>Simo</speaker><l>Age fiat.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>At matura!</l></sp>
+			<sp who='SI'><speaker>Simo</speaker><l>Eo intro.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>O faustum et felicem hunc diem!</l></sp>
+		</div2>
+		<div2 type='Scena' n='5'><head><mentioned lang='it'>Scena 5</mentioned></head>
+			<castItem>CHARINVS PAMPHILVS ADVLESCENTES DVO.</castItem>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quid agat Pamphilus prouiso: atque eccum.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Me aliquis fors putet</l>
+			<lg/><l>non putare hoc uerum; at mihi nunc sic esse hoc uerum lubet.</l>
+			<lg/><l>ego deorum uitam eapropter sempiternam esse arbitror,</l>
+			<lg/><l>quod uoluptates eorum propriae sunt: nam mi inmortalitas</l>
+			<lg/><l>partast, si nulla aegritudo huic gaudio intercesserit.</l>
+			<lg/><l>sed quem ego mihi potissumum exoptem, haec quoi nunc narrem, dari?</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Quid illud gaudist?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Davos'>Dauom</name> uideo.</l>
+			<l>nemost quem mallem omnium:</l>
+			<lg/><l>nam hunc scio mea solide solum gauisurum gaudia.</l></sp>
+			<castItem>DAVOS PAMPHILVS CHARINVS SERVOS ADVLESCENTES DVO.</castItem>
+			<lg/><sp who='DA'><speaker>Davos</speaker><l><name type='persona.fit' key='Pamphilus'>Pamphilus</name> ubi nam hic est?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>O Daue!</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quis homost?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Ego sum.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>O <name type='persona.fit' key='Pamphilus'>Pamphile</name>!</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Nescis quid mi optigerit.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Certe; sed quid mi optigerit scio.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Et quidem ego.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>More hominum euenit, ut quod sum nanctus mali</l>
+			<lg/><l>prius rescisceres tu, quam ego illud quod tibi euenit boni.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Glycerius'>Glycerium</name> mea suos parentis repperit.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Factum bene.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Hem!</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Pater amicus summus nobis</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Quis?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l><name type='persona.fit' key='Chremes'>Chremes</name>.</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Narras probe.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Nec mora ullast, quin eam uxorem ducam.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Num ille somniat</l>
+			<lg/><l>ea quae uigilans uoluit?</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Tum de puero, <name type='persona.fit' key='Davos'>Daue</name> ...</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Ah desine:</l>
+			<lg/><l>solus es quem diligant di.</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Saluos sum, si haec uera sunt.</l>
+			<lg/><l>conloquar.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Quis homost? Charine, in tempore ipso mi aduenis.</l></sp>
+			<lg/><sp who='CH'><speaker>Charinus</speaker><l>Bene factum.</l></sp>
+			<sp who='PA'><speaker>Pamphilus</speaker><l>Audisti?</l></sp>
+			<sp who='CH'><speaker>Charinus</speaker><l>Omnia.</l>
+			<l>age, me in tuis secundis respice.</l>
+			<lg/><l>tuos est nunc Chremes: facturum quae uoles scio esse omnia.</l></sp>
+			<lg/><sp who='PA'><speaker>Pamphilus</speaker><l>Memini: atque adeo longumst nos illum exspectare dum exeat.</l>
+			<lg/><l>sequere hac me: intus apud <name type='persona.fit' key='Glycerius'>Glycerium</name> nunc est.</l>
+			<l>tu, <name type='persona.fit' key='Davos'>Daue</name>, abi domum,</l>
+			<lg/><l>propera, arcesse hinc qui auferant eam.</l>
+			<l>quid stas? quid cessas?</l></sp>
+			<sp who='DA'><speaker>Davos</speaker><l>Eo.</l>
+			<lg/><l>ne exspectetis dum exeant huc: intus despondebitur:</l>
+			<lg/><l>intus transigetur, siquid est quod restet.</l></sp>
+			<sp who='DA'><speaker>Cantor</speaker><l>Plaudite.</l></sp>
+		</div2>
+		</div1>
+		</body>
+	</oggetto>
+	</archivio>
+ </TEI>
