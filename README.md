@@ -26,3 +26,13 @@
     </li>
    </ol>
 </details>
+### A proposito del progetto
+Digitalizzazione mediante catalogo di item testuali della mia ricerca di tesi di laurea triennale, a proposito dei meccanismi retorici del silenzio nelle commedie di Terenzio che ci sono pervenute.
+<!-- LICENSE -->
+### Licenza
+Distribuito sotto la licenza CC-BY-SA.
+
+<!-- CONTACT -->
+### Contatti
+Martina Cofano - email: martina.cofano@studio.unibo.it / martinacof@gmail.com
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
