@@ -5,22 +5,24 @@
   <ol>
     <li>
       <a href="#ProgettoTerenzio.html">Home</a>
-      <ul>
-        <li><a href="#">Autore</a></li>
-      </ul>
     </li>
     <li>
-      <a href="#classificazione.html">Meccanismi retorici del silenzio</a>
+      <a href="#">Autore</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li>
+          <a href="#VitaeOpere">Vita e Opere</a>
+        </li>
+        <li>
+          <a href="#classificazione.html">Meccanismi retorici del silenzio</a>
+        </li>
+     </ul>
+    </li>
+    <li>
+      <a href="#fulltext.html">Full Text</a>
+      <ul>
+        <li><a href="#">Andria XML</a></li>
+        <li><a href="#">Andria DC</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
+   </ol>
 </details>
