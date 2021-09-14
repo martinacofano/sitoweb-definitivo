@@ -26,11 +26,18 @@
     </li>
    </ol>
 </details>
+
 ### A proposito del progetto
+<details open="open">
+  <summary><h2 style="display: inline-block">Descrizione</h2></summary>
 Digitalizzazione mediante catalogo di item testuali della mia ricerca di tesi di laurea triennale, a proposito dei meccanismi retorici del silenzio nelle commedie di Terenzio che ci sono pervenute.
+</details>
+
 <!-- LICENSE -->
 ### Licenza
+<details open="open">
 Distribuito sotto la licenza CC-BY-SA.
+</details>
 
 <!-- CONTACT -->
 ### Contatti
