@@ -1,5 +1,5 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<archivio>
+	<library>
 	<oggetto n="1">
 		<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
@@ -1832,5 +1832,5 @@
 		</div1>
 		</body>
 	</oggetto>
-	</archivio>
+	</library>
  </TEI>
